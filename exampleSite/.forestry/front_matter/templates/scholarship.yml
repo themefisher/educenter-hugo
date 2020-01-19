@@ -1,0 +1,18 @@
+---
+label: Scholarship
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: bg_image
+  label: bg image
+  description: Page header background image
+- type: file
+  name: image
+  label: image
+- type: textarea
+  name: description
+  label: description
+  description: meta description

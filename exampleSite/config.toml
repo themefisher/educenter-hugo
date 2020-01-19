@@ -1,0 +1,204 @@
+######################## default configuration ####################
+baseURL = "http://examplesite.org"
+title = "Educenter | hugo education template"
+theme = "educenter-hugo"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "educenter" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # desable language from here
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 1
+
+[[menu.main]]
+name = "course"
+URL = "course"
+weight = 2
+
+[[menu.main]]
+weight = 3
+name = "Pages"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "teacher"
+  URL = "teacher"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "notice"
+  URL = "notice"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "event"
+  URL = "event"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "scholarship"
+  URL = "scholarship"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "research"
+  URL = "research"
+  
+[[menu.main]]
+name = "blog"
+URL = "blog"
+weight = 4
+  
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 5
+
+
+# footer menu
+
+[[menu.footer]]
+name = "teacher"
+URL = "teacher"
+
+[[menu.footer]]
+name = "notice"
+URL = "notice"
+
+[[menu.footer]]
+name = "event"
+URL = "event"
+
+[[menu.footer]]
+name = "scholarship"
+URL = "scholarship"
+
+[[menu.footer]]
+name = "research"
+URL = "research"
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact info
+address = "9567 Turner Trace Apt. BC C3G8A4"
+mobile = "+211234565523"
+email = "info@educenter.com"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# top header
+top_header = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+
+# Subscription
+[params.subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+  
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+
+
+################################### French language #####################################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"

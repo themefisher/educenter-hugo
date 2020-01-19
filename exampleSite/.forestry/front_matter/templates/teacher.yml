@@ -1,0 +1,48 @@
+---
+label: Teacher
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: bg_image
+  label: bg image
+  description: Page header background image
+- type: textarea
+  name: description
+  label: description
+  description: meta description
+- type: file
+  name: image
+  label: image
+  description: portrait
+- type: text
+  name: course
+  label: course
+  description: course taken by him
+- type: textarea
+  name: bio
+  label: bio
+  description: biography
+- type: list
+  name: interest
+  label: interest
+- type: field_group_list
+  name: contact
+  label: contact
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: icon
+    label: icon
+    description: 'themify icon : https://themify.me/themify-icons'
+  - type: text
+    name: link
+    label: link
+- type: text
+  name: type
+  label: type
+  default: teacher

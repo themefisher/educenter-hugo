@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<!-- contact -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-title">{{ i18n "contact_us" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form action="{{ .Site.Params.contact_form_action | safeURL }}" method="POST">
+          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
+          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
+          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject">
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="Your Message"></textarea>
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
+        </form>
+      </div>
+      <div class="col-lg-5 content">
+        {{ .Content }}
+        <a href="tel:{{ .Site.Params.mobile }}" class="text-color h5 d-block">{{ .Site.Params.mobile }}</a>
+        <a href="mailto:{{ .Site.Params.email }}" class="mb-5 text-color h5 d-block">{{ .Site.Params.email }}</a>
+        <p>{{ .Site.Params.address | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- gmap -->
+<section class="section pt-0">
+  <!-- Google Map -->
+  <div id="map_canvas" 
+  data-latitude="{{ .Site.Params.map.map_latitude }}"
+  data-longitude="{{ .Site.Params.map.map_longitude }}" 
+  data-marker="{{ .Site.Params.map.map_marker | absURL }}"
+  data-marker-name="{{ .Site.Title }}"></div>
+</section>
+<!-- /gmap -->
+
+{{ end }}

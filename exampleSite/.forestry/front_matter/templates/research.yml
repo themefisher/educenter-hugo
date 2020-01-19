@@ -1,0 +1,25 @@
+---
+label: Research
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: bg_image
+  label: bg image
+  description: Page header background image
+- type: textarea
+  name: description
+  label: description
+  description: meta description
+- type: file
+  name: image
+  label: image
+- type: text
+  name: type
+  label: type
+  default: research

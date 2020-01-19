@@ -1,0 +1,112 @@
+{{ define "main" }}
+
+<!-- section -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <!-- course thumb -->
+        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
+          class="img-fluid w-100">
+      </div>
+    </div>
+    <!-- course info -->
+    <div class="row align-items-center mb-5">
+      <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+        <h2>{{ .Title }}</h2>
+      </div>
+      <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
+        <ul class="list-inline text-xl-center">
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-calendar text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ i18n "duration" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Duration }}</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-timer text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ i18n "weekly" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Weekly }}</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-wallet text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ i18n "fee" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Fee }}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
+        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4 order-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+    <!-- course details -->
+    <div class="row">
+      <div class="col-12 mb-4 content">
+        {{ .Content }}
+      </div>
+      <!-- teacher -->
+      <div class="col-12">
+        <h5 class="mb-3">{{ i18n "teacher" }}</h5>
+        {{ range where .Site.RegularPages "Title" (.Params.Teacher | title) }}
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <div class="media mb-2 mb-sm-0 align-items-center">
+            <img class="mr-4 img-fluid teacher-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+            <div class="media-body">
+              <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+              {{ .Params.Course }}
+            </div>
+          </div>
+          <div class="social-link">
+            <h6 class="d-none d-sm-block text-right">{{ i18n "contact_info" }}</h6>
+            <ul class="list-inline">
+              {{ range .Params.Contact }}
+              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        {{ end }}
+        <div class="border-bottom border-primary mt-4"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /section -->
+
+<!-- related course -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">{{ i18n "related_course" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- course item -->
+      {{ $related := (where .Site.RegularPages "Type" "course") | intersect (where .Site.Pages ".Title" "!=" .Title) | union (.Site.RegularPages.Related . ) | shuffle | first 3}}
+      {{ range first 3 $related }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "course"}}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /related course -->
+
+{{ end }}

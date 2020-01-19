@@ -1,0 +1,26 @@
+---
+label: Notice
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: bg_image
+  label: bg image
+  description: Page header background image
+- type: textarea
+  name: description
+  label: description
+  description: meta description
+- type: text
+  name: download_link
+  label: download_link
+  description: Notice download link
+- type: text
+  name: type
+  label: type
+  default: notice
