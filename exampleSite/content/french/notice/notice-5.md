@@ -1,5 +1,5 @@
 ---
-title: "Teaching Materials and Testing Methods"
+title: "Matériaux d’enseignement et méthodes de test"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
@@ -13,7 +13,7 @@ type: "notice"
 ---
 
 
-### About Notice
+### À propos de la notice
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -26,7 +26,7 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porr
 ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
 labore et dolore magnam aliquam quaerat voluptatem.
 
-### Requirements
+### Prérequis
 
 
 
@@ -36,7 +36,7 @@ labore et dolore magnam aliquam quaerat voluptatem.
 * Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
 
-### Fees and Funding
+### Frais et financement
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
