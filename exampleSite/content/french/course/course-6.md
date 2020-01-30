@@ -13,11 +13,11 @@ category: "Photography"
 # teacher
 teacher: "Duis Rio"
 # duration
-duration : "06 Month"
+duration: "06 mois"
 # weekly
-weekly : "03 hours"
+weekly: "03 heures"
 # course fee
-fee : "From: $699"
+fee: "À partir de 699$"
 # apply url
 apply_url : "#"
 # type
@@ -25,7 +25,7 @@ type: "course"
 ---
 
 
-### About Course
+### À propos du cours
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -38,7 +38,7 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porr
 ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
 labore et dolore magnam aliquam quaerat voluptatem.</p>
 
-### Requirements
+### Prérequis
 
 
 
@@ -48,7 +48,7 @@ labore et dolore magnam aliquam quaerat voluptatem.</p>
 * Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
 
-### How to Apply
+### Comment postuler
 
 * Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
 * Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
@@ -57,7 +57,7 @@ labore et dolore magnam aliquam quaerat voluptatem.</p>
 * Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
 
 
-### Fees and Funding
+### Frais et financement
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

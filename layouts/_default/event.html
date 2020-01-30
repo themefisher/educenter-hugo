@@ -1,7 +1,9 @@
+{{- $data := index .Site.Data .Site.Language.Lang -}}
+
 <div class="card border-0 rounded-0 hover-shadow">
   <div class="card-img position-relative">
     <img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
-    <div class="card-date"><span>{{ .PublishDate.Format "02" }}</span><br>{{ .PublishDate.Format "JANUARY"}}</div>
+    <div class="card-date"><span>{{ .PublishDate.Format "02" }}</span><br>{{ index $data.months (printf "%d" .PublishDate.Month) }}</div>
   </div>
   <div class="card-body">
     <!-- location -->

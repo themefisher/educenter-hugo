@@ -1,5 +1,5 @@
 ---
-title: "Scholarship"
+title: "Bourses d’études"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -9,9 +9,9 @@ image: "images/about/about-page.jpg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 ---
 
-## SCHOLARSHIPS NEWS
+## NOUVELLES SUR LES BOURSES D’ÉTUDE
 
-**_Our campuses are living laboratories for sustainability._**
+**_NOS CAMPUS SONT DES LABORATOIRES VIVANTS DURABLES._**
 
 Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore
 et.dolore magna aliquauis aute irure dolor.
