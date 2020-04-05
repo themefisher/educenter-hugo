@@ -819,3 +819,12 @@ link:focus,
     color: #ffbc3b; }
   .filter-controls li:hover {
     color: #ffbc3b; }
+
+.tag-list a {
+  display: block;
+  padding: 5px 10px;
+  background: #f8f9fe;
+  color: #5c5c77; }
+  .tag-list a:hover {
+    background-color: #ffbc3b;
+    color: #fff; }

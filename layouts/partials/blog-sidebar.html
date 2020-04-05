@@ -18,9 +18,9 @@
     <h4 class="mb-4">{{ i18n "tags" }}</h4>
     {{- if isset .Site.Taxonomies "tags" }}
     {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
-    <ul class="list-inline">
+    <ul class="list-inline tag-list">
       {{- range $name, $items := .Site.Taxonomies.tags }}
-      <li class="list-inline-item mb-2"><a class="px-3 py-2 d-block bg-light" href="{{ `tags/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
+      <li class="list-inline-item mb-2"><a href="{{ `tags/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
       {{- end }}
     </ul>
     {{- end }}
