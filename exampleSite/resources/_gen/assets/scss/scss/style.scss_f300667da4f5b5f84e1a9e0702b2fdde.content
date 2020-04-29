@@ -470,8 +470,9 @@ textarea.form-control {
   @media (max-width: 991px) {
     .navigation {
       background: #1a1a37; } }
-.navbar-collapse {
-  background: #1a1a37; }
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #1a1a37; } }
 
 .navbar-nav {
   padding-left: 50px;
@@ -554,13 +555,6 @@ link:focus,
       visibility: visible;
       transform: translateY(0);
       transform-origin: unset; } }
-  .navbar .dropdown-menu.view {
-    visibility: visible !important;
-    opacity: 1;
-    transform: translateY(0); }
-    @media (max-width: 991px) {
-      .navbar .dropdown-menu.view {
-        display: block; } }
   .navbar .dropdown-menu.show {
     visibility: hidden; }
     @media (max-width: 991px) {
@@ -571,6 +565,7 @@ link:focus,
   position: relative;
   color: #1e1e4b;
   transition: .2s ease;
+  text-transform: capitalize;
   font-family: "Poppins", sans-serif; }
   @media (max-width: 991px) {
     .navbar .dropdown-item {

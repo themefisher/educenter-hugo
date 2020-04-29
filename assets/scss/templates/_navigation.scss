@@ -20,7 +20,9 @@
 }
 
 .navbar-collapse{
-  background: $secondary-color;
+  @include desktop {
+    background: $secondary-color;
+  }
 }
 
 .navbar-nav {
@@ -132,16 +134,6 @@ link:focus,
         transform-origin: unset;
       }
 
-      &.view {
-        visibility: visible !important;
-        opacity: 1;
-        transform: translateY(0);
-
-        @include desktop {
-          display: block;
-        }
-      }
-
       &.show {
         visibility: hidden;
 
@@ -156,6 +148,7 @@ link:focus,
       position: relative;
       color: $text-color-dark;
       transition: .2s ease;
+      text-transform: capitalize;
       font-family: $primary-font;
 
       @include desktop {
