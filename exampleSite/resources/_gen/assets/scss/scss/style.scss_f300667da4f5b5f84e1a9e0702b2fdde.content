@@ -323,8 +323,9 @@ a h4:hover {
 .zindex-1 {
   z-index: 1; }
 
-.overflow-hidden {
-  overflow: hidden; }
+@media (max-width: 991px) {
+  .overflow-md-hidden {
+    overflow: hidden; } }
 
 .vertical-align-middle {
   vertical-align: middle; }

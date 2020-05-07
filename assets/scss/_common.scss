@@ -217,8 +217,10 @@ a h4{
   z-index: 1;
 }
 
-.overflow-hidden {
-  overflow: hidden;
+.overflow-md-hidden {
+  @include desktop {
+    overflow: hidden;
+  }
 }
 
 .vertical-align-middle{
