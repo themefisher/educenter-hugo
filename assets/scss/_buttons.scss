@@ -11,6 +11,7 @@
   z-index: 1;
   transition: .2s ease;
   overflow: hidden;
+  white-space: nowrap;
 
   &::before {
     position: absolute;

@@ -77,7 +77,8 @@ h6, .h6 {
   position: relative;
   z-index: 1;
   transition: .2s ease;
-  overflow: hidden; }
+  overflow: hidden;
+  white-space: nowrap; }
   .btn::before {
     position: absolute;
     content: "";
