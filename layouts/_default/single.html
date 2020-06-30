@@ -34,7 +34,7 @@
             {{ .Content }}
           </div>
           <!-- comments -->
-          {{ if .Site.DisqusShortname }}
+          {{ if site.DisqusShortname }}
           <div class="col-12">
             {{ template "_internal/disqus.html" . }}
           </div>

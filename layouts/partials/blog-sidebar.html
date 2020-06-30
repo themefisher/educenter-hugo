@@ -3,10 +3,10 @@
   {{ "<!-- categories -->" | safeHTML }}
   <div class="bg-white mb-5">
     <h4 class="mb-4">{{ i18n "categories" }}</h4>
-    {{- if isset .Site.Taxonomies "categories" }}
-    {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
+    {{- if isset site.Taxonomies "categories" }}
+    {{- if not (eq (len site.Taxonomies.categories) 0) }}
     <ul class="list-unstyled">
-      {{- range $name, $items := .Site.Taxonomies.categories }}
+      {{- range $name, $items := site.Taxonomies.categories }}
       <li class="border-bottom"><a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}" class="d-block pb-3 mt-3">{{ $name | title | humanize }}</a></li>
       {{- end }}
     </ul>
@@ -16,10 +16,10 @@
   {{ "<!-- tags -->" | safeHTML }}
   <div class="bg-white mb-5">
     <h4 class="mb-4">{{ i18n "tags" }}</h4>
-    {{- if isset .Site.Taxonomies "tags" }}
-    {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
+    {{- if isset site.Taxonomies "tags" }}
+    {{- if not (eq (len site.Taxonomies.tags) 0) }}
     <ul class="list-inline tag-list">
-      {{- range $name, $items := .Site.Taxonomies.tags }}
+      {{- range $name, $items := site.Taxonomies.tags }}
       <li class="list-inline-item mb-2"><a href="{{ `tags/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
       {{- end }}
     </ul>
@@ -30,7 +30,7 @@
   <div class="bg-white">
     <h4 class="mb-4">{{ i18n "latest_article" }}</h4>
     {{ "<!-- post-item -->" | safeHTML }}
-    {{ range first 3 ( where .Site.Pages "Type" "post" )}}
+    {{ range first 3 ( where site.Pages "Type" "post" )}}
     <div class="media border-bottom border-color pb-3 mb-3">
       <a href="{{ .Permalink }}"><img class="mr-3 post-thumb-sm" src="{{ .Params.Image | absURL }}"></a>
       <div class="media-body">

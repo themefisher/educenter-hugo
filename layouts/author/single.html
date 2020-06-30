@@ -39,7 +39,7 @@
 					<h2 class="section-title">{{ i18n "posted_by" }} {{ .Title }}</h2>
 				</div>
 			</div>
-			{{ range where .Site.RegularPages "Params.author" (.Title | title) }}
+			{{ range where site.RegularPages "Params.author" (.Title | title) }}
 			<div class="col-lg-4 col-sm-6 mb-4">
 				{{ .Render "post" }}
 			</div>

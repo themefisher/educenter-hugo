@@ -40,7 +40,7 @@
         <h4 class="mb-4">{{ i18n "courses" | upper}}</h4>
       </div>
       <!-- course item -->
-      {{ range where .Site.RegularPages "Params.teacher" .Title }}
+      {{ range where site.RegularPages "Params.teacher" .Title }}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "course"}}
       </div>

@@ -1,8 +1,8 @@
 <!-- footer -->
 <footer>
   <!-- newsletter -->
-  {{ if .Site.Params.subscription.enable }}
-  {{ with .Site.Params.subscription }}
+  {{ if site.Params.subscription.enable }}
+  {{ with site.Params.subscription }}
   <div class="newsletter">
     <div class="container">
       <div class="row">
@@ -29,18 +29,18 @@
       <div class="row">
         <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
           <!-- logo -->
-          <a class="logo-footer" href="{{ .Site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+          <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
           <ul class="list-unstyled">
-            <li class="mb-4">{{ .Site.Params.address | markdownify }}</li>
-            <li class="mb-4">{{ .Site.Params.email | markdownify }}</li>
-            <li class="mb-4">{{ .Site.Params.mobile | markdownify }}</li>
+            <li class="mb-4">{{ site.Params.address | markdownify }}</li>
+            <li class="mb-4">{{ site.Params.email | markdownify }}</li>
+            <li class="mb-4">{{ site.Params.mobile | markdownify }}</li>
           </ul>
         </div>
         <!-- company -->
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "company" }}</h4>
           <ul class="list-unstyled">
-            {{ range .Site.Menus.main }}
+            {{ range site.Menus.main }}
             {{ if not .HasChildren }}
             <li class="mb-3"><a class="text-color" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
             {{ end }}
@@ -51,7 +51,7 @@
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "links" }}</h4>
           <ul class="list-unstyled">
-            {{ range .Site.Menus.footer }}
+            {{ range site.Menus.footer }}
             <li class="mb-3"><a class="text-color" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
@@ -60,7 +60,7 @@
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "courses" }}</h4>
           <ul class="list-unstyled">
-            {{ range first 5 (where .Site.RegularPages "Type" "course")}}
+            {{ range first 5 (where site.RegularPages "Type" "course")}}
             <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
           </ul>
@@ -69,7 +69,7 @@
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "new_notice" }}</h4>
           <ul class="list-unstyled">
-            {{ range first 3 (where .Site.RegularPages "Type" "notice")}}
+            {{ range first 3 (where site.RegularPages "Type" "notice")}}
             <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
           </ul>
@@ -82,11 +82,11 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-7 text-sm-left text-center">
-          <p class="mb-0">{{ .Site.Params.copyright | markdownify }}</p>
+          <p class="mb-0">{{ site.Params.copyright | markdownify }}</p>
         </div>
         <div class="col-sm-5 text-sm-right text-center">
           <ul class="list-inline">
-            {{ range .Site.Params.social }}
+            {{ range site.Params.social }}
             <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
             {{ end }}
           </ul>
@@ -98,12 +98,12 @@
 <!-- /footer -->
 
 {{ "<!-- Google Map API -->" | safeHTML }}
-{{ with .Site.Params.map.gmap_api }}
+{{ with site.Params.map.gmap_api }}
 <script src="{{ . | safeURL }}"></script>
 {{ end }}
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
-{{ range .Site.Params.plugins.js}}
+{{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
 {{ end }}
 
@@ -112,7 +112,7 @@
 <script src="{{ $script.Permalink }}"></script>
 
 {{ "<!-- google analitycs -->" | safeHTML }}
-{{ with .Site.Params.google_analitycs_id}}
+{{ with site.Params.google_analitycs_id}}
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;

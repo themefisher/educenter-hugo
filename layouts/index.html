@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index site.Data site.Language.Lang }}
 
 <!-- hero slider -->
 {{ if $data.homepage.slider.enable }}
@@ -102,7 +102,7 @@
     <!-- course list -->
     <div class="row justify-content-center">
       <!-- course item -->
-      {{ range first 6 (where .Site.RegularPages "Type" "course")}}
+      {{ range first 6 (where site.RegularPages "Type" "course")}}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "course" }}
       </div>
@@ -165,7 +165,7 @@
     </div>
     <div class="row justify-content-center">
       <!-- event -->
-      {{ range first 3 (where .Site.RegularPages "Type" "event")}}
+      {{ range first 3 (where site.RegularPages "Type" "event")}}
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
         {{ .Render "event" }}
       </div>
@@ -193,7 +193,7 @@
     </div>
     <div class="row justify-content-center">
       <!-- blog post -->
-      {{ range first 3 (where .Site.RegularPages "Type" "post")}}
+      {{ range first 3 (where site.RegularPages "Type" "post")}}
       <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
         {{ .Render "post" }}
       </article>
