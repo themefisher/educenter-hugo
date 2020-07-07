@@ -4,7 +4,6 @@ bg_image = ""
 category = ""
 date = 2020-07-06T22:00:00Z
 description = "blalbal "
-draft = true
 duration = ""
 fee = ""
 image = ""
