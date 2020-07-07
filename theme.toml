@@ -1,4 +1,4 @@
-name = "Educenter Hugo"
+name = "Dataworkz"
 license = "CC BY 3.0"
 licenselink = "https://creativecommons.org/licenses/by/3.0/"
 description = "Hugo port of the Themefisher’s Educenter theme"
@@ -8,8 +8,8 @@ features = ["blog", "company", "responsive", "seo-friendly"]
 min_version = "0.60.0"
 
 [author]
-  name = "Themefisher"
-  homepage = "https://themefisher.com/"
+  name = "Dataworkz"
+  homepage = "https://dataworkz.nl/"
 
 [original]
   name = "Educenter"

@@ -63,7 +63,7 @@
   }
 
   &:active {
-    background: $primary-color !important;
+    background: $white !important;
     color: $primary-color;
 
     &::before {
@@ -72,7 +72,7 @@
   }
 
   &:hover {
-    background: darken($color: $primary-color, $amount: 10);
+    background: $white;
     color: $primary-color;
   }
 }
@@ -101,7 +101,7 @@
   }
 
   &:hover {
-    background: $white;
+    background: $primary-color;
     color: $white;
     border: 1px solid $white;
   }
@@ -110,15 +110,15 @@
 .btn-primary-outline {
   border: 1px solid $primary-color;
   color: $primary-color;
-  background: transparent;
+  background: $white;
 
   &::before {
-    background: $white;
+    background: $primary-color;
   }
 
   &:hover {
     background: $primary-color;
-    color: $primary-color;
+    color: $white;
   }
 
   &:active {
