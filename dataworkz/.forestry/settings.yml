@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/english/blog
+  path: dataworkz/content/english/blog
   label: Post (en)
   create: documents
   match: "**/*"
@@ -16,7 +16,7 @@ sections:
 - type: heading
   label: Author
 - type: directory
-  path: exampleSite/content/english/author
+  path: dataworkz/content/english/author
   label: Author (en)
   create: documents
   match: "**/*"
@@ -25,7 +25,7 @@ sections:
 - type: heading
   label: Course
 - type: directory
-  path: exampleSite/content/english/course
+  path: dataworkz/content/english/course
   label: Course (en)
   create: documents
   match: "**/*"
@@ -34,7 +34,7 @@ sections:
 - type: heading
   label: Notice
 - type: directory
-  path: exampleSite/content/english/notice
+  path: dataworkz/content/english/notice
   label: Notice (en)
   create: all
   match: "**/*"
@@ -43,7 +43,7 @@ sections:
 - type: heading
   label: Teacher
 - type: directory
-  path: exampleSite/content/english/teacher
+  path: dataworkz/content/english/teacher
   label: Teacher (en)
   create: all
   match: "**/*"
@@ -52,7 +52,7 @@ sections:
 - type: heading
   label: Event
 - type: directory
-  path: exampleSite/content/english/event
+  path: dataworkz/content/english/event
   label: Event (en)
   create: all
   match: "**/*"
@@ -61,7 +61,7 @@ sections:
 - type: heading
   label: Research
 - type: directory
-  path: exampleSite/content/english/research
+  path: dataworkz/content/english/research
   label: Research (en)
   create: all
   match: "**/*"
@@ -70,7 +70,7 @@ sections:
 - type: heading
   label: Scholarship
 - type: directory
-  path: exampleSite/content/english/scholarship
+  path: dataworkz/content/english/scholarship
   label: Scholarship (en)
   create: all
   match: "**/*"
@@ -79,24 +79,24 @@ sections:
 - type: heading
   label: Others Pages
 - type: directory
-  path: exampleSite/content/english/about
+  path: dataworkz/content/english/about
   label: About (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/contact
+  path: dataworkz/content/english/contact
   label: Contact (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/pages
+  path: dataworkz/content/english/pages
   label: Created Pages (en)
   create: documents
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/english
+  path: dataworkz/content/english
   label: All Pages (en)
   create: all
   match: "**/*"
@@ -105,24 +105,24 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: exampleSite/data/en
+  path: dataworkz/data/en
   label: Data (en)
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/i18n
+  path: dataworkz/i18n
   label: i18n
   create: documents
   match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
-  path: exampleSite
+  path: dataworkz
   label: Configuration
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: exampleSite/static/images
+upload_dir: dataworkz/static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
