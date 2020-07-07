@@ -13,25 +13,11 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
 - type: heading
   label: Author
 - type: directory
   path: exampleSite/content/english/author
   label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
   create: documents
   match: "**/*"
   templates:
@@ -45,25 +31,11 @@ sections:
   match: "**/*"
   templates:
   - course
-- type: directory
-  path: exampleSite/content/french/course
-  label: Course (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - course
 - type: heading
   label: Notice
 - type: directory
   path: exampleSite/content/english/notice
   label: Notice (en)
-  create: all
-  match: "**/*"
-  templates:
-  - notice
-- type: directory
-  path: exampleSite/content/french/notice
-  label: Notice (fr)
   create: all
   match: "**/*"
   templates:
@@ -77,25 +49,11 @@ sections:
   match: "**/*"
   templates:
   - teacher
-- type: directory
-  path: exampleSite/content/french/teacher
-  label: Teacher (fr)
-  create: all
-  match: "**/*"
-  templates:
-  - teacher
 - type: heading
   label: Event
 - type: directory
   path: exampleSite/content/english/event
   label: Event (en)
-  create: all
-  match: "**/*"
-  templates:
-  - event
-- type: directory
-  path: exampleSite/content/french/event
-  label: Event (fr)
   create: all
   match: "**/*"
   templates:
@@ -109,25 +67,11 @@ sections:
   match: "**/*"
   templates:
   - research
-- type: directory
-  path: exampleSite/content/french/research
-  label: Research (fr)
-  create: all
-  match: "**/*"
-  templates:
-  - research
 - type: heading
   label: Scholarship
 - type: directory
   path: exampleSite/content/english/scholarship
   label: Scholarship (en)
-  create: all
-  match: "**/*"
-  templates:
-  - scholarship
-- type: directory
-  path: exampleSite/content/french/scholarship
-  label: Scholarship (fr)
   create: all
   match: "**/*"
   templates:
@@ -140,18 +84,8 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/french/about
-  label: About (fr)
-  create: none
-  match: "*"
-- type: directory
   path: exampleSite/content/english/contact
   label: Contact (en)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/french/contact
-  label: Contact (fr)
   create: none
   match: "*"
 - type: directory
@@ -162,22 +96,8 @@ sections:
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/french/pages
-  label: Created Pages (fr)
-  create: all
-  match: "**/*"
-  templates:
-  - new-page
-- type: directory
   path: exampleSite/content/english
   label: All Pages (en)
-  create: all
-  match: "**/*"
-  templates:
-  - new-page
-- type: directory
-  path: exampleSite/content/french
-  label: All Pages (fr)
   create: all
   match: "**/*"
   templates:
@@ -187,11 +107,6 @@ sections:
 - type: directory
   path: exampleSite/data/en
   label: Data (en)
-  create: all
-  match: "**/*"
-- type: directory
-  path: exampleSite/data/fr
-  label: Data (fr)
   create: all
   match: "**/*"
 - type: directory
