@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://dataworkz.nl"
+baseURL = "/"
 title = "Dataworkz | Specialist in data science & data enginering"
 theme = "dataworkz-site"
 # post pagination
