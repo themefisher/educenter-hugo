@@ -1,30 +1,19 @@
 ---
-title: "Algorithm"
-date: 2019-07-06T15:27:17+06:00
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-# course thumbnail
-image: "images/courses/course-5.jpg"
-# taxonomy
-category: "Programming"
-# teacher
-teacher: "Zim Cook"
-# duration
-duration : "06 Month"
-# weekly
-weekly : "03 hours"
-# course fee
-fee : "From: $699"
-# apply url
-apply_url : "#"
-# type
-type: "course"
+title: Algorithm with no more messy data
+date: 2019-07-06T15:27:17.000+06:00
+bg_image: images/backgrounds/page-title.jpg
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud.
+image: images/courses/course-5.jpg
+category: Programming
+teacher: Zim Cook
+duration: 06 Month
+weekly: 03 hours
+fee: 'From: $699'
+apply_url: "#"
+
 ---
-
-
 ### About Course
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
