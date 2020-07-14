@@ -148,7 +148,7 @@ link:focus,
       position: relative;
       color: $text-color-dark;
       transition: .2s ease;
-      text-transform: capitalize;
+      // text-transform: capitalize;
       font-family: $primary-font;
 
       @include desktop {

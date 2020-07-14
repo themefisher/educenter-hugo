@@ -129,6 +129,13 @@
       <div class="col-12 text-center">
         <h6 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
         <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
+        <div class="owl-carousel">
+          {{ range (where site.RegularPages "Type" "customers")}}
+          <div class="item mb-4">
+            <img class="img-fluid w-80" src="{{ .Params.Image | absURL }}" />
+          </div>
+          {{ end }}
+        </div>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | absLangURL }}" class="btn btn-secondary">{{ .label }}</a>
@@ -181,6 +188,35 @@
 </section>
 {{ end }}
 <!-- /events -->
+
+<!-- tech -->
+{{ if $data.homepage.tech.enable }}
+{{ with $data.homepage.tech }}
+<section class="section bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h6 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
+        <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
+        <div class="owl-carousel">
+          {{ range (where site.RegularPages "Type" "tech")}}
+          <div class="item mb-4">
+            <img class="img-fluid w-80" src="{{ .Params.Image | absURL }}" />
+          </div>
+          {{ end }}
+        </div>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-secondary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /tech -->
 
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}

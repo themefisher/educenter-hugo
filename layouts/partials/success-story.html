@@ -13,8 +13,13 @@
         <div class="bg-white p-5">
           <h2 class="section-title">{{ .title | markdownify }}</h2>
           <p>{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absLangURL }}" class="btn btn-secondary">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
         </div>
-      </div>
+      </div> 
     </div>
   </div>
 </section>

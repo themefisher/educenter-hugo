@@ -4,121 +4,112 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Data maakt het verschil voor jouw bedrijf, wij maken het verschil voor jouw data."
+      content : ""
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
+        label : "Neem contact op"
         link : "contact"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Data is voor bedrijven de belangrijkste onderscheidende factor geworden"
+      content : "Wij helpen bedrijven hun concurrentie voor te blijven door dataplatforms, machine learning modellen en datagedreven oplossingen te realiseren. Hiervoor heb je experts nodig. Wij hebben die data engineers, die begrijpen hoe je data technisch moet ontsluiten en de data scientist die de juiste informatie uit je data gaan halen."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
-        enable : true
-        label : "Apply now"
+        enable : false
+        label : "Neem contact op"
         link : "contact"
-
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
-        link : "contact"
-
-
+        
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Scholorship News"
+    - name : "Data Oplossingen"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Wij hebben quickwins voor typische problemen in de data wereld ontwikkeld. Herken je een uitdaging? Dan kunnen wij het voor jou oplossen met een concreet en afgebakken resultaat binnen meestal rond 2 weken."
 
     # feature item loop
-    - name : "Our Notice Board"
+    - name : "Data workshops en Trainingen"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Van de eerste stappen in Python tot het maken van je eerste deep learning projecten. Met onze cursus nemen we je medewerkers mee in de nieuwe en spannende wereld van Data Science en Machine Learning."
 
     # feature item loop
-    - name : "Our Achievements"
+    - name : "Data consultantcy"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Admission Now"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Of het nu gaat om lange projecten of korte opdrachten. Met elke consultant krijg jij de kennis van heel Dataworkz tot jouw beschikking om state of the art data platformen of machine learning applicaties te ontwikkelen."
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "About Educenter"
+  title : "Over Dataworkz"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  content : "Het begon allemaal in de winter van 2016 met een onschuldig telefoontje en etentje met de huidige aandeelhouders. Het idee was snel geboren om een gave technische data club neer te zetten. Data wordt steeds belangrijker in het dagelijkse (werkend) leven. Van idee naar start was een mooie hectische periode maar voor ons was altijd belangrijk om de medewerkers centraal te stellen in de organisatie. Binding met je mensen en gave dingen doen bij klanten dat is de core van Dataworkz"
   button:
     enable : true
-    label : "Learn more"
+    label : "Meer zien van Dataworkz?"
     link : "about"
 
 
 ############################# Course ################################
 course:
   enable : true
-  title : "Our Course"
+  title : "Onze workshops"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Click to Join the Advance Workshop"
-  title : "Training In Advannce Networking"
+  subtitle : "Weten met welke klanten wij werken?"
+  title : "Onze klanten en partners"
   button:
     enable : true
-    label : "join now"
-    link : "contact"
+    label : "Meer zien"
+    link : "customers"
+
+
+########################## tech view #################################
+tech:
+  enable : true
+  subtitle : ""
+  title : "Onze keuzes voor technologie"
+  button:
+    enable : false
+    label : "Meer zien"
+    link : "customers"
 
 
 ######################## Success story #############################
 success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Success Stories"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-            
-            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  title : "Wil je komen werken voor Dataworkz?"
+  content : "Wij zoeken gedreven Data Enthousiasts (Engineering en Science) die het verschil kunnen maken bij onze klanten. Professionals die het leuk vinden om in een jong bedrijf kansen te pakken en samen met vakgenoten te werken aan prestaties van formaat. Professionals die communicatief sterk zijn, in Agile projecten willen werken bij toonaangevende klanten, deel willen uitmaken van een leuk team van experts, graag kennis delen en beloond willen worden op hun waarde."
   # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  video_link : "https://www.youtube.com/watch?v=IdV4n4hgIRY"
+  button:
+    enable : true
+    label : "Meer weten?"
+    link : "carreer"
 
 
 ############################# event ################################
 event:
   enable : true
-  title : "Upcoming Events"
+  title : "Komende events"
   # event item comes from "content/**/event" folder.
 
   
 ########################### funfacts ############################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
     # funfact item loop
     - name : "TEACHERS"
@@ -143,5 +134,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "Latest News"
+  title : "Laatste blogs"
   # blog item comes from "content/**/blog" folder.

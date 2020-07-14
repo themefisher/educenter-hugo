@@ -1,5 +1,5 @@
 ---
-title: "Social media and behavior economics conference"
+title: "Iets met een meetup"
 # Schedule page publish date
 publishDate: "2019-01-01T00:00:00Z"
 # event date
@@ -13,7 +13,7 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 # Event image
 image: "images/events/event-1.jpg"
 # location
-location: "Dhanmondi, Dhaka"
+location: "Werkspoor studio N"
 # entry fee
 fee: "From: $699"
 # apply url

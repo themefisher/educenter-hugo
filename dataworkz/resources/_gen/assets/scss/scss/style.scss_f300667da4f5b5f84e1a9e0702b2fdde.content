@@ -69,7 +69,6 @@ h6, .h6 {
 .btn {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
   padding: 15px 40px;
   border-radius: 0;
   font-weight: 500;
@@ -567,7 +566,6 @@ link:focus,
   position: relative;
   color: #1e1e4b;
   transition: .2s ease;
-  text-transform: capitalize;
   font-family: "Poppins", sans-serif; }
   @media (max-width: 991px) {
     .navbar .dropdown-item {

@@ -11,10 +11,10 @@
     <div class="row">
       <div class="col-lg-7 mb-4 mb-lg-0">
         <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
-          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
-          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
-          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject">
-          <textarea name="message" id="message" class="form-control mb-3" placeholder="Your Message"></textarea>
+          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="{{ i18n "contact_name" }}">
+          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="{{ i18n "contact_email" }}">
+          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="{{ i18n "contact_subject" }}">
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="{{ i18n "contact_message" }}"></textarea>
           <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
         </form>
       </div>
@@ -28,16 +28,5 @@
   </div>
 </section>
 <!-- /contact -->
-
-<!-- gmap -->
-<section class="section pt-0">
-  <!-- Google Map -->
-  <div id="map_canvas" 
-  data-latitude="{{ site.Params.map.map_latitude }}"
-  data-longitude="{{ site.Params.map.map_longitude }}" 
-  data-marker="{{ site.Params.map.map_marker | absURL }}"
-  data-marker-name="{{ site.Title }}"></div>
-</section>
-<!-- /gmap -->
 
 {{ end }}
