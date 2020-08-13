@@ -5,9 +5,9 @@ slider:
   slider_item:
     # slider item loop
     - title : "Data maakt het verschil voor jouw bedrijf, wij maken het verschil voor jouw data."
-      content : ""
-      animation_in : "left"
-      animation_out : "right"
+      content : "Info"
+      animation_in : ""
+      animation_out : ""
       # available animation : left, right, up, down
       button:
         enable : true
@@ -15,15 +15,15 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Data is voor bedrijven de belangrijkste onderscheidende factor geworden"
-      content : "Wij helpen bedrijven hun concurrentie voor te blijven door dataplatforms, machine learning modellen en datagedreven oplossingen te realiseren. Hiervoor heb je experts nodig. Wij hebben die data engineers, die begrijpen hoe je data technisch moet ontsluiten en de data scientist die de juiste informatie uit je data gaan halen."
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : false
-        label : "Neem contact op"
-        link : "contact"
+    # - title : "Data is voor bedrijven de belangrijkste onderscheidende factor geworden"
+    #   content : "Wij helpen bedrijven hun concurrentie voor te blijven door dataplatforms, machine learning modellen en datagedreven oplossingen te realiseren. Hiervoor heb je experts nodig. Wij hebben die data engineers, die begrijpen hoe je data technisch moet ontsluiten en de data scientist die de juiste informatie uit je data gaan halen."
+    #   animation_in : "left"
+    #   animation_out : "right"
+    #   # available animation : left, right, up, down
+    #   button:
+    #     enable : false
+    #     label : "Neem contact op"
+    #     link : "contact"
         
 ############################### Banner feature ###############################
 banner_feature:
@@ -66,7 +66,7 @@ course:
 
 ########################## Call to action ############################
 cta:
-  enable : true
+  enable : false
   subtitle : "Weten met welke klanten wij werken?"
   title : "Onze klanten en partners"
   button:
@@ -77,7 +77,7 @@ cta:
 
 ########################## tech view #################################
 tech:
-  enable : true
+  enable : false
   subtitle : ""
   title : "Onze keuzes voor technologie"
   button:

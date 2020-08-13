@@ -248,7 +248,7 @@ a h4:hover {
     width: 100%;
     top: 0;
     left: 0;
-    background: #757575;
+    background: #000000;
     opacity: .8; }
 
 .outline-0 {
@@ -261,7 +261,7 @@ a h4:hover {
   background: #8CC63F !important; }
 
 .bg-secondary {
-  background: #757575 !important; }
+  background: #000000 !important; }
 
 .bg-gray {
   background: #f8f8f8; }
@@ -470,10 +470,10 @@ textarea.form-control {
   transition: .2s ease; }
   @media (max-width: 991px) {
     .navigation {
-      background: #757575; } }
+      background: #000000; } }
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: #757575; } }
+    background: #000000; } }
 
 .navbar-nav {
   padding-left: 50px;
@@ -481,9 +481,9 @@ textarea.form-control {
   @media (max-width: 991px) {
     .navbar-nav {
       padding-left: 0;
-      background: #757575; } }
+      background: #000000; } }
 .nav-bg {
-  background-color: #757575; }
+  background-color: #000000; }
 
 .nav-item {
   margin: 0 15px;
@@ -777,7 +777,7 @@ link:focus,
   height: 90px; }
 
 .bg-footer {
-  background-color: #757575; }
+  background-color: #000000; }
 
 .logo-footer {
   margin-top: -20px;

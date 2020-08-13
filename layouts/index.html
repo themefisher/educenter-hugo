@@ -7,10 +7,10 @@
 {{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
-    <div class="hero-slider">
+    <div class="hero">
       <!-- slider item -->
       {{ range .slider_item }}
-      <div class="hero-slider-item">
+      <div class="hero-item">
         <div class="row">
           <div class="col-md-8">
             <h1 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
