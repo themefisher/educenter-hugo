@@ -43,6 +43,8 @@ link = "plugins/venobox/venobox.min.js"
 link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/owl.carousel/owl.carousel.min.js"
+[[params.plugins.js]]
+link = "plugins/scrollreveal/scrollreveal.min.js"
 
 ############################## navigation ###############################
 
@@ -53,7 +55,7 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "course"
+name = "Workshops"
 URL = "course"
 weight = 2
 
@@ -64,34 +66,14 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Pages"
-  name = "teacher"
-  URL = "teacher"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "notice"
-  URL = "notice"
+  name = "team"
+  URL = "team"
 
   [[menu.main]]
   parent = "Pages"
   name = "event"
   URL = "event"
 
-  [[menu.main]]
-  parent = "Pages"
-  name = "scholarship"
-  URL = "scholarship"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "customers"
-  URL = "customers"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "research"
-  URL = "research"
-  
 [[menu.main]]
 name = "blog"
 URL = "blog"
@@ -121,9 +103,6 @@ URL = "event"
 name = "scholarship"
 URL = "scholarship"
 
-[[menu.footer]]
-name = "customers"
-URL = "customers"
 
 [[menu.footer]]
 name = "research"

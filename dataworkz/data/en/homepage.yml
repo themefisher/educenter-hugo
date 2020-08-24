@@ -4,8 +4,8 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Data maakt het verschil voor jouw bedrijf, wij maken het verschil voor jouw data."
-      content : "Info"
+    - title : "Maatwerk oplossingen voor uw big data vraagstukken"
+      content : "Data is voor bedrijven de belangrijkste onderscheidende factor geworden. Hiervoor heb je experts nodig. Wij hebben die data engineers, die begrijpen hoe je data technisch moet ontsluiten en de data scientists die de juiste informatie uit je data gaan halen."
       animation_in : ""
       animation_out : ""
       # available animation : left, right, up, down
@@ -34,17 +34,28 @@ banner_feature:
     - name : "Data Oplossingen"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
       content : "Wij hebben quickwins voor typische problemen in de data wereld ontwikkeld. Herken je een uitdaging? Dan kunnen wij het voor jou oplossen met een concreet en afgebakken resultaat binnen meestal rond 2 weken."
+      button:
+        enable : true
+        label : "meer info"
+        link : "/test"
 
     # feature item loop
     - name : "Data workshops en Trainingen"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
       content : "Van de eerste stappen in Python tot het maken van je eerste deep learning projecten. Met onze cursus nemen we je medewerkers mee in de nieuwe en spannende wereld van Data Science en Machine Learning."
+      button :
+        enable : true
+        label : "meer info"
+        link : "/course/"
 
     # feature item loop
     - name : "Data consultantcy"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
       content : "Of het nu gaat om lange projecten of korte opdrachten. Met elke consultant krijg jij de kennis van heel Dataworkz tot jouw beschikking om state of the art data platformen of machine learning applicaties te ontwikkelen."
-
+      button :
+        enable : true
+        label : "meer info"
+        link : "/test"
 
 ############################## about ##################################
 about:
