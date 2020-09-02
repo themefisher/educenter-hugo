@@ -11,7 +11,7 @@ teacher: fghfghfghf
 duration: ghfghfgh
 weekly: fghfghfgh
 fee: fghfghfghfg
-apply_url: "/courses/"
+apply_url: "/course/"
 type: fghfghfg
 
 ---
