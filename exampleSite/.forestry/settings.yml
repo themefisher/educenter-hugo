@@ -109,25 +109,11 @@ sections:
   match: "**/*"
   templates:
   - research
-- type: directory
-  path: exampleSite/content/french/research
-  label: Research (fr)
-  create: all
-  match: "**/*"
-  templates:
-  - research
 - type: heading
   label: Scholarship
 - type: directory
   path: exampleSite/content/english/scholarship
   label: Scholarship (en)
-  create: all
-  match: "**/*"
-  templates:
-  - scholarship
-- type: directory
-  path: exampleSite/content/french/scholarship
-  label: Scholarship (fr)
   create: all
   match: "**/*"
   templates:
