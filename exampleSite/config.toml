@@ -1,5 +1,5 @@
 baseURL = "http://bitsoft.com.ua"
-disableLanguages = []
+disableLanguages = [""]
 disqusShortname = "educenter"
 paginate = "6"
 summaryLength = "10"
@@ -36,11 +36,11 @@ URL = "research"
 name = "research"
 [[menu.main]]
 URL = "about"
-name = "About"
+name = "Про нас"
 weight = 1
 [[menu.main]]
 URL = "course"
-name = "course"
+name = "Наші проекти"
 weight = 2
 [[menu.main]]
 hasChildren = true
