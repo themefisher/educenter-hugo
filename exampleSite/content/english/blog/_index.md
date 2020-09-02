@@ -1,8 +1,9 @@
 ---
-title: "Latest News"
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "this is meta description"
+title: Latest News
+bg_image: images/backgrounds/page-title.jpg
+description: this is meta description
+date: 2020-09-14T21:00:00+00:00
+author: gdfg
+draft: true
+
 ---
