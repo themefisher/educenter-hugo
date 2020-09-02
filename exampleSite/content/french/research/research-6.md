@@ -7,11 +7,6 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   nostrud.
 image: images/research/research-6.jpg
 type: research
-menu:
-  main:
-    name: Наші проекти
-    URL: course
-    weight: 2
 
 ---
 ### À propos de la recherche

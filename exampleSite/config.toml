@@ -40,6 +40,10 @@ URL = "teacher"
 name = "teacher"
 weight = 5
 [[menu.main]]
+URL = "course"
+name = "Наші проекти"
+weight = 2
+[[menu.main]]
 URL = "research"
 name = "research"
 parent = "Pages"
