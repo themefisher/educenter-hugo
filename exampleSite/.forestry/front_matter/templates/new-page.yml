@@ -8,11 +8,12 @@ fields:
 - type: text
   name: description
   label: description
-- name: bg_image
-  type: file
-  config:
-    maxSize: 250
-  label: bg image
-  description: page header background image
+- name: uaa_vaa
+  type: include
+  config: {}
+  template: course
+  label: уааіваа
+  description: віаіваіваіва
+  hidden: false
 pages:
 - exampleSite/content/english/pages/наші-проекти.md
