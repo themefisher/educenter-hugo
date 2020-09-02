@@ -14,3 +14,5 @@ fields:
     maxSize: 250
   label: bg image
   description: page header background image
+pages:
+- exampleSite/content/english/pages/наші-проекти.md
