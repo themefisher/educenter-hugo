@@ -8,7 +8,7 @@ description : ""
 # teacher portrait
 image: "images/team/david_overview.jpg"
 # course
-course: "Data-engineer"
+course: "Data engineer"
 # biography
 bio: ""
 # interest

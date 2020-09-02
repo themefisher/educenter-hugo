@@ -8,7 +8,7 @@ description : ""
 # teacher portrait
 image: "images/team/jeff_overview.jpg"
 # course
-course: "Data-science"
+course: "Data science"
 # biography
 bio: ""
 # interest

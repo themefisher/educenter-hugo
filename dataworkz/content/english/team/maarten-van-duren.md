@@ -8,7 +8,7 @@ description : ""
 # teacher portrait
 image: "images/team/maarten_overview.jpg"
 # course
-course: "Data-science"
+course: "Data science"
 # biography
 bio: ""
 # interest

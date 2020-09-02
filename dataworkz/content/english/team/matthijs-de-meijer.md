@@ -8,11 +8,11 @@ description : ""
 # teacher portrait
 image: "images/team/matthijs_overview.jpg"
 # course
-course: "Data-science"
+course: "Data engineer"
 # biography
 bio: ""
 # interest
-interest: ["science"]
+interest: ["engineer"]
 # contact info
 contact:
   # # contact item loop

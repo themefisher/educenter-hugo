@@ -8,13 +8,13 @@ description : ""
 # teacher portrait
 image: "images/team/olaf_overview.jpg"
 # course
-course: "Data-science"
+course: "Data science"
 # biography
 bio: ""
 # interest
 interest: ["science"]
 # contact info
-contact:
+# contact:
   # # contact item loop
   # - name : "clarkmalik@email.com"
   #   icon : "ti-email" # icon pack : https://themify.me/themify-icons
