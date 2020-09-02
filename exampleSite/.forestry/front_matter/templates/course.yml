@@ -47,3 +47,5 @@ fields:
   name: type
   label: type
   default: course
+pages:
+- exampleSite/content/english/course/рпкаып.md
