@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   nostrud.
 menu:
   main:
-    name: course
+    name: Наші проекти
     URL: course
     weight: 2
 
