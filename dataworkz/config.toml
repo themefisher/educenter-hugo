@@ -88,25 +88,25 @@ weight = 5
 # footer menu
 
 [[menu.footer]]
-name = "teacher"
-URL = "teacher"
+name = "team"
+URL = "team"
 
-[[menu.footer]]
-name = "notice"
-URL = "notice"
+#[[menu.footer]]
+#name = "notice"
+#URL = "notice"
 
 [[menu.footer]]
 name = "event"
 URL = "event"
 
 [[menu.footer]]
-name = "scholarship"
-URL = "scholarship"
+name = "career"
+URL = "career"
 
 
-[[menu.footer]]
-name = "research"
-URL = "research"
+#[[menu.footer]]
+#name = "research"
+#URL = "research"
 
 
 #################### default parameters ################################

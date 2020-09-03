@@ -37,7 +37,7 @@ banner_feature:
       button:
         enable : true
         label : "meer info"
-        link : "/test"
+        link : "/solutions#data"
 
     # feature item loop
     - name : "Data workshops en Trainingen"
@@ -46,16 +46,16 @@ banner_feature:
       button :
         enable : true
         label : "meer info"
-        link : "/course/"
+        link : "/solutions#workshops"
 
     # feature item loop
-    - name : "Data consultantcy"
+    - name : "Data consultancy"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
       content : "Of het nu gaat om lange projecten of korte opdrachten. Met elke consultant krijg jij de kennis van heel Dataworkz tot jouw beschikking om state of the art data platformen of machine learning applicaties te ontwikkelen."
       button :
         enable : true
         label : "meer info"
-        link : "/test"
+        link : "/solutions#consultancy"
 
 ############################## about ##################################
 about:
@@ -108,7 +108,7 @@ success_story:
   button:
     enable : true
     label : "Meer weten?"
-    link : "carreer"
+    link : "career"
 
 
 ############################# event ################################
