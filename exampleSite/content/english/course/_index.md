@@ -5,13 +5,12 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud.
 date: 2020-09-08T21:00:00+00:00
-image: "/images/teachers/teacher-2.jpg"
-category: cffcghc
-teacher: fghfghfghf
-duration: ghfghfgh
-weekly: fghfghfgh
-fee: fghfghfghfg
+image: ''
+category: main
+teacher: ''
+duration: ''
+weekly: ''
+fee: ''
 apply_url: "#"
-type: fghfghfg
 
 ---
