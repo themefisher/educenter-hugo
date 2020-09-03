@@ -39,9 +39,9 @@ URL = "about"
 name = "Про нас"
 weight = 1
 [[menu.main]]
-URL = "courses"
+URL = "course"
 name = "Наші проекти"
-weight = 2
+weight = "2"
 [[menu.main]]
 hasChildren = true
 name = "Pages"
