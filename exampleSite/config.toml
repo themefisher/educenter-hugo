@@ -39,7 +39,7 @@ URL = "about"
 name = "Про нас"
 weight = 1
 [[menu.main]]
-URL = "course"
+URL = "/course/"
 name = "Наші проекти"
 weight = "2"
 [[menu.main]]
