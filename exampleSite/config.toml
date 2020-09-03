@@ -1,5 +1,5 @@
 baseURL = "http://bitsoft.com.ua"
-disableLanguages = []
+disableLanguages = ["fr"]
 disqusShortname = "educenter"
 paginate = "6"
 summaryLength = "10"
