@@ -1,0 +1,15 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ with $data.homepage.success_story }}
+<section class="section bg-cover" data-background="{{ .bg_image | absURL }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-sm-12 position-relative success-video success-video-single">
+        <a class="play-btn venobox" href="{{ .video_link | safeURL }}" data-vbtype="video">
+          <i class="ti-control-play"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

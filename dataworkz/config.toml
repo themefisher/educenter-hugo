@@ -74,6 +74,11 @@ hasChildren = true
   name = "event"
   URL = "event"
 
+  [[menu.main]]
+  parent = "Pages"
+  name = "career"
+  URL = "career"
+
 [[menu.main]]
 name = "blog"
 URL = "blog"

@@ -1,12 +1,12 @@
 ---
-title: "Matthijs de Meijer"
+title: "Mathijs de Meijer"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : ""
 # teacher portrait
-image: "images/team/matthijs_overview.jpg"
+image: "images/team/mathijs_overview.jpg"
 # course
 course: "Data engineer"
 # biography

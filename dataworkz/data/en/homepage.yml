@@ -37,7 +37,7 @@ banner_feature:
       button:
         enable : true
         label : "meer info"
-        link : "/solutions#data"
+        link : "/solutions#data-oplossingen"
 
     # feature item loop
     - name : "Data workshops en Trainingen"
@@ -46,7 +46,7 @@ banner_feature:
       button :
         enable : true
         label : "meer info"
-        link : "/solutions#workshops"
+        link : "/solutions#data-workshop"
 
     # feature item loop
     - name : "Data consultancy"
@@ -55,7 +55,7 @@ banner_feature:
       button :
         enable : true
         label : "meer info"
-        link : "/solutions#consultancy"
+        link : "/solutions#data-consulting"
 
 ############################## about ##################################
 about:

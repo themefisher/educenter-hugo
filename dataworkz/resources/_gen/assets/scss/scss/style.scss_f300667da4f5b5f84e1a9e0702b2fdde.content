@@ -671,12 +671,15 @@ link:focus,
   .success-video .play-btn {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 25%;
     transform: translateY(-50%); }
     @media (max-width: 767px) {
       .success-video .play-btn {
         left: 50%;
         transform: translate(-50%, -50%); } }
+.success-video-single .play-btn {
+  left: 50%; }
+
 .play-btn {
   display: inline-block;
   height: 80px;
@@ -964,3 +967,11 @@ link:focus,
     left: -15px;
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent; } }
+
+.solutions h3:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0;
+  height: 5em;
+  margin-top: -5em; }

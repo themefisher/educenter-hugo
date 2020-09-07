@@ -1,84 +1,84 @@
 {{ define "main" }}
-
-Data Oplossingen - Quickwins
-Wij hebben quickwins voor typische problemen in de data wereld ontwikkeld. Herken je een uitdaging? Dan kunnen wij het
-voor jou oplossen met een concreet en afgebakken resultaat binnen meestal rond 2 weken.
-
-No more messy data
-Vervuilde data is duur. Wij bouwen geautomatiseerde tests in jouw datapipeline, zodat er geen druppel vieze data meer
-binnen kan stromen.
-<link meer>
-[door klik op link kom je op een pagina met daarin de (vertaalde) tekst uit de flyer en een link naar de blog artikel
-van Leslaw]
-
-Continuous Delivery for Machine Learning (CD4ML)
-Jouw model en data vanaf dag 1 in productie – continu en altijd uptodate.
-<link meer>
-Continous Delivery – het kort cyclische en betrouwbare uitrollen van nieuwe programmatuur op productie – was voor
-software engineering revolutionair. Wij weten hoe wij dit slimme principe ook kunnen toepassen op je data en je
-modellen. Je krijgt direct feedback en de snelst mogelijke ROI op jouw slimme applicaties.
-
-Spot on - Reduceer uw Cloud Data Processing kosten
-Complexe data berekeningen in de cloud zijn duur. Wij weten hoe je door slimme inzet met goedkope tijdelijke resources
-(zogenoemde Spots) hierop kan besparen.
-<link meer>
-
-Na klik link op meer à Complexe data berekeningen in de cloud zijn duur. Wij weten hoe je door slimme inzet van goedkope
-tijdelijke resources (zogenoemde Spots) hier significant op kunt besparen. Per machine-uur kunnen de kosten tot 90%
-lager zijn. Afhankelijk van de data workload vertaald dit zich in een significante besparing in €/output voor data
-intensieve workloads in de cloud voor jouw organisatie. Onze experts helpen jou de kosten van cloud data processing in
-kaart te brengen, te reduceren en onder controle te krijgen.
-
-Data Consulting
-
-Consulting
-Of het nu gaat om lange projecten of korte opdrachten. Met elke consultant krijg jij de kennis van heel Dataworkz tot
-jouw beschikking om state of the art data platformen of machine learning applicaties te ontwikkelen.
-
-Audit & Second Opinion
-Weet jij niet zeker of je de juiste keuze hebt gemaakt? Wij helpen je graag met een second opinion. Wij beloven, dat het
-nuttig zal zijn.
-
-Data Workshops and Trainingen
-Intro to Data Science
-Van de eerste stappen in Python tot het maken van je eerste deep learning projecten. Met onze cursus nemen we je
-medewerkers mee in de nieuwe en spannende wereld van Data Science en Machine Learning.
-
-Wordt een Microsoft Certified Analytics expert
-Onze Microsoft gecertificeerde trainers nemen je mee in de Microsoft wereld van AI en ML. Van Azure fundamentals tot AI
-solutions – met onze 5 trainingen ben je klaar voor elke belangrijk certificatie op je weg naar een gecertificeerd Azure
-Data Scientist Associate
-
-Solution Architecture Workshop
-Vele datastromen leiden naar Rome. Maar wat past bij jou? Wij bepalen samen de juiste Data architectuur voor jouw data
-stromen en maken een roadmap, waarmee je direct kan vertrekken.
-
-<!-- courses -->
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="d-flex align-items-center section-title justify-content-between">
-                    <h2 class="mb-0 text-nowrap mr-3">Workshops</h2>
-                    <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-                    <div>
-                        <a href="{{ `course` | relLangURL }}"
-                            class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- course list -->
-        <div class="row justify-content-center">
-            <!-- course item -->
-            {{ range first 6 (where site.RegularPages "Type" "course")}}
-            <div class="col-lg-4 col-sm-6 mb-5">
-                {{ .Render "course" }}
-            </div>
-            {{ end }}
-        </div>
-        <!-- /course list -->
+<section class="section solutions">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content">{{ .Content }}</div>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-12">
+        <div>
+          <!-- course item -->
+          <h3 id="data-oplossingen">Data Oplossingen</h3>
+          <div class="row justify-content-center content">
+            {{ range (where .Site.Pages "Params.focus" "solutions") }}
+            {{ .Render "solutions" }}
+            {{ end }}
+          </div>
+          <div class="row justify-content-center">
+            <a href="{{ `/contact` | absLangURL }}" class="btn btn-primary">Neem contact op!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="">
+          <!-- course item -->
+          <h3 id="data-consulting">Data consulting</h3>
+          <div class="row justify-content-center content">
+            {{ range (where .Site.Pages "Params.focus" "consulting") }}
+            {{ .Render "solutions" }}
+            {{ end }}
+          </div>
+          <div class="row justify-content-center">
+            <a href="{{ `/contact` | absLangURL }}" class="btn btn-primary">Neem contact op!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="">
+          <!-- course item -->
+          <h3 id="data-workshop">Data Workshops</h3>
+          <div class="row justify-content-center content">
+            {{ range (where .Site.Pages "Params.focus" "workshop") }}
+            {{ .Render "solutions" }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- courses -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">Workshops</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="{{ `course` | relLangURL }}"
+              class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- course list -->
+    <div class="row justify-content-center">
+      <!-- course item -->
+      {{ range first 3 (where site.RegularPages "Type" "course")}}
+      <div class="col-lg-4 col-sm-6 mb-5">{{ .Render "course" }}</div>
+      {{ end }}
+    </div>
+    <!-- /course list -->
+  </div>
 </section>
 <!-- /courses -->
 

@@ -1,0 +1,12 @@
+.solutions {
+  // Hacking the fixed header, nobody will see
+  h3:before {
+    content: "";
+    display: block;
+    position: relative;
+    width: 0;
+    height: 5em;
+    margin-top: -5em;
+  }
+  // And 2 beers in, now on ciney blond, like this one
+}

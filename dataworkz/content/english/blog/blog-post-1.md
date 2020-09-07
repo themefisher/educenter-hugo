@@ -9,7 +9,7 @@ description : "invulling van de blog"
 # post thumbnail
 image: "images/blog/post-1.jpg"
 # post author
-author: "John Doe"
+author: "olaf de leeuw"
 # taxonomy
 categories: ["Automation System"]
 tags: ["Advice", "Automation"]
@@ -17,6 +17,6 @@ tags: ["Advice", "Automation"]
 type: "post"
 ---
 
-### Hier kan je een stuk typen 
+### Hier kan je een stuk typen
 
 En dit wordt dan de inhoud van de blog post

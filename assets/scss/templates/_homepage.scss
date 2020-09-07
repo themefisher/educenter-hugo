@@ -64,7 +64,7 @@
   .play-btn {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 25%;
     transform: translateY(-50%);
 
     @include tablet {
@@ -72,6 +72,12 @@
       transform: translate(-50%, -50%);
     }
   }
+}
+
+.success-video-single {
+    .play-btn {
+      left: 50%;
+    }
 }
 
 .play-btn {
