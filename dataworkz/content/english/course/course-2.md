@@ -1,7 +1,7 @@
 ---
-title: "No more messy data"
+title: "Intro to Data Science"
 date: 2019-07-06T15:27:17+06:00
-draft: true
+draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
@@ -19,9 +19,9 @@ duration : ""
 # course fee
 # fee : "From: $699"
 # apply url
-apply_url : "#"
+apply_url : "/contact"
 # type
 type: "course"
 ---
 
-Vervuilde data is duur. Wij bouwen geautomatiseerde tests in jouw datapipeline, zodat er geen druppel vieze data meer binnen kan stromen. 
+Van de eerste stappen in Python tot het maken van je eerste deep learning projecten. Met onze cursus nemen we je medewerkers mee in de nieuwe en spannende wereld van Data Science en Machine Learning.

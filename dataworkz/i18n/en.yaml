@@ -37,6 +37,9 @@
 - id: posted_by
   translation: Gepost door
 
+- id: blogs_by
+  translation: Blogs door
+
 - id: date
   translation: Datum
 
