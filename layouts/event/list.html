@@ -5,6 +5,9 @@
   <div class="container">
     <div class="row">
       <!-- event -->
+      {{ if lt (len (where site.RegularPages .Type "event")) 1 }}
+      <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
+      {{ end }}
       {{ range .Data.Pages }}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "event" }}

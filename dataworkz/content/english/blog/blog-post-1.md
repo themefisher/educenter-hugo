@@ -1,7 +1,7 @@
 ---
 title: "Test Blogpost"
 date: 2019-07-06T15:27:17+06:00
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
