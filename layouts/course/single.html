@@ -11,10 +11,12 @@
       </div>
     </div>
     <!-- course info -->
-    <div class="row align-items-center mb-5">
-      <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+    <div class="row align-items-center ">
+      <div class="col-xl-12 order-1 col-sm-12 mb-4 mb-xl-0">
         <h2>{{ .Title }}</h2>
       </div>
+    </div>
+    <div class="row align-items-right mb-5">
       <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
         <ul class="list-inline text-xl-center">
           {{ if .Params.Duration }}
@@ -53,7 +55,7 @@
         </ul>
       </div>
       {{ if .Params.Apply_url}}
-      <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
+      <div class="col-xl-6 text-sm-right text-right order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
         <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
       </div>
       {{ end }}
