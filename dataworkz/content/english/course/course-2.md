@@ -5,7 +5,7 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Vervuilde data is duur. Wij bouwen geautomatiseerde tests in jouw datapipeline, zodat er geen druppel vieze data meer binnen kan stromen."
+description : ""
 # course thumbnail
 image: "images/courses/course-1.jpg"
 # taxonomy
