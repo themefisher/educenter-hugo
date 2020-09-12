@@ -1,0 +1,25 @@
+<div class="timeline-item">
+    <div class="timeline-img"></div>
+    
+
+    
+
+    
+
+
+    {{ if or (not .Params.side ) (eq .Params "side" "left") }}
+    <div class="timeline-content js--fadeInLeft">
+        {{ else }}
+    <div class="timeline-content js--fadeInRight">
+    {{end }}
+        <h2>{{ .Title }}</h2>
+        <div class="date">{{ .PublishDate.Day }} {{ index $.Site.Data.maanden (printf "%d" .PublishDate.Month) }}
+            {{ .PublishDate.Year }}
+        </div>
+        <p>
+            
+            {{ .Content }}
+        </p>
+        <!-- <a class="bnt-more" href="javascript:void(0)">More</a> -->
+    </div>
+</div>
