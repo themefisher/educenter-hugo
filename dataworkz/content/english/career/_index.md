@@ -1,5 +1,5 @@
 ---
-title: "Vacature"
+title: "Werken bij Dataworkz"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
