@@ -27,7 +27,7 @@ URL = "event"
 name = "Event"
 [[menu.footer]]
 URL = "career"
-name = "career"
+name = "Career"
 [[menu.main]]
 URL = "about"
 name = "About"
