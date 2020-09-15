@@ -47,5 +47,3 @@ fields:
   name: type
   label: type
   default: course
-pages:
-- content/english/course/nieuwe-title.md

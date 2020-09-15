@@ -57,7 +57,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - solutions 
+  - solutions
 - type: heading
   label: Others Pages
 - type: directory
@@ -99,7 +99,7 @@ sections:
 - type: heading
   label: Configuration
 - type: directory
-  path: /
+  path: ''
   label: Configuration
   create: all
   match: "*.toml"
