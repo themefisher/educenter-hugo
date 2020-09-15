@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: content/english/blog
+  path: dataworkz/content/english/blog
   label: Post (en)
   create: documents
   match: "**/*"
@@ -16,7 +16,7 @@ sections:
 - type: heading
   label: Team
 - type: directory
-  path: content/english/team
+  path: dataworkz/content/english/team
   label: Team (en)
   create: documents
   match: "**/*"
@@ -25,7 +25,7 @@ sections:
 - type: heading
   label: Course
 - type: directory
-  path: content/english/course
+  path: dataworkz/content/english/course
   label: Course (en)
   create: documents
   match: "**/*"
@@ -34,7 +34,7 @@ sections:
 - type: heading
   label: Event
 - type: directory
-  path: content/english/event
+  path: dataworkz/content/english/event
   label: Event (en)
   create: all
   match: "**/*"
@@ -43,7 +43,7 @@ sections:
 - type: heading
   label: Timeline
 - type: directory
-  path: content/english/timeline
+  path: dataworkz/content/english/timeline
   label: Timeline (en)
   create: all
   match: "**/*"
@@ -52,7 +52,7 @@ sections:
 - type: heading
   label: Solutions
 - type: directory
-  path: content/english/solutions
+  path: dataworkz/content/english/solutions
   label: Solutions (en)
   create: all
   match: "**/*"
@@ -61,24 +61,24 @@ sections:
 - type: heading
   label: Others Pages
 - type: directory
-  path: content/english/about
+  path: dataworkz/content/english/about
   label: About (en)
   create: none
   match: "*"
 - type: directory
-  path: content/english/contact
+  path: dataworkz/content/english/contact
   label: Contact (en)
   create: none
   match: "*"
 - type: directory
-  path: content/english/pages
+  path: dataworkz/content/english/pages
   label: Created Pages (en)
   create: documents
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: content/english
+  path: dataworkz/content/english
   label: All Pages (en)
   create: all
   match: "**/*"
@@ -87,12 +87,12 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: data/en
+  path: dataworkz/data/en
   label: Data (en)
   create: all
   match: "**/*"
 - type: directory
-  path: i18n
+  path: dataworkz/i18n
   label: i18n
   create: documents
   match: "**/*"
