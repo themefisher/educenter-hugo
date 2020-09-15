@@ -14,14 +14,14 @@ sections:
   templates:
   - post
 - type: heading
-  label: Author
+  label: Team
 - type: directory
-  path: dataworkz/content/english/author
-  label: Author (en)
+  path: dataworkz/content/english/team
+  label: Team (en)
   create: documents
   match: "**/*"
   templates:
-  - author
+  - team
 - type: heading
   label: Course
 - type: directory
@@ -32,24 +32,6 @@ sections:
   templates:
   - course
 - type: heading
-  label: Notice
-- type: directory
-  path: dataworkz/content/english/notice
-  label: Notice (en)
-  create: all
-  match: "**/*"
-  templates:
-  - notice
-- type: heading
-  label: Teacher
-- type: directory
-  path: dataworkz/content/english/teacher
-  label: Teacher (en)
-  create: all
-  match: "**/*"
-  templates:
-  - teacher
-- type: heading
   label: Event
 - type: directory
   path: dataworkz/content/english/event
@@ -59,23 +41,23 @@ sections:
   templates:
   - event
 - type: heading
-  label: Research
+  label: Timeline
 - type: directory
-  path: dataworkz/content/english/research
-  label: Research (en)
+  path: dataworkz/content/english/timeline
+  label: Timeline (en)
   create: all
   match: "**/*"
   templates:
-  - research
+  - timeline
 - type: heading
-  label: Scholarship
+  label: Solutions
 - type: directory
-  path: dataworkz/content/english/scholarship
-  label: Scholarship (en)
+  path: dataworkz/content/english/solutions
+  label: Solutions (en)
   create: all
   match: "**/*"
   templates:
-  - scholarship
+  - solutions 
 - type: heading
   label: Others Pages
 - type: directory
