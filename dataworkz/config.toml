@@ -42,7 +42,7 @@ name = "Pages"
 weight = 3
 [[menu.main]]
 URL = "team"
-name = "team"
+name = "Team"
 parent = "Pages"
 [[menu.main]]
 URL = "event"
@@ -50,7 +50,7 @@ name = "Event"
 parent = "Pages"
 [[menu.main]]
 URL = "career"
-name = "career"
+name = "Career"
 parent = "Pages"
 [[menu.main]]
 URL = "blog"
