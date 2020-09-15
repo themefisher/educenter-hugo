@@ -9,3 +9,10 @@ fields:
   name: type
   label: type
   default: timeline
+- type: file
+  name: image
+  label: image
+  description: portrait
+- type: datetime
+  name: date
+  label: date

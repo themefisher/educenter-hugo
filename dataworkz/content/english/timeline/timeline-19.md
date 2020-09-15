@@ -5,7 +5,7 @@ draft: false
 
 type: "timeline"
 
-publishdate: "2020-02-02T00:00:00Z"
+date: "2020-02-02T00:00:00Z"
 
 image: "Slide13"
 

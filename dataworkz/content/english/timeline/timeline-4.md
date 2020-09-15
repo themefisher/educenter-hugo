@@ -3,7 +3,7 @@
 title: "Kerstdiner"
 draft: false
 type: "timeline"
-publishdate: "2017-12-24T00:00:00Z"
+date: "2017-12-24T00:00:00Z"
 
 ---
 

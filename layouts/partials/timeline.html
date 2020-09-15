@@ -31,7 +31,7 @@
           <h2>{{ .Title }}</h2>
         {{ end }}
             <div class="date">
-              {{ .PublishDate.Day }} {{ index $.Site.Data.maanden (printf "%d" .PublishDate.Month) }} {{ .PublishDate.Year }}
+              {{ .Params.date.Day }} {{ index $.Site.Data.maanden (printf "%d" .Params.date.Month) }} {{ .Params.date.Year }}
             </div>
             {{ .Content }}
             <!-- <a class="bnt-more" href="javascript:void(0)">More</a> -->

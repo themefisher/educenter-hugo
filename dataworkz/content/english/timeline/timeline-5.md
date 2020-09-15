@@ -3,7 +3,7 @@
 title: "Skien"
 draft: false
 type: "timeline"
-publishdate: "2018-01-24T00:00:00Z"
+date: "2018-01-24T00:00:00Z"
 image: ""
 
 
