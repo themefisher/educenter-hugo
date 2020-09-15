@@ -1,5 +1,5 @@
 +++
-apply_url = ""
+apply_url = "https://www.meetup.com/DataWorkz/events/271213850/"
 bg_image = ""
 date = 2020-06-29T22:00:00Z
 description = ""
