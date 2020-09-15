@@ -3,7 +3,6 @@ apply_url = ""
 bg_image = ""
 date = 2020-06-29T22:00:00Z
 description = ""
-draft = true
 fee = "free"
 image = "/images/dataworkz-ethics-meetup-banner.png"
 location = "Dataworkz offices"
