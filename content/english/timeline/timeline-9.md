@@ -5,7 +5,8 @@ draft: false
 type: "timeline"
 
 date: "2018-11-20T00:00:00Z"
-image: "Slide4"
+
+image: "/images/timeline/Slide4.jpeg"
 
 ---
 

@@ -7,7 +7,7 @@ type: "timeline"
 
 date: "2019-06-21T00:00:00Z"
 
-image: "Slide7"
+image: "/images/timeline/Slide7.jpeg"
 
 ---
 
