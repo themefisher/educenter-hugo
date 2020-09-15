@@ -47,3 +47,5 @@ fields:
   name: type
   label: type
   default: event
+pages:
+- content/english/event/building-trust-in-ai.md
