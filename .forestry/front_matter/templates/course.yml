@@ -48,4 +48,4 @@ fields:
   label: type
   default: course
 pages:
-- dataworkz/content/english/course/nieuwe-title.md
+- content/english/course/nieuwe-title.md
