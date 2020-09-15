@@ -12,7 +12,7 @@
       {{ $events := .Data.Pages }}
       {{ $events := $events | intersect (where $events "Date" "ge" now) }}
       <!-- event -->
-      {{ if and (lt (len ($events)) 0)  }}
+      {{ if lt (len ($events)) 0  }}
       <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
       {{ end }}
       {{ range $events }}
