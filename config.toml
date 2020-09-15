@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
 title = "Dataworkz | Specialist in data science & data enginering"
-theme = "dataworkz-site"
+theme = "educenter"
 # post pagination
 paginate = "6"
 # post excerpt
