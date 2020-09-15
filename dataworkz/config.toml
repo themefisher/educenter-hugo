@@ -21,7 +21,7 @@ languageName = "Nl"
 weight = 1
 [[menu.footer]]
 URL = "team"
-name = "team"
+name = "Team"
 [[menu.footer]]
 URL = "event"
 name = "event"
@@ -54,7 +54,7 @@ name = "Career"
 parent = "Pages"
 [[menu.main]]
 URL = "blog"
-name = "blog"
+name = "Blog"
 weight = 4
 [[menu.main]]
 URL = "contact"
