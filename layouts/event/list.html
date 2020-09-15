@@ -12,8 +12,10 @@
       {{ $events := .Data.Pages }}
       {{ $events := $events | intersect (where $events "Date" "ge" now) }}
       <!-- event -->
-      {{ if lt (len ($events)) 0  }}
-      <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
+      {{ if lt (len ($events)) 1 }}
+      <div class="col-12 mb-5">
+        <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
+      </div>
       {{ end }}
       {{ range $events }}
       <div class="col-lg-4 col-sm-6 mb-5">
@@ -33,7 +35,9 @@
       {{ $oldevents := .Data.Pages }}
       {{ $oldevents := where $oldevents "Date" "lt" now  }}
       {{ if lt (len ($oldevents)) 1 }}
-      <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
+      <div class="col-12 mb-5">
+        <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
+      </div>
       {{ end }}
       {{ range $oldevents }}
       <div class="col-lg-4 col-sm-6 mb-5">
