@@ -4,9 +4,10 @@ bg_image = ""
 date = 2020-06-29T22:00:00Z
 description = ""
 fee = "free"
-image = "/images/dataworkz-ethics-meetup-banner.png"
+image = "/images/copy-of-dataworkz-ethics-meetup-banner-2.png"
 location = "Dataworkz offices"
 title = "Building trust in ai"
+type = ""
 [[speaker]]
 designation = ""
 image = ""
