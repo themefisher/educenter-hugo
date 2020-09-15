@@ -1,0 +1,11 @@
+---
+label: timeline
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+  default: timeline

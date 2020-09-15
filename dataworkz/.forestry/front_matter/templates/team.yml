@@ -1,5 +1,5 @@
 ---
-label: Teacher
+label: Team
 hide_body: false
 fields:
 - type: text
@@ -45,4 +45,4 @@ fields:
 - type: text
   name: type
   label: type
-  default: teacher
+  default: team
