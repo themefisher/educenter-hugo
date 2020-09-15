@@ -1,0 +1,18 @@
+---
+label: timeline
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+  default: timeline
+- type: file
+  name: image
+  label: image
+  description: portrait
+- type: datetime
+  name: date
+  label: date
