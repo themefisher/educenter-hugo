@@ -24,7 +24,7 @@
         <div class="timeline-content {{ $timelinecard }} {{ $fade }}">
         {{ if not (eq $timelinecard "") }}
           <div class="timeline-img-header">
-            <img src="/images/timeline/{{ .Params.image }}.jpeg"/>
+            <img src="{{ .Params.image }}"/>
             <h2>{{ .Title }}</h2>
           </div>
         {{ else }}
