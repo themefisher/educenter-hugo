@@ -1,0 +1,128 @@
+baseURL = "/"
+disableLanguages = ["nl"]
+disqusShortname = ""
+paginate = "6"
+summaryLength = "10"
+theme = "educenter"
+title = "Dataworkz | Specialist in data science & data enginering"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2020 by [kokkelaar](https://kokkelaar.nl)"
+home = "Home"
+languageCode = "nl-NL"
+languageName = "En"
+weight = 2
+[Languages.nl]
+contentDir = "content/dutch"
+copyright = "Copyright &copy; 2020 by [kokkelaar](https://kokkelaar.nl)"
+home = "Home"
+languageCode = "nl-NL"
+languageName = "Nl"
+weight = 1
+[[menu.footer]]
+URL = "team"
+name = "team"
+[[menu.footer]]
+URL = "event"
+name = "event"
+[[menu.footer]]
+URL = "career"
+name = "career"
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 1
+[[menu.main]]
+URL = "course"
+name = "Workshops"
+weight = 2
+[[menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 3
+[[menu.main]]
+URL = "team"
+name = "team"
+parent = "Pages"
+[[menu.main]]
+URL = "event"
+name = "Event"
+parent = "Pages"
+[[menu.main]]
+URL = "career"
+name = "career"
+parent = "Pages"
+[[menu.main]]
+URL = "blog"
+name = "blog"
+weight = 4
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
+[params]
+address = "Tractieweg 41 studio N, 3534 AP Utrecht"
+author = "Dataworkz BV."
+contact_form_action = "#"
+description = "Dataworkz is de specialist in data science & data enginering"
+email = "info@dataworkz.nl"
+google_analitycs_id = ""
+logo = "images/logo.png"
+mobile = "+31 (0)6 10 49 20 44"
+top_header = false
+[params.map]
+enable = false
+map_latitude = "52.105107"
+map_longitude = "5.079772"
+map_marker = "images/marker.png"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/owl.carousel/assets/owl.carousel.min.css"
+[[params.plugins.css]]
+link = "plugins/owl.carousel/assets/owl.theme.default.min.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/owl.carousel/owl.carousel.min.js"
+[[params.plugins.js]]
+link = "plugins/scrollreveal/scrollreveal.min.js"
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif"
+[params.subscription]
+enable = false
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/dataworkznl"
+title = "twitter"
+[[params.social]]
+icon = "ti-sharethis"
+link = "https://www.meetup.com/nl-NL/DataWorkz/"
+title = "meetup"
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/DataWorkz-NL"
+title = "github"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/dataworkz/"
+title = "linkedin"
