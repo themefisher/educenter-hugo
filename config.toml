@@ -10,6 +10,8 @@ summaryLength = "10"
  disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ["nl"] # disable language from here
+# For comming events
+buildFuture = true
 
 
 ############################# Plugins ##############################

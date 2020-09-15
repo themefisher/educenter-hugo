@@ -4,11 +4,38 @@
 <section class="section">
   <div class="container">
     <div class="row">
+      <div class="col-12 mb-5">
+        <h3 class="mb-0 text-nowrap mr-3">Komende events</h3>
+      </div>
+    </div>
+    <div class="row">
+      {{ $events := .Data.Pages }}
+      {{ $events := $events | intersect (where $events "Date" "ge" now) }}
       <!-- event -->
-      {{ if lt (len (where site.RegularPages .Type "event")) 0 }}
+      {{ if and (lt (len ($events)) 0)  }}
       <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
       {{ end }}
-      {{ range .Data.Pages }}
+      {{ range $events }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "event" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-5">
+        <h3 class="mb-0 text-nowrap mr-3">Oude events</h3>
+      </div>
+    </div>
+    <div class="row">
+      <!-- event -->
+      {{ $oldevents := .Data.Pages }}
+      {{ $oldevents := where $oldevents "Date" "lt" now  }}
+      {{ if lt (len ($oldevents)) 1 }}
+      <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
+      {{ end }}
+      {{ range $oldevents }}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "event" }}
       </div>

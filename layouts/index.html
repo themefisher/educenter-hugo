@@ -184,11 +184,13 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      {{ if lt (len (where site.RegularPages .Type "event")) 0 }}
+      {{ $events := where site.RegularPages "Type" "event" }}
+      {{ $events := $events | intersect (where $events "Date" "ge" now) }}
+      {{ if and (lt (len ($events)) 1)  }}
       <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
       {{ end }}
       <!-- event -->
-      {{ range first 3 (where site.RegularPages "Type" "event")}}
+      {{ range first 3 ($events)}}
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
         {{ .Render "event" }}
       </div>
@@ -245,7 +247,8 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      {{ if lt (len (where site.RegularPages .Type "post")) 0 }}
+      {{ $blogs := where site.RegularPages "Type" "post" }}
+      {{ if and (lt (len ($blogs)) 1)  }}
       <p>Er zijn nog geen blogs gepost, we zijn hiermee hard aan het werk!</p>
       {{ end }}
       <!-- blog post -->
