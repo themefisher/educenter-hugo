@@ -56,7 +56,7 @@
         <h4 class="mb-4">{{ i18n "courses" | upper}}</h4>
       </div>
       <!-- course item -->
-      {{if lt (len (where site.RegularPages "Params.team" .Title)) 1}}
+      {{if lt (len (where site.RegularPages "Params.team" .Title)) 0}}
       <p>{{ .Title }} heeft nog geen workshops gegeven...</p>
       {{ else }}
       {{ range where site.RegularPages "Params.team" .Title }}
@@ -78,7 +78,7 @@
           <h3 class="section-title">{{ i18n "blogs_by" }} {{ .Title }}</h3>
         </div>
       </div>
-      {{if lt (len (where site.RegularPages "Params.team" .Title)) 1}}
+      {{if lt (len (where site.RegularPages "Params.team" .Title)) 0}}
       <p>{{ .Title }} heeft nog geen blogs geschreven...</p>
       {{ else }}
       {{ range where site.RegularPages "Params.author" (.Title | title) }}
