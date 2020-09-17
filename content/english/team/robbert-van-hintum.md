@@ -1,12 +1,12 @@
 ---
-title: "Robert van Hintum"
+title: "Robbert van Hintum"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : ""
 # teacher portrait
-image: "images/team/robert_overview.jpg"
+image: "images/team/robbert_overview.jpg"
 # course
 course: "Data science"
 # biography
