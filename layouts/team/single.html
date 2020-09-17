@@ -53,13 +53,20 @@
 
     <div class="row">
       <div class="col-12">
-        <h4 class="mb-4">{{ i18n "courses" | upper}}</h4>
+        <div class="title text-center">
+          <h3 class="mb-5">{{ i18n "courses" | upper}}</h3>
+        </div>
       </div>
       <!-- course item -->
-      {{if lt (len (where site.RegularPages "Params.team" .Title)) 0}}
-      <p>{{ .Title }} heeft nog geen workshops gegeven...</p>
+      {{ $workshops := where site.RegularPages "Type" "course" }}
+      {{ $workshops := $workshops | intersect (where $workshops "Params.teacher" .Title )}}
+
+      {{ if lt (len $workshops) 1 }}
+      <div class="col-12 mb-5">
+        <p>{{ .Title }} heeft nog geen workshops gegeven...</p>
+      </div>
       {{ else }}
-      {{ range where site.RegularPages "Params.team" .Title }}
+      {{ range $workshops }}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "course"}}
       </div>
@@ -73,20 +80,21 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-12">
         <div class="title text-center">
           <h3 class="section-title">{{ i18n "blogs_by" }} {{ .Title }}</h3>
         </div>
       </div>
-      {{if lt (len (where site.RegularPages "Params.team" .Title)) 0}}
-      <p>{{ .Title }} heeft nog geen blogs geschreven...</p>
+      {{ $posts := where site.RegularPages "Type" "post" }}
+      {{ $posts := $posts | intersect (where $posts "Params.author" .Title )}}
+      {{ if lt (len $posts) 1 }}
+      <div class="col-12 mb-5">
+        <p>{{ .Title }} heeft nog geen blogs geschreven...</p>
+      </div>
       {{ else }}
-      {{ range where site.RegularPages "Params.author" (.Title | title) }}
-
+      {{ range $posts }}
       <div class="col-lg-4 col-sm-6 mb-4">
-
         {{ .Render "post" }}
-
       </div>
       {{ end }}
       {{ end }}

@@ -11,7 +11,7 @@ image: "images/courses/course-1.jpg"
 # taxonomy
 category: "Data"
 # teacher
-teacher: "Martin"
+teacher: "Maarten van Duren"
 # duration
 duration : ""
 # weekly
@@ -24,4 +24,4 @@ apply_url : "/contact"
 type: "course"
 ---
 
-Onze Microsoft gecertificeerde trainers nemen je mee in de Microsoft wereld van AI en ML. Van Azure fundamentals tot AI solutions – met onze 5 trainingen ben je klaar voor elke belangrijk certificatie op je weg naar een gecertificeerd Azure Data Scientist Associate 
+Onze Microsoft gecertificeerde trainers nemen je mee in de Microsoft wereld van AI en ML. Van Azure fundamentals tot AI solutions – met onze 5 trainingen ben je klaar voor elke belangrijk certificatie op je weg naar een gecertificeerd Azure Data Scientist Associate.

@@ -9,7 +9,7 @@ description : "invulling van de blog"
 # post thumbnail
 image: "images/blog/post-1.jpg"
 # post author
-author: "olaf de leeuw"
+author: "Joep Kokkeler"
 # taxonomy
 categories: ["Automation System"]
 tags: ["Advice", "Automation"]
