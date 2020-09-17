@@ -10,6 +10,7 @@ fields:
   label: date
   config:
     time_format: HH:mm
+    date_format: MM/DD/YYYY
 - type: file
   name: bg_image
   label: bg image
