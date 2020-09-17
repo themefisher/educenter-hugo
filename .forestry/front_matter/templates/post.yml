@@ -8,6 +8,8 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    time_format: HH:mm
 - type: file
   name: bg_image
   label: bg image
