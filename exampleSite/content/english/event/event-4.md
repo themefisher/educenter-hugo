@@ -1,7 +1,7 @@
 ---
 title: Computer Lab Setup
 publishDate: '2019-01-01T00:00:00Z'
-date: '2030-03-09T15:27:17+06:00'
+date: 
 bg_image: images/backgrounds/page-title.jpg
 description: ''
 image: images/events/event-3.jpg
@@ -21,7 +21,6 @@ speaker:
 - name: Alfred Jin
   image: images/event-speakers/speaker-4.jpg
   designation: Teacher
-type: event
 
 ---
 Advise and connect to other NGOs to help schools set up their first computer lab: acquiring computers, setting up internet, installing needed programs.
