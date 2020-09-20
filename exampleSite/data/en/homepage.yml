@@ -40,18 +40,18 @@ banner_feature:
       for tax exemption information click here) \n"
 about:
   enable: true
-  title: About Educenter
+  title: Every child in the world deserves
   image: images/about/about-us.jpg
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat  pariatur. Excepteur sint occaecat\n\ncupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-    iste natus error sit voluptatem "
+  content: "a chance to succeed in the modern world. Technology is imperative.\nThe
+    opportunity to become a global citizen in a society that is moving away from traditional
+    communication and gravitating towards more virtual means.  Being located in a
+    developing area should not mean that a student has underdeveloped virtual skills
+    in the new age of learning.  We aren’t providing them the tools, but taking a
+    very student-centric approach in teaching them how to become a global citizen.
+    \n"
   button:
     enable: true
-    label: Learn more
+    label: About Us
     link: about
 course:
   enable: true
