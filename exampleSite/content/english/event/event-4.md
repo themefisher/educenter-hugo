@@ -1,7 +1,7 @@
 ---
 title: Computer Lab Setup
 publishDate: '2019-01-01T00:00:00Z'
-date: 
+date: 2020-09-22T04:00:00+00:00
 bg_image: images/backgrounds/page-title.jpg
 description: ''
 image: images/events/event-3.jpg
