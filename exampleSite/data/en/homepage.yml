@@ -15,22 +15,29 @@ banner_feature:
   enable: true
   image: images/banner/banner-feature.png
   feature_item:
-  - name: Scholorship News
+  - name: What We Do
     icon: ti-book
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Our Notice Board
+    content: 'Provide children, who would not be exposed to technology otherwise,
+      an engaging learning experience to prepare them for a technology-driven world.
+
+'
+  - name: Who We Help
     icon: ti-blackboard
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Our Achievements
+    content: 'Students in underprivileged communities and teachers who have access
+      to technology but not the instruction.
+
+'
+  - name: Why
     icon: ti-agenda
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Admission Now
+    content: 'We’re a direct impact non-profit, working face-to-face with the students
+      and teachers at our doorstep to develop sustainable education solutions.
+
+'
+  - name: How you can help
     icon: ti-write
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
+    content: "Email us at ________ if you’ve got an idea of how you can help.  Though
+      donations are always needed (we are a registered non-profit, if you’re looking
+      for tax exemption information click here) \n"
 about:
   enable: true
   title: About Educenter
