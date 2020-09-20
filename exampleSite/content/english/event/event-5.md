@@ -5,8 +5,8 @@ date:
 bg_image: images/backgrounds/page-title.jpg
 description: ''
 image: images/events/event-1.jpg
-location: Dhanmondi, Dhaka
-fee: 'From: $699'
+location: ''
+fee: ''
 apply_url: "#"
 speaker:
 - name: Jack Mastio
