@@ -72,7 +72,9 @@
       <!-- teacher -->
       <div class="col-12">
         <h5 class="mb-3">{{ i18n "team" }}</h5>
-        {{ range where site.RegularPages "Title" (.Params.Team | title) }}
+        {{ $team := where site.RegularPages "Type" "team" }}
+        {{ $team := $team | intersect (where $team "Title" .Params.teacher )}}
+        {{ range $team }}
         <div class="d-flex justify-content-between align-items-center flex-wrap">
           <div class="media mb-2 mb-sm-0 align-items-center">
             <img class="mr-4 img-fluid teacher-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
@@ -80,14 +82,6 @@
               <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
               {{ .Params.Course }}
             </div>
-          </div>
-          <div class="social-link">
-            <h6 class="d-none d-sm-block text-right">{{ i18n "contact_info" }}</h6>
-            <ul class="list-inline">
-              {{ range .Params.Contact }}
-              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-              {{ end }}
-            </ul>
           </div>
         </div>
         {{ end }}

@@ -39,6 +39,7 @@
         </div>
       </div>
     </div>
+    {{ if .Params.Workshops }}
     <div class="row">
       <div class="col-12">
         <div class="">
@@ -52,28 +53,31 @@
         </div>
       </div>
     </div>
+    {{ end }}
 
   </div>
 
   <!-- courses -->
-
+  {{ $courses := first 3 (where site.RegularPages "Type" "course") }}
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
           <h2 class="mb-0 text-nowrap mr-3">Workshops</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          {{ if gt (len ($courses)) 3 }}
           <div>
             <a href="{{ `course` | relLangURL }}"
               class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
           </div>
+          {{ end }}
         </div>
       </div>
     </div>
     <!-- course list -->
     <div class="row justify-content-center">
       <!-- course item -->
-      {{ range first 3 (where site.RegularPages "Type" "course")}}
+      {{ range $courses }}
       <div class="col-lg-4 col-sm-6 mb-5">{{ .Render "course" }}</div>
       {{ end }}
     </div>

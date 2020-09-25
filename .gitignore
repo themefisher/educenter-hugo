@@ -9,3 +9,4 @@ builds
 package-lock.json
 public
 DS_Store
+resources/_gen
