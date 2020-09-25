@@ -3,7 +3,6 @@ apply_url = "https://www.meetup.com/DataWorkz/events/267316654/"
 bg_image = ""
 date = 2020-02-27T17:00:00Z
 description = "This evening DataWorkz and CodeBeez are hosting a meetup together with two interesting talks, one from CodeBeez and one from DataWorkz"
-draft = true
 fee = "free"
 image = "/images/screen-shot-2020-09-25-at-16-30-16.png"
 location = "Dataworkz offices"
