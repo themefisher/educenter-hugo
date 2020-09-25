@@ -4,22 +4,23 @@
 <section class="section">
   <div class="container">
     <div class="row">
-
-      <div class="text-center">
-        <figure>
-          {{ if .Params.Image }}
-          <img class="img-fluid mb-4" src="{{.Params.Image | relURL }}">
-          {{else if .Params.Email}}
-          <img class="rounded-circle img-fluid mb-4"
-            src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
-          {{ end }}
-          <figcaption>
-            <h3 class="font-weight-bold">
-              {{ .Title }}
-            </h3>
-            <h6 class="text-color">{{ .Params.Course }}</h6>
-          </figcaption>
-        </figure>
+      <div class="col-12 content">
+        <div class="text-center">
+          <figure>
+            {{ if .Params.Image }}
+            <img class="img-fluid mb-4" src="{{.Params.Image | relURL }}">
+            {{else if .Params.Email}}
+            <img class="rounded-circle img-fluid mb-4"
+              src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
+            {{ end }}
+            <figcaption>
+              <h3 class="font-weight-bold">
+                {{ .Title }}
+              </h3>
+              <h6 class="text-color">{{ .Params.Course }}</h6>
+            </figcaption>
+          </figure>
+        </div>
       </div>
       {{ if .Params.showContact }}
       <div class="col-md-6 mb-5">

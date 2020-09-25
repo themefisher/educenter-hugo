@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="section solutions">
-  <div class="container">
+  <div class="container  m-md-5">
     <div class="row">
       <div class="col-12">
         <div class="content">{{ .Content }}</div>
@@ -22,7 +22,8 @@
         </div>
       </div>
     </div>
-
+  </div>
+  <div class="container  m-md-5">
     <div class="row">
       <div class="col-12">
         <div class="">
@@ -39,12 +40,14 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="container  m-md-5">
     {{ if .Params.Workshops }}
     <div class="row">
       <div class="col-12">
         <div class="">
           <!-- course item -->
-          <h3 id="data-workshop">Data Workshops</h3>
+          <h3 id="data-workshoppen">Data Workshops</h3>
           <div class="row justify-content-center content">
             {{ range (where .Site.Pages "Params.focus" "workshop") }}
             {{ .Render "solutions" }}
@@ -59,18 +62,11 @@
 
   <!-- courses -->
   {{ $courses := first 3 (where site.RegularPages "Type" "course") }}
-  <div class="container">
+  <div class="container  m-md-5">
     <div class="row">
       <div class="col-12">
-        <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">Workshops</h2>
-          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-          {{ if gt (len ($courses)) 3 }}
-          <div>
-            <a href="{{ `course` | relLangURL }}"
-              class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
-          </div>
-          {{ end }}
+        <div class="">
+          <h3 id="data-workshop">Data Workshops</h3>
         </div>
       </div>
     </div>
