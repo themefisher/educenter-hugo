@@ -52,68 +52,95 @@ link = "plugins/scrollreveal/scrollreveal.min.js"
 
 # main menu
 [[menu.main]]
-name = "About"
-URL = "about"
+name = "Solutions"
+URL = "solutions"
 weight = 1
-
-[[menu.main]]
-name = "Workshops"
-URL = "course"
-weight = 2
-
-[[menu.main]]
-weight = 3
-name = "Pages"
 hasChildren = true
+footerDisplay = false
 
   [[menu.main]]
-  parent = "Pages"
-  name = "team"
-  URL = "team"
+  parent = "Solutions"
+  name = "Quick wins"
+  URL = "solutions#data-oplossingen"
 
   [[menu.main]]
-  parent = "Pages"
-  name = "event"
+  parent = "Solutions"
+  name = "Consulting"
+  URL = "solutions#data-consulting"
+
+  [[menu.main]]
+  parent = "Solutions"
+  name = "Workshops"
+  URL = "solutions#data-workshop"
+
+[[menu.main]]
+weight = 2
+name = "Insights"
+URL = "insights"
+footerDisplay = true
+
+  [[menu.main]]
+  parent = "Insights"
+  name = "Events"
   URL = "event"
 
   [[menu.main]]
-  parent = "Pages"
-  name = "career"
-  URL = "career"
+  parent = "Insights"
+  name = "Blogs"
+  URL = "blog"
 
 [[menu.main]]
-name = "blog"
-URL = "blog"
+name = "about"
+URL = "about"
 weight = 4
+footerDisplay = true
+
+  [[menu.main]]
+  parent = "about"
+  name = "Team"
+  URL = "team"
+
+  [[menu.main]]
+  parent = "about"
+  name = "Werken bij"
+  URL = "career"
   
 [[menu.main]]
 name = "Contact"
 URL = "contact"
 weight = 5
 
+[[menu.company]]
+name = "Insights"
+URL = "insights"
+weight = 1
+
+[[menu.company]]
+name = "Over"
+URL = "about"
+weight = 3
+
+[[menu.company]]
+name = "Contact"
+URL = "contact"
+weight = 5
 
 # footer menu
-
 [[menu.footer]]
-name = "team"
+name = "Team"
 URL = "team"
 
-#[[menu.footer]]
-#name = "notice"
-#URL = "notice"
-
 [[menu.footer]]
-name = "event"
+name = "Events"
 URL = "event"
 
 [[menu.footer]]
-name = "career"
+name = "Werken bij"
 URL = "career"
 
-
-#[[menu.footer]]
-#name = "research"
-#URL = "research"
+[[menu.footer]]
+name = "Blogs"
+URL = "blog"
 
 
 #################### default parameters ################################

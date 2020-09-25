@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Maatwerk oplossingen voor uw big data vraagstukken"
+    - title : "Maatwerk oplossingen voor uw data vraagstukken"
       content : "Data is voor bedrijven de belangrijkste onderscheidende factor geworden. Hiervoor heb je experts nodig. Wij hebben die data engineers, die begrijpen hoe je data technisch moet ontsluiten en de data scientists die de juiste informatie uit je data gaan halen."
       animation_in : ""
       animation_out : ""
@@ -31,7 +31,7 @@ banner_feature:
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Data Oplossingen"
+    - name : "Quick wins"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
       content : "Wij hebben quickwins voor typische problemen in de data wereld ontwikkeld. Herken je een uitdaging? Dan kunnen wij het voor jou oplossen met een concreet en afgebakken resultaat binnen meestal rond 2 weken."
       button:

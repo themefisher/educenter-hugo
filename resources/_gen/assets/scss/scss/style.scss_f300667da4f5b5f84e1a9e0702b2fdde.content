@@ -20,11 +20,11 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #ccc; }
+  color: #8c8c8c; }
 
 p, .paragraph {
   font-weight: 400;
-  color: #ccc;
+  color: #8c8c8c;
   font-size: 15px;
   line-height: 1.9;
   font-family: "Poppins", sans-serif; }
@@ -270,7 +270,7 @@ a h4:hover {
   color: #8CC63F !important; }
 
 .text-color {
-  color: #ccc; }
+  color: #8c8c8c; }
 
 .text-light {
   color: #8585a4 !important; }
@@ -388,7 +388,7 @@ textarea.form-control {
     .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
       border-radius: 0; }
     .pagination .page-item .page-link {
-      color: #ccc; }
+      color: #8c8c8c; }
 
 .content * {
   margin-bottom: 20px; }
@@ -444,7 +444,7 @@ textarea.form-control {
 
 .content blockquote p {
   margin-bottom: 0;
-  color: #ccc;
+  color: #8c8c8c;
   font-style: italic !important; }
 
 .content pre {
@@ -804,7 +804,7 @@ link:focus,
   display: block;
   padding: 5px 10px;
   background: #f8f9fe;
-  color: #ccc; }
+  color: #8c8c8c; }
   .tag-list a:hover {
     background-color: #8CC63F;
     color: #fff; }

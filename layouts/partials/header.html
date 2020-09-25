@@ -38,23 +38,23 @@
         <div class="collapse navbar-collapse text-center" id="navigation">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{ site.BaseURL | absLangURL }}">{{ site.Params.Home }}</a>
+              <a class="nav-link" href="{{ site.BaseURL | relLangURL }}">{{ site.Params.Home }}</a>
             </li>
             {{ range site.Menus.main }}
             {{ if .HasChildren }}
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+              <a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}">
                 {{ .Name }}
               </a>
               <div class="dropdown-menu">
                 {{ range .Children }}
-                <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                <a class="dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                 {{ end }}
               </div>
             </li>
             {{ else }}
             <li class="nav-item">
-              <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+              <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
             {{ end }}

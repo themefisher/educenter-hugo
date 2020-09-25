@@ -59,6 +59,13 @@ sections:
   templates:
   - solutions
 - type: heading
+  label: Insights
+- type: directory
+  path: content/english/insights
+  label: Insights (en)
+  create: all
+  match: "**/*"
+- type: heading
   label: Others Pages
 - type: directory
   path: content/english/about
