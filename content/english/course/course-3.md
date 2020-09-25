@@ -3,7 +3,7 @@ title: Wordt een Microsoft Certified Analytics expert
 date: 2019-07-06T15:27:17.000+06:00
 bg_image: images/backgrounds/page-title.jpg
 description: ''
-image: "/images/certifications_eric_berg-1024x580.png"
+image: "/images/azure-certification-path-2020.png"
 category: Data
 teacher: Maarten van Duren
 duration: ''
