@@ -1,14 +1,20 @@
 +++
-apply_url = ""
+apply_url = "https://www.meetup.com/DataWorkz/events/265404915/"
 bg_image = ""
 date = 2019-11-07T17:00:00Z
 description = ""
-draft = true
-fee = ""
-image = ""
-location = ""
-speaker = []
+fee = "free"
+image = "/images/rl-696x309.png"
+location = "Dataworkz offices"
 title = "Reinforcement and Transfer learning"
+[[speaker]]
+designation = ""
+image = ""
+name = "Olaf de Leeuw"
+[[speaker]]
+designation = ""
+image = ""
+name = "Maarten van Duren"
 
 +++
 Program:
