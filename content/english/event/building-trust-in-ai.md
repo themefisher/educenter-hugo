@@ -1,7 +1,7 @@
 +++
 apply_url = "https://www.meetup.com/DataWorkz/events/271213850/"
 bg_image = ""
-date = 2020-06-29T22:00:00Z
+date = 2020-09-30T16:00:00Z
 description = ""
 fee = "free"
 image = "/images/copy-of-dataworkz-ethics-meetup-banner-2.png"
