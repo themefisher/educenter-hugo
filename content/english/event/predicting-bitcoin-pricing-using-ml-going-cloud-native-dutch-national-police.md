@@ -6,8 +6,15 @@ description = ""
 fee = "free"
 image = "/images/bitcoin_btc_bulls_drukken_de_koers_nog_een_klein_stukje_verder_link_en_ada_nog_altijd_dik_in_de_plus.webp"
 location = "Dataworkz offices"
-speaker = []
 title = "Predicting bitcoin pricing using ML & going cloud native @Dutch national Police"
+[[speaker]]
+designation = ""
+image = ""
+name = "Arno Broekhof"
+[[speaker]]
+designation = ""
+image = ""
+name = "Olaf de Leeuw"
 
 +++
 During this meetup there will be two talks
