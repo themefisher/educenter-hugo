@@ -1,6 +1,6 @@
 +++
 apply_url = "https://www.meetup.com/DataWorkz/events/267699874/"
-bg_image = ""
+bg_image = "/images/screen-shot-2020-09-25-at-16-42-56.png"
 date = 2020-02-20T17:00:00Z
 description = "Would you like to know the future?\n\nYou can with time series - well almost!"
 fee = "free"
