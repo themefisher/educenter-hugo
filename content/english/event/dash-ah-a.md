@@ -6,8 +6,15 @@ description = "Join us on 11th of february for a meetup about Dash – who can b
 fee = "free"
 image = "/images/banner-dw-dash-meetup.jpg"
 location = "Dataworkz offices"
-speaker = []
 title = "Dash! Ah-a!"
+[[speaker]]
+designation = ""
+image = ""
+name = "Olaf de Leeuw"
+[[speaker]]
+designation = ""
+image = ""
+name = "Maarten van Duren"
 
 +++
 Join us on 11th of february for a meetup about Dash – who can be your hero when you are a Data Scientist in need of Visualisations for your Python models. You’ll get an intro with lots of live coding and a deep dive of how to apply Dash to the Virtual Power Plant project of Alliander. We are happy to host the meetup in our own location. Limited seats available, so please be fast.
