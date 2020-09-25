@@ -1,27 +1,13 @@
 ---
-title: "Solution Architecture Workshop "
-date: 2019-07-06T15:27:17+06:00
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : ""
-# course thumbnail
-image: "images/courses/course-1.jpg"
-# taxonomy
-category: "Data"
-# teacher
-teacher: "Martin"
-# duration
-duration : ""
-# weekly
-# weekly : ""
-# course fee
-# fee : "From: $699"
-# apply url
-apply_url : "/contact"
-# type
-type: "course"
----
+title: 'Solution Architecture Workshop '
+date: 2019-07-06T15:27:17.000+06:00
+bg_image: images/backgrounds/page-title.jpg
+description: ''
+image: "/images/banners-website.png"
+category: Data
+teacher: Martin
+duration: ''
+apply_url: "/contact"
 
+---
 Vele datastromen leiden naar Rome. Maar wat past bij jou? Wij bepalen samen de juiste Data architectuur voor jouw data stromen en maken een roadmap, waarmee je direct kan vertrekken
