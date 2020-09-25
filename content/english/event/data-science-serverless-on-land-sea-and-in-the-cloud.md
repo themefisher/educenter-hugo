@@ -1,13 +1,37 @@
 +++
-apply_url = ""
+apply_url = "https://www.meetup.com/DataWorkz/events/255762858/"
 bg_image = ""
 date = 2018-11-19T17:00:00Z
 description = ""
-fee = ""
+fee = "free"
 image = "/images/screen-shot-2020-09-25-at-17-23-26.png"
-location = ""
-speaker = []
+location = "Port of Rotterdam"
 title = "Data Science Serverless - on Land, Sea and in the cloud."
+type = ""
+[[speaker]]
+designation = ""
+image = ""
+name = "Jurriaan Biesheuvel"
+[[speaker]]
+designation = ""
+image = ""
+name = "Bogdan Ivtsjenko"
+[[speaker]]
+designation = ""
+image = ""
+name = "Krishna Balaram Singh"
+[[speaker]]
+designation = ""
+image = ""
+name = "Pieter van der Meer"
+[[speaker]]
+designation = ""
+image = ""
+name = "Arno Broekhof"
+[[speaker]]
+designation = ""
+image = ""
+name = "David J. Lopez Penha"
 
 +++
 Serverless on the sea: The port of Rotterdam is going hard to catch a front row in world wide port logistics using the newest serverless technologies in the cloud. In two talks you’ll learn how we process and handle this data to drive a couple of innovative data driven applications.
