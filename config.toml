@@ -154,7 +154,7 @@ address = "Tractieweg 41 studio N, 3534 AP Utrecht"
 mobile = "+31 (0)6 10 49 20 44"
 email = "info@dataworkz.nl"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/xleodbng" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
