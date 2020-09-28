@@ -8,11 +8,11 @@ description : ""
 # teacher portrait
 image: "images/team/martin_overview.jpg"
 # course
-course: "Management"
+course: "Support"
 # biography
 bio: ""
 # interest
-interest: ["management"]
+interest: ["support"]
 # contact info
 contact:
   # # contact item loop
