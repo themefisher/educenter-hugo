@@ -4,7 +4,7 @@ bg_image = ""
 date = 2019-09-19T16:00:00Z
 description = ""
 fee = "free"
-image = "/images/screen-shot-2020-09-25-at-17-11-25.png"
+image = "/images/screen-shot-2020-09-25-at-17-11-25.jpg"
 location = "Dataworkz offices"
 title = "You Only Look Once: from GraphQL to training a neural network"
 [[speaker]]

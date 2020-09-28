@@ -4,7 +4,7 @@ bg_image = ""
 date = 2020-02-27T17:00:00Z
 description = "This evening DataWorkz and CodeBeez are hosting a meetup together with two interesting talks, one from CodeBeez and one from DataWorkz"
 fee = "free"
-image = "/images/screen-shot-2020-09-25-at-16-30-16.png"
+image = "/images/screen-shot-2020-09-25-at-16-30-16.jpg"
 location = "Dataworkz offices"
 title = "From Pandas, Koalas and other Fauna to Train your AI to play a generic game"
 [[speaker]]

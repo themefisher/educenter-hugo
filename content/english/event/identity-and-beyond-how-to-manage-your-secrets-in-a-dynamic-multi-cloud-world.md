@@ -4,7 +4,7 @@ bg_image = ""
 date = 2018-10-04T16:00:00Z
 description = ""
 fee = "free"
-image = "/images/screen-shot-2020-09-25-at-17-27-43.png"
+image = "/images/screen-shot-2020-09-25-at-17-27-43.jpg"
 location = "Dataworkz offices"
 title = "Identity and Beyond & How to manage your secrets in a dynamic multi cloud world"
 [[speaker]]

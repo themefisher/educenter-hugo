@@ -4,7 +4,7 @@ bg_image = ""
 date = 2017-10-10T16:00:00Z
 description = ""
 fee = "free"
-image = "/images/quickly-search-for-information-online-980x551.png"
+image = "/images/quickly-search-for-information-online-980x551.jpg"
 location = "Dataworkz offices"
 title = "Elasticsearch war stories & Microservices at the Dutch National Police"
 [[speaker]]

@@ -4,7 +4,7 @@ bg_image = ""
 date = 2019-03-26T17:00:00Z
 description = ""
 fee = "free"
-image = "/images/screen-shot-2020-09-25-at-17-17-03.png"
+image = "/images/screen-shot-2020-09-25-at-17-17-03.jpg"
 location = "Dataworkz offices"
 title = "Machine Learning Insights into Google Brain and Dutch Cows"
 [[speaker]]

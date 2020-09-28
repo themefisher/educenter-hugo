@@ -4,7 +4,7 @@ bg_image = ""
 date = 2019-06-18T16:00:00Z
 description = ""
 fee = "free"
-image = "/images/screen-shot-2020-09-25-at-17-14-50.png"
+image = "/images/screen-shot-2020-09-25-at-17-14-50.jpg"
 location = "Dataworkz offices"
 title = "Data Science from idea to production - from your laptop to the cloud"
 [[speaker]]

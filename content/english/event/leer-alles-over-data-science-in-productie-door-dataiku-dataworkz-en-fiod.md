@@ -4,7 +4,7 @@ bg_image = ""
 date = 2020-02-04T17:00:00Z
 description = ""
 fee = "free"
-image = "/images/screen-shot-2020-09-25-at-16-45-34.png"
+image = "/images/screen-shot-2020-09-25-at-16-45-34.jpg"
 location = "Between Staffing"
 title = "Leer alles over data science in productie door Dataiku, DataWorkz en FIOD"
 [[speaker]]
