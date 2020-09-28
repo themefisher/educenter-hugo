@@ -4,9 +4,10 @@ bg_image = ""
 date = 2019-11-07T17:00:00Z
 description = ""
 fee = "free"
-image = "/images/rl-696x309.png"
+image = "/images/unknown-2"
 location = "Dataworkz offices"
 title = "Reinforcement and Transfer learning"
+type = ""
 [[speaker]]
 designation = ""
 image = ""
