@@ -1,17 +1,9 @@
 ---
-title: "Audit & Second Opinion"
-draft: false
-
-# about image
-image: "images/solutions/hero.jpg"
-
-# icon
-icon: "ti-eye"
-
+title: Audit & Second Opinion
+image: images/solutions/hero.jpg
+icon: ti-eye
 weight: 2
+focus: consulting
 
-focus: "consulting"
 ---
-
-Weet jij niet zeker of je de juiste keuze hebt gemaakt? Wij helpen je graag met een second opinion. Wij beloven, dat het
-nuttig zal zijn.
+Weet jij niet zeker of je de juiste keuze hebt gemaakt? Wij helpen je met onze experts graag met een second opinion. 
