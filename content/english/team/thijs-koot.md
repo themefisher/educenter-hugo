@@ -1,12 +1,13 @@
 +++
-bg_image = "/images/img_5218.JPG"
+bg_image = ""
 bio = ""
 contact = []
 course = ""
 description = ""
 draft = true
-image = ""
+image = "/images/img_5218.JPG"
 interest = []
 title = "Thijs Koot"
+type = ""
 
 +++
