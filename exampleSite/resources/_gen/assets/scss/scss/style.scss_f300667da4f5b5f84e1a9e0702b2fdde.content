@@ -90,10 +90,10 @@ h6, .h6 {
     transition: transform .2s ease-in-out;
     transform-origin: top;
     transform: scaleY(0); }
-  .btn:active, .btn:hover, .btn.focus, .btn.active {
+  .btn:active, .btn:hover, .btn.focus, .btn:focus, .btn.active {
     outline: 0;
     box-shadow: none !important; }
-    .btn:active::before, .btn:hover::before, .btn.focus::before, .btn.active::before {
+    .btn:active::before, .btn:hover::before, .btn.focus::before, .btn:focus::before, .btn.active::before {
       transform: scaleY(1);
       transform-origin: bottom; }
 
@@ -106,36 +106,36 @@ h6, .h6 {
   padding: 5px 15px; }
 
 .btn-primary {
-  background-color: #ffbc3b;
-  color: #fff; }
+  color: #fff;
+  background-color: #ffbc3b; }
   .btn-primary::before {
     background-color: #fff; }
-  .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
-    background-color: #ffab08;
-    border-color: #ffab08;
-    color: #ffbc3b; }
+  .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary.active {
+    color: #ffbc3b !important;
+    background-color: #ffab08 !important;
+    border-color: #ffab08 !important; }
 
 .btn-outline-primary {
-  border: 1px solid #ffbc3b;
   color: #ffbc3b;
-  background-color: transparent; }
+  background-color: transparent;
+  border: 1px solid #ffbc3b; }
   .btn-outline-primary::before {
     background-color: #fff; }
-  .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
-    background-color: #ffbc3b;
-    border-color: #ffbc3b;
-    color: #ffbc3b; }
+  .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary:focus, .btn-outline-primary.active {
+    color: #ffbc3b !important;
+    background-color: #ffbc3b !important;
+    border-color: #ffbc3b !important; }
 
 .btn-light {
-  background-color: #fff;
   color: #ffbc3b;
+  background-color: #fff;
   border: 1px solid #fff; }
   .btn-light::before {
     background-color: #ffbc3b; }
-  .btn-light:active, .btn-light:hover, .btn-light.focus, .btn-light.active {
-    background-color: #fff;
-    color: #fff;
-    border: 1px solid #fff; }
+  .btn-light:active, .btn-light:hover, .btn-light.focus, .btn-light:focus, .btn-light.active {
+    color: #fff !important;
+    background-color: #fff !important;
+    border: 1px solid #fff !important; }
 
 body {
   background-color: #fff;

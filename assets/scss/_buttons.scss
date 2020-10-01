@@ -29,6 +29,7 @@
   &:active,
   &:hover,
   &.focus,
+  &:focus,
   &.active {
     outline: 0;
     box-shadow: none !important;
@@ -51,8 +52,8 @@
 }
 
 .btn-primary {
-  background-color: $primary-color;
   color: $white;
+  background-color: $primary-color;
 
   &::before {
     background-color: $white;
@@ -61,17 +62,18 @@
   &:active,
   &:hover,
   &.focus,
+  &:focus,
   &.active {
-    background-color: darken($color: $primary-color, $amount: 10);
-    border-color: darken($color: $primary-color, $amount: 10);
-    color: $primary-color;
+    color: $primary-color !important;
+    background-color: darken($color: $primary-color, $amount: 10) !important;
+    border-color: darken($color: $primary-color, $amount: 10) !important;
   }
 }
 
 .btn-outline-primary {
-  border: 1px solid $primary-color;
   color: $primary-color;
   background-color: transparent;
+  border: 1px solid $primary-color;
 
   &::before {
     background-color: $white;
@@ -80,16 +82,17 @@
   &:active,
   &:hover,
   &.focus,
+  &:focus,
   &.active {
-    background-color: $primary-color;
-    border-color: $primary-color;
-    color: $primary-color;
+    color: $primary-color !important;
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
   }
 }
 
 .btn-light {
-  background-color: $white;
   color: $primary-color;
+  background-color: $white;
   border: 1px solid $white;
 
   &::before {
@@ -99,9 +102,10 @@
   &:active,
   &:hover,
   &.focus,
+  &:focus,
   &.active {
-    background-color: $white;
-    color: $white;
-    border: 1px solid $white;
+    color: $white !important;
+    background-color: $white !important;
+    border: 1px solid $white !important;
   }
 }
