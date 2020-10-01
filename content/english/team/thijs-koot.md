@@ -2,12 +2,11 @@
 bg_image = ""
 bio = ""
 contact = []
-course = ""
+course = "Data engineer"
 description = ""
 draft = true
 image = "/images/img_5218.JPG"
-interest = []
+interest = ["engineering"]
 title = "Thijs Koot"
-type = ""
 
 +++
