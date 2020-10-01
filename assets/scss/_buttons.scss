@@ -26,16 +26,12 @@
     transform: scaleY(0);
   }
 
-  &:focus {
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
     outline: 0;
     box-shadow: none !important;
-  }
-
-  &:active {
-    box-shadow: none;
-  }
-
-  &:hover {
 
     &::before {
       transform: scaleY(1);
@@ -55,74 +51,57 @@
 }
 
 .btn-primary {
-  background: $primary-color;
+  background-color: $primary-color;
   color: $white;
 
   &::before {
-    background: $white;
+    background-color: $white;
   }
 
-  &:active {
-    background: $primary-color !important;
-    color: $primary-color;
-
-    &::before {
-      height: 80%;
-    }
-  }
-
-  &:hover {
-    background: darken($color: $primary-color, $amount: 10);
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background-color: darken($color: $primary-color, $amount: 10);
+    border-color: darken($color: $primary-color, $amount: 10);
     color: $primary-color;
   }
 }
 
-.btn-primary:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active,
-.show>.btn-primary.dropdown-toggle {
-  color: $white;
-  background-color: darken($color: $primary-color, $amount: 10);
-  border-color: darken($color: $primary-color, $amount: 10);
+.btn-outline-primary {
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  background-color: transparent;
+
+  &::before {
+    background-color: $white;
+  }
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: $primary-color;
+  }
 }
 
-.btn-secondary {
-  background: $white;
+.btn-light {
+  background-color: $white;
   color: $primary-color;
   border: 1px solid $white;
 
   &::before {
-    background: $primary-color;
+    background-color: $primary-color;
   }
 
-  &:active {
-    background: $primary-color;
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background-color: $white;
     color: $white;
     border: 1px solid $white;
-  }
-
-  &:hover {
-    background: $white;
-    color: $white;
-    border: 1px solid $white;
-  }
-}
-
-.btn-primary-outline {
-  border: 1px solid $primary-color;
-  color: $primary-color;
-  background: transparent;
-
-  &::before {
-    background: $white;
-  }
-
-  &:hover {
-    background: $primary-color;
-    color: $primary-color;
-  }
-
-  &:active {
-    background: $primary-color;
-    color: $white;
   }
 }
