@@ -225,6 +225,7 @@ home = "Home"
 # copyright
 copyright = "Copyright &copy; 2020 by [kokkelaar](https://kokkelaar.nl)"
 
+# Custom mounts to be able to use files from the `static` dir as resources
 [module]
   [[module.mounts]]
     source = "content/dutch"
@@ -254,7 +255,7 @@ copyright = "Copyright &copy; 2020 by [kokkelaar](https://kokkelaar.nl)"
 
   [[module.mounts]]
     source = "static"
-    target = "assets/static"
+    target = "assets/static" # The crux of this piece of config
 
   [[module.mounts]]
     source = "i18n"
