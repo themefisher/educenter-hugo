@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "Dataworkz | Specialist in data science & data enginering"
+title = "Dataworkz | Specialist in data science & data engineering"
 theme = "educenter"
 # post pagination
 paginate = "6"
@@ -104,7 +104,7 @@ footerDisplay = true
   parent = "about"
   name = "Werken bij"
   URL = "career"
-  
+
 [[menu.main]]
 name = "Contact"
 URL = "contact"
@@ -147,7 +147,7 @@ URL = "blog"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Dataworkz is de specialist in data science & data enginering"
+description = "Dataworkz is de specialist in data science & data engineering"
 author = "Dataworkz BV."
 # contact info
 address = "Tractieweg 41 studio N, 3534 AP Utrecht"
@@ -180,7 +180,7 @@ map_latitude = "52.105107"
 map_longitude = "5.079772"
 map_marker = "images/marker.png" # marker size 37*55 px
 
-  
+
 ############################# social site ########################
 
 [[params.social]]
@@ -224,3 +224,42 @@ weight = 1
 home = "Home"
 # copyright
 copyright = "Copyright &copy; 2020 by [kokkelaar](https://kokkelaar.nl)"
+
+[module]
+  [[module.mounts]]
+    source = "content/dutch"
+    target = "content"
+    lang = "nl"
+
+  [[module.mounts]]
+    source = "content/english"
+    target = "content"
+    lang = "en"
+
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+  [[module.mounts]]
+    source = "static"
+    target = "assets/static"
+
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"
