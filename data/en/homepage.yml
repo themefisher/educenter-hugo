@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Maatwerk oplossingen voor uw data vraagstukken"
+    - title : "Maatwerk oplossingen voor data vraagstukken"
       content : "Data is voor bedrijven de belangrijkste onderscheidende factor geworden. Hiervoor heb je experts nodig. Wij hebben die data engineers, die begrijpen hoe je data technisch moet ontsluiten en de data scientists die de juiste informatie uit je data gaan halen."
       animation_in : ""
       animation_out : ""

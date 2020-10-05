@@ -1,5 +1,5 @@
 ---
-title: Spot on - Reduceer uw Cloud Data Processing kosten
+title: Spot on - Reduceer Cloud Data Processing kosten
 image: images/solutions/hero.jpg
 icon: ti-credit-card
 weight: 4
