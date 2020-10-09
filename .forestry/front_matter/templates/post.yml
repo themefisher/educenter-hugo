@@ -37,4 +37,5 @@ fields:
   default: post
 pages:
 - content/english/blog/patterns-for-making-your-inter-service-communication-more-resilient.md
+- content/english/insights/how-to-always-know-what-to-expect-from-your-data-copy.md
 - content/english/insights/how-to-always-know-what-to-expect-from-your-data.md
