@@ -36,6 +36,7 @@ fields:
   label: type
   default: post
 pages:
+- content/english/blog/dockerizing-your-development-environment.md
 - content/english/blog/how-to-always-know-what-to-expect-from-your-data.md
 - content/english/blog/patterns-for-making-your-inter-service-communication-more-resilient.md
 - content/english/blog/snowproc-extending-stored-procedures-with-typescript.md
