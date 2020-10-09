@@ -43,3 +43,4 @@ pages:
 - content/english/blog/overengineering-azure-vms-from-creation-to-connection.md
 - content/english/blog/patterns-for-making-your-inter-service-communication-more-resilient.md
 - content/english/blog/snowproc-extending-stored-procedures-with-typescript.md
+- content/english/blog/validating-terraform-plans-with-the-open-policy-agent.md
