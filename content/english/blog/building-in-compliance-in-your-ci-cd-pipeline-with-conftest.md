@@ -5,7 +5,7 @@ categories = []
 date = 2019-10-05T22:00:00Z
 description = ""
 image = "/images/opa-horizontal-color.png"
-tags = []
+tags = ["AWS", "CI/CD", "cloud", "Open Policy Agent"]
 title = "Building in compliance in your CI/CD pipeline with conftest"
 type = "post"
 
