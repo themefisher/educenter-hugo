@@ -4,7 +4,6 @@ bg_image = ""
 categories = ["Data Engineering"]
 date = ""
 description = ""
-draft = true
 image = "/images/1_5wuzu401frsbzmlohajgka.png"
 tags = ["CI/CD", "MLOPS", "CD4ML"]
 title = "How to always know what to expect from your data"
