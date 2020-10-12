@@ -2,7 +2,7 @@
 author = "Steven Vroonland"
 bg_image = ""
 categories = [""]
-date = 2020-10-05T22:00:00Z
+date = 2020-10-11T22:00:00Z
 description = "Networks are unreliable and peak loads are one of the major causes of failures. All this while your users expect your system to continue operating and be responsive. What can we do to make inter-service calls less prone to failures or peak loads and our systems more resilient?"
 image = "/images/streams.png"
 tags = ["Kafka", "microservices", "streaming"]
@@ -10,8 +10,6 @@ title = "Patterns for making your inter-service communication more resilient"
 type = "post"
 
 +++
-# Patterns for making your inter-service communication more resilient
-
 In a streaming data processing system, we frequently have to deal with:
 
 * a varying load of incoming events
