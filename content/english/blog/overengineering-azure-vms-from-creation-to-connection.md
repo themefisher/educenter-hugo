@@ -1,7 +1,7 @@
 +++
 author = "Thijs Koot"
 bg_image = ""
-categories = []
+categories = ["Data Engineering"]
 date = 2019-07-17T14:50:21Z
 description = ""
 image = "/images/1_1cez3tcvj-irys7b2thn7q.png"
