@@ -1,7 +1,7 @@
 +++
 author = "Lennard Eijsackers"
 bg_image = ""
-categories = []
+categories = ["Data Engineering"]
 date = 2020-02-22T23:00:00Z
 description = ""
 image = "/images/images.jpg"
