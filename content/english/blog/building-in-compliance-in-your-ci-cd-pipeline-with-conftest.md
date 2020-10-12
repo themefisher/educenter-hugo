@@ -1,7 +1,7 @@
 +++
 author = "Lennard Eijsackers"
 bg_image = ""
-categories = []
+categories = ["Data Engineering"]
 date = 2019-10-05T22:00:00Z
 description = ""
 image = "/images/opa-horizontal-color.png"
