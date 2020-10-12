@@ -1,7 +1,7 @@
 +++
 author = "Thijs Koot"
 bg_image = ""
-categories = []
+categories = ["Data Engineering"]
 date = 2019-12-05T23:00:00Z
 description = ""
 image = "/images/snowproc.png"
