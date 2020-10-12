@@ -5,7 +5,7 @@ categories = []
 date = 2020-10-08T22:00:00Z
 description = ""
 image = "/images/1_5wuzu401frsbzmlohajgka.png"
-tags = []
+tags = ["CI/CD", "MLOps", "CD4ML"]
 title = "How to always know what to expect from your data"
 type = "post"
 
