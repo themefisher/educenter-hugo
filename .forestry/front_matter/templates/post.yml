@@ -42,5 +42,6 @@ pages:
 - content/english/blog/how-to-always-know-what-to-expect-from-your-data.md
 - content/english/blog/overengineering-azure-vms-from-creation-to-connection.md
 - content/english/blog/patterns-for-making-your-inter-service-communication-more-resilient.md
+- content/english/blog/processing-covid-data-through-google-dataflow-in-scala.md
 - content/english/blog/snowproc-extending-stored-procedures-with-typescript.md
 - content/english/blog/validating-terraform-plans-with-the-open-policy-agent.md
