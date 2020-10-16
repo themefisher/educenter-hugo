@@ -15,5 +15,3 @@ In this article I will walk you through the processing of some Dutch COVID-19 da
 Why this combo? Because I wanted to learn more about Dataflow, from a quick comparison I much prefer the Scala API over the Java or Python API for Beam and Covid numbers are of course a very current topic and relatable for many people.
 
 [**Read more...**](https://medium.com/@svroonland/processing-covid-data-through-google-dataflow-in-scala-196ccbc3615d)
-
-test
