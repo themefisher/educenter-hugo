@@ -1,7 +1,7 @@
 +++
 author = "Steven Vroonland"
 bg_image = ""
-categories = []
+categories = ["Data Engineering", "Data Science"]
 date = 2020-10-15T22:00:00Z
 description = ""
 image = "/images/1_odwb4no2-zejjefssvhoa.png"
