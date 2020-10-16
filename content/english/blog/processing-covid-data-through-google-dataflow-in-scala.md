@@ -2,9 +2,8 @@
 author = "Steven Vroonland"
 bg_image = ""
 categories = []
-date = ""
+date = 2020-10-15T22:00:00Z
 description = ""
-draft = true
 image = "/images/1_odwb4no2-zejjefssvhoa.png"
 tags = ["machine learning", "Scala"]
 title = "Processing COVID data through Google Dataflow in Scala"
