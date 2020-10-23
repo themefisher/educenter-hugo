@@ -10,7 +10,7 @@ duration: ''
 apply_url: "/contact"
 
 ---
-Onze Microsoft gecertificeerde trainers nemen je mee in de Microsoft wereld van AI en ML. Van Azure fundamentals tot AI solutions – met onze 5 trainingen ben je klaar voor elke belangrijk certificatie op je weg naar een gecertificeerd Azure Data Scientist Associate of Azure AI Engineer Associate.
+Onze Microsoft gecertificeerde trainers nemen je mee in de Microsoft wereld van AI en ML. Van Azure fundamentals tot AI solutions – met onze 7 trainingen ben je klaar voor elke belangrijk certificatie op je weg naar een gecertificeerd Azure Data Scientist Associate, Azure AI Engineer Associate of Azure Solutions Architect Expert.
 
 ### **Microsoft Azure Fundamentals: 1 or 2 day training**
 
@@ -78,3 +78,38 @@ Students learn how to translate the vision from solution architects and work wit
 * Enhance your Bot with LUIS
 * Integrate Cognitive Service with Bots and Agents
 * For everyone with prerequisites: Programming skills, Azure Fundamentals knowledge
+
+### **Microsoft Azure Architect Technologies : 5 days**
+
+#### _Microsoft AZ-303 Exam : Microsoft Azure Architect Technologies_
+
+Students for this course gain subject matter expertise in designing and implementing solutions on Microsoft Azure. Aspects include concepts like compute, networking, data storage, and security.
+
+Students learn how to fulfil the responsibilities for an Azure Solutions Architect including advising stakeholders, translate business requirements into technical cloud solutions, and designing secure, scalable, and reliable cloud solutions.
+
+Students also learn about networking, virtualization, identity, security, business continuity, disaster recovery, data platform, budgeting, and governance. In addition, students learn how these aspects can impact the solution. Lastly, students learn how to use their Azure administration skills, as well as Azure development and DevOps processes knowledge.
+
+* Implementing and monitoring of Azure infrastructure
+* Security and solution management
+* Design and implement solutions for apps
+* Creating and deploying apps on various resources
+* Implement and manage data platforms
+* For everyone with prerequisites: Azure developers, experienced with application development on Azure, seeking to become a solutions architect
+
+### **Microsoft Azure Architect Design : 4 days**
+
+#### _Microsoft AZ-304 Exam : Microsoft Azure Architect Design_
+
+Students for this course gain subject matter expertise in designing and implementing solutions on Microsoft Azure. Aspects include concepts like compute, networking, data storage, and security.
+
+Students learn how to fulfil the responsibilities for an Azure Solutions Architect including advising stakeholders, translate business requirements into technical cloud solutions, and designing secure, scalable, and reliable cloud solutions.
+
+Students also learn about networking, virtualization, identity, security, business continuity, disaster recovery, data platform, budgeting, and governance. In addition, students learn how these aspects can impact the solution. Lastly, students learn how to use their Azure administration skills, as well as Azure development and DevOps processes knowledge.
+
+* Implementing and monitoring in Azure
+* Security and identity management
+* Deploying infrastructure in Azure
+* Implement and manage data platforms
+* Design business continuity
+* Design migration, integration, and disaster recovery
+* For everyone with prerequisites: Azure developers, experienced with application development on Azure, seeking to become a solutions architect
