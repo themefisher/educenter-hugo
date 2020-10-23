@@ -2,9 +2,8 @@
 author = "Maarten van Duren, Laurens Koppenol, Olaf de Leeuw"
 bg_image = ""
 categories = ["Data Engineering", "Data Science"]
-date = 2020-10-22T22:00:00Z
+date = 2020-10-23T10:00:00Z
 description = ""
-draft = true
 image = "/images/cd4ml_banner.jpg"
 tags = ["Machine Learning", "cloud", "CI/CD", "CD4ML"]
 title = "CD4ML: Ability to reproduce"
