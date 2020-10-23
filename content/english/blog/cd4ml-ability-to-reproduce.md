@@ -35,7 +35,7 @@ An excellent tool for model versioning is MLFlow. It can be used as a standalone
 
 ![](/images/cd4ml_azureml_model_list.jpg)
 
-> At ProRail, the organization responsible for managing the railroad network in The Netherlands, the image recognition team uses MLFlow and AzureML much like Barry. Trained models are put in a model repository which brings all the benefits described above. With those benefits, ProRail saves a lot of time and resources that comes with managing predictive models and instead spend that time and those resources on more valuable things. One of those things is a custom integration with Azure Databricks, enabling data scientists to monitor model training more closely. This enabled them to develop even better models and have more control over fine tuning the models to the specific needs of the use case. Ultimately, this results in data scientists spending more time and energy into developing and enhancing the model itself, resulting in more value to ProRail in less time.
+> **_At ProRail, the organization responsible for managing the railroad network in The Netherlands, the image recognition team uses MLFlow and AzureML much like Barry. Trained models are put in a model repository which brings all the benefits described above. With those benefits, ProRail saves a lot of time and resources that comes with managing predictive models and instead spend that time and those resources on more valuable things. One of those things is a custom integration with Azure Databricks, enabling data scientists to monitor model training more closely. This enabled them to develop even better models and have more control over fine tuning the models to the specific needs of the use case. Ultimately, this results in data scientists spending more time and energy into developing and enhancing the model itself, resulting in more value to ProRail in less time._**
 
 ## Data versioning
 
@@ -81,9 +81,9 @@ This algorithm ensures that subsequent runs always use the data files of the fir
 
 ### Data versioning of files in Azure Machine Learning
 
-> Always keep in mind to keep your data source connections safe and maintainable, whether you are using managed connections such as Datasets and Datastores or other types of connections. Despite being a highly managed service, Azure Machine Learning allows customization of the resources used underneath, opening up several networking and authorization options. This might even allow you to go as far as meeting your corporate security regulations, which are not often aimed at (public) cloud environments.
+> **_Always keep in mind to keep your data source connections safe and maintainable, whether you are using managed connections such as Datasets and Datastores or other types of connections. Despite being a highly managed service, Azure Machine Learning allows customization of the resources used underneath, opening up several networking and authorization options. This might even allow you to go as far as meeting your corporate security regulations, which are not often aimed at (public) cloud environments._**
 >
-> Want to know more about the security aspect of Azure Machine Learning? Stay tuned for the next episodes of CD4ML!
+> **_Want to know more about the security aspect of Azure Machine Learning? Stay tuned for the next episodes of CD4ML!_**
 
 ## CI/CD & Model building
 
@@ -101,7 +101,7 @@ The deployment of the developed models must be automated: Without automated depl
 
 ![](/images/cd4ml_devops_pipeline_run.jpg)
 
-> At ProRail, trained models are stored in a model repository. Next thing the image recognition team did was build a custom integration with Azure Databricks, enabling data scientists to deploy models from Databricks with a single push of a button. That deployment pipeline runs in Azure DevOps. There, the model itself and accompanying software are put through some final automated tests and checks to make sure the final machine learning application is guaranteed to work as expected and the deployment succeeds. Ultimately, this results in more stable and reliable applications, that can be deployed in way less time and effort. Which in turn enables updates to be developed and deployed much faster and thus delivering value to the business much faster.
+> **_At ProRail, trained models are stored in a model repository. Next thing the image recognition team did was build a custom integration with Azure Databricks, enabling data scientists to deploy models from Databricks with a single push of a button. That deployment pipeline runs in Azure DevOps. There, the model itself and accompanying software are put through some final automated tests and checks to make sure the final machine learning application is guaranteed to work as expected and the deployment succeeds. Ultimately, this results in more stable and reliable applications, that can be deployed in way less time and effort. Which in turn enables updates to be developed and deployed much faster and thus delivering value to the business much faster._**
 
 ## Conclusion
 
