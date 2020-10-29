@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{ $image := .Params.Image | printf "static/%s" | resources.Get }}
+{{ $image := $image.Resize "600x" }}
 
 <!-- teacher details -->
 <section class="section">
@@ -8,7 +10,7 @@
         <div class="text-center">
           <figure>
             {{ if .Params.Image }}
-            <img class="img-fluid mb-4" src="{{.Params.Image | relURL }}">
+            <img class="img-fluid mb-4" src="{{ $image.RelPermalink }}">
             {{else if .Params.Email}}
             <img class="rounded-circle img-fluid mb-4"
               src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
