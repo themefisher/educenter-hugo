@@ -10,6 +10,10 @@ title = "Using AI for asset detection"
 [[speaker]]
 designation = ""
 image = ""
+name = "Oscar van Hees"
+[[speaker]]
+designation = ""
+image = ""
 name = "Vicky Vercauteren"
 [[speaker]]
 designation = ""
