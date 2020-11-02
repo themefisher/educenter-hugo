@@ -37,7 +37,7 @@ Keywords: MaskR-CNN, Azure Machine Learning, Python
 **Talk 2: ProRail**  
 ProRail is responsible for the maintenance of more then 7000KM of railway roads throughout The Netherlands, so imagine the impact if one track gets broken! Currently the inspection of all these tracks is done manually.
 
-DataWorkz is helping ProRail to shift from manually inspecting the tracks to automatically determine if maintenance is needed by using state of the art Computer Vision and Deep Learning techniques. In this talk they will explain how.
+ProRail together with support from Dataworkz is  shifting from manually inspecting the tracks to automatically determine if maintenance is needed by using state of the art Computer Vision and Deep Learning techniques. In this talk they will explain how.
 
 **Speakers: Willem Bressers**
 
