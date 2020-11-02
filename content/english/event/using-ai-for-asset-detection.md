@@ -39,6 +39,6 @@ ProRail is responsible for the maintenance of more then 7000KM of railway roads 
 
 ProRail together with support from Dataworkz is  shifting from manually inspecting the tracks to automatically determine if maintenance is needed by using state of the art Computer Vision and Deep Learning techniques. In this talk they will explain how.
 
-**Speakers: Willem Bressers**
+**Speakers: Oscar van Hees & Willem Bressers**
 
 keywords: Azure, Machine Learning, Python
