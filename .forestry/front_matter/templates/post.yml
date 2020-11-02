@@ -37,12 +37,22 @@ fields:
   default: post
 pages:
 - content/english/blog/building-in-compliance-in-your-ci-cd-pipeline-with-conftest.md
+- content/english/blog/building-in-compliance-in-your-ci-cd-pipeline-with-conftest.md
+- content/english/blog/cd4ml-ability-to-reproduce.md
 - content/english/blog/cd4ml-ability-to-reproduce.md
 - content/english/blog/dockerizing-your-development-environment.md
+- content/english/blog/dockerizing-your-development-environment.md
+- content/english/blog/extending-conftest-with-plugins.md
 - content/english/blog/extending-conftest-with-plugins.md
 - content/english/blog/how-to-always-know-what-to-expect-from-your-data.md
+- content/english/blog/how-to-always-know-what-to-expect-from-your-data.md
+- content/english/blog/overengineering-azure-vms-from-creation-to-connection.md
 - content/english/blog/overengineering-azure-vms-from-creation-to-connection.md
 - content/english/blog/patterns-for-making-your-inter-service-communication-more-resilient.md
+- content/english/blog/patterns-for-making-your-inter-service-communication-more-resilient.md
+- content/english/blog/processing-covid-data-through-google-dataflow-in-scala.md
 - content/english/blog/processing-covid-data-through-google-dataflow-in-scala.md
 - content/english/blog/snowproc-extending-stored-procedures-with-typescript.md
+- content/english/blog/snowproc-extending-stored-procedures-with-typescript.md
+- content/english/blog/validating-terraform-plans-with-the-open-policy-agent.md
 - content/english/blog/validating-terraform-plans-with-the-open-policy-agent.md
