@@ -1,149 +1,112 @@
-################################# Slider #####################################
+---
 slider:
-  enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  enable: true
+  bg_image: images/banner/banner-1.jpg
   slider_item:
-    # slider item loop
-    - title : "Maatwerk oplossingen voor data vraagstukken"
-      content : "Data is voor bedrijven de belangrijkste onderscheidende factor geworden. Hiervoor heb je experts nodig. Wij hebben die data engineers, die begrijpen hoe je data technisch moet ontsluiten en de data scientists die de juiste informatie uit je data gaan halen."
-      animation_in : ""
-      animation_out : ""
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Neem contact op"
-        link : "contact"
-
-    # slider item loop
-    # - title : "Data is voor bedrijven de belangrijkste onderscheidende factor geworden"
-    #   content : "Wij helpen bedrijven hun concurrentie voor te blijven door dataplatforms, machine learning modellen en datagedreven oplossingen te realiseren. Hiervoor heb je experts nodig. Wij hebben die data engineers, die begrijpen hoe je data technisch moet ontsluiten en de data scientist die de juiste informatie uit je data gaan halen."
-    #   animation_in : "left"
-    #   animation_out : "right"
-    #   # available animation : left, right, up, down
-    #   button:
-    #     enable : false
-    #     label : "Neem contact op"
-    #     link : "contact"
-        
-############################### Banner feature ###############################
+  - title: Maatwerk oplossingen voor data vraagstukken
+    content: Data is voor bedrijven de belangrijkste onderscheidende factor geworden.
+      Hiervoor heb je experts nodig. Wij hebben die data engineers, die begrijpen
+      hoe je data technisch moet ontsluiten en de data scientists die de juiste informatie
+      uit je data gaan halen.
+    animation_in: ''
+    animation_out: ''
+    button:
+      enable: true
+      label: Neem contact op
+      link: contact
 banner_feature:
-  enable : true
-  image : "images/banner/banner-feature.png"
+  enable: true
+  image: images/banner/banner-feature.png
   feature_item:
-    # feature item loop
-    - name : "Quick wins"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Wij hebben quickwins voor typische problemen in de data wereld ontwikkeld. Herken je een uitdaging? Dan kunnen wij het voor jou oplossen met een concreet en afgebakken resultaat binnen meestal rond 2 weken."
-      button:
-        enable : true
-        label : "meer info"
-        link : "/solutions#data-oplossingen"
-
-    # feature item loop
-    - name : "Data workshops en Trainingen"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Van de eerste stappen in Python tot het maken van je eerste deep learning projecten. Met onze cursus nemen we je medewerkers mee in de nieuwe en spannende wereld van Data Science en Machine Learning."
-      button :
-        enable : true
-        label : "meer info"
-        link : "/solutions#data-workshop"
-
-    # feature item loop
-    - name : "Data consultancy"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Of het nu gaat om lange projecten of korte opdrachten. Met elke consultant krijg jij de kennis van heel Dataworkz tot jouw beschikking om state of the art data platformen of machine learning applicaties te ontwikkelen."
-      button :
-        enable : true
-        label : "meer info"
-        link : "/solutions#data-consulting"
-
-############################## about ##################################
+  - name: Quick wins
+    icon: ti-book
+    content: Wij hebben quickwins voor typische problemen in de data wereld ontwikkeld.
+      Herken je een uitdaging? Dan kunnen wij het voor jou oplossen met een concreet
+      en afgebakken resultaat binnen meestal rond 2 weken.
+    button:
+      enable: true
+      label: meer info
+      link: "/solutions#data-oplossingen"
+  - name: Data workshops en Trainingen
+    icon: ti-blackboard
+    content: Van de eerste stappen in Python tot het maken van je eerste deep learning
+      projecten. Met onze cursus nemen we je medewerkers mee in de nieuwe en spannende
+      wereld van Data Science en Machine Learning.
+    button:
+      enable: true
+      label: meer info
+      link: "/solutions#data-workshop"
+  - name: Data consultancy
+    icon: ti-agenda
+    content: Of het nu gaat om lange projecten of korte opdrachten. Met elke consultant
+      krijg jij de kennis van heel Dataworkz tot jouw beschikking om state of the
+      art data platformen of machine learning applicaties te ontwikkelen.
+    button:
+      enable: true
+      label: meer info
+      link: "/solutions#data-consulting"
 about:
-  enable : true
-  title : "Over Dataworkz"
-  image : "images/about/about-us.jpg"
-  content : "Het begon allemaal in de winter van 2016 met een onschuldig telefoontje en etentje met de huidige aandeelhouders. Het idee was snel geboren om een gave technische data club neer te zetten. Data wordt steeds belangrijker in het dagelijkse (werkend) leven. Van idee naar start was een mooie hectische periode maar voor ons was altijd belangrijk om de medewerkers centraal te stellen in de organisatie. Binding met je mensen en gave dingen doen bij klanten dat is de core van Dataworkz"
+  enable: true
+  title: Over Dataworkz
+  image: images/about/about-us.jpg
+  content: Het begon allemaal in de winter van 2016 met een onschuldig telefoontje
+    en etentje met de huidige aandeelhouders. Het idee was snel geboren om een gave
+    technische data club neer te zetten. Data wordt steeds belangrijker in het dagelijkse
+    (werkend) leven. Van idee naar start was een mooie hectische periode maar voor
+    ons was het altijd belangrijk om de medewerkers centraal te stellen in de organisatie.
+    Binding met je mensen en gave dingen doen bij klanten dat is de core van Dataworkz.
   button:
-    enable : true
-    label : "Meer zien van Dataworkz?"
-    link : "about"
-
-
-############################# Course ################################
+    enable: true
+    label: Meer zien van Dataworkz?
+    link: about
 course:
-  enable : true
-  title : "Onze workshops"
-  # course item comes from "content/**/course" folder.
-
-########################## Call to action ############################
+  enable: true
+  title: Onze workshops
 cta:
-  enable : false
-  subtitle : "Weten met welke klanten wij werken?"
-  title : "Onze klanten en partners"
+  enable: false
+  subtitle: Weten met welke klanten wij werken?
+  title: Onze klanten en partners
   button:
-    enable : true
-    label : "Meer zien"
-    link : "customers"
-
-
-########################## tech view #################################
+    enable: true
+    label: Meer zien
+    link: customers
 tech:
-  enable : false
-  subtitle : ""
-  title : "Onze keuzes voor technologie"
+  enable: false
+  subtitle: ''
+  title: Onze keuzes voor technologie
   button:
-    enable : false
-    label : "Meer zien"
-    link : "customers"
-
-
-######################## Success story #############################
+    enable: false
+    label: Meer zien
+    link: customers
 success_story:
-  enable : true
-  bg_image : "images/backgrounds/success-story.jpg"
-  title : "Wil je komen werken voor Dataworkz?"
-  content : "Wij zoeken gedreven Data Enthousiasts (Engineering en Science) die het verschil kunnen maken bij onze klanten. Professionals die het leuk vinden om in een jong bedrijf kansen te pakken en samen met vakgenoten te werken aan prestaties van formaat. Professionals die communicatief sterk zijn, in Agile projecten willen werken bij toonaangevende klanten, deel willen uitmaken van een leuk team van experts, graag kennis delen en beloond willen worden op hun waarde."
-  # video link
-  video_link : "https://www.youtube.com/watch?v=IdV4n4hgIRY"
+  enable: true
+  bg_image: images/backgrounds/success-story.jpg
+  title: Wil je komen werken voor Dataworkz?
+  content: Wij zoeken gedreven Data Enthousiasts (Engineering en Science) die het
+    verschil kunnen maken bij onze klanten. Professionals die het leuk vinden om in
+    een jong bedrijf kansen te pakken en samen met vakgenoten te werken aan prestaties
+    van formaat. Professionals die communicatief sterk zijn, in Agile projecten willen
+    werken bij toonaangevende klanten, deel willen uitmaken van een leuk team van
+    experts, graag kennis delen en beloond willen worden op hun waarde.
+  video_link: https://www.youtube.com/watch?v=IdV4n4hgIRY
   button:
-    enable : true
-    label : "Meer weten?"
-    link : "career"
-
-
-############################# event ################################
+    enable: true
+    label: Meer weten?
+    link: career
 event:
-  enable : true
-  title : "Komende events"
-  # event item comes from "content/**/event" folder.
-
-  
-########################### funfacts ############################
+  enable: true
+  title: Komende events
 funfacts:
-  enable : false
+  enable: false
   funfact_item:
-    # funfact item loop
-    - name : "TEACHERS"
-      count : "60"
-
-    # funfact item loop
-    - name : "COURSES"
-      count : "50"
-
-    # funfact item loop
-    - name : "STUDENTS"
-      count : "1000"
-
-    # funfact item loop
-    - name : "SATISFIED CLIENT"
-      count : "1400"
-
-# funfact is for about page
-
-
-
-############################# blog ################################
+  - name: TEACHERS
+    count: "60"
+  - name: COURSES
+    count: "50"
+  - name: STUDENTS
+    count: "1000"
+  - name: SATISFIED CLIENT
+    count: "1400"
 blog:
-  enable : true
-  title : "Laatste blogs"
-  # blog item comes from "content/**/blog" folder.
+  enable: true
+  title: Laatste blogs
