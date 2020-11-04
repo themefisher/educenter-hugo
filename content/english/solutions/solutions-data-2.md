@@ -12,7 +12,7 @@ Onze aanpak zorgt ervoor, dat bedrijven datavervuiling voorkomen aan de bron, na
 
 **Wij bouwen geautomatiseerde tests in jouw datapipeline, zodat er geen druppel vieze data meer binnen kan stromen.**
 
-**In rond 2 weken tijd** gaan wij met ondersteuning van jouw domein specialisten:
+**Binnen circa 2 weken tijd** gaan wij met ondersteuning van jouw domein specialisten:
 
 * een automatisch data test framework inbouwen in jouw bestaande data pipeline
 * één datapipeline volledig uitprogrammeren met automatische tests
