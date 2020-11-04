@@ -1,5 +1,5 @@
 ---
-title: Wordt een Microsoft Certified Azure expert
+title: Word een Microsoft Certified Azure expert
 date: 2019-07-06T15:27:17.000+06:00
 bg_image: images/backgrounds/page-title.jpg
 description: ''
