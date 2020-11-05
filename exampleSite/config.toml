@@ -2,6 +2,7 @@
 baseURL = "http://examplesite.org"
 title = "Educenter | hugo education template"
 theme = "educenter-hugo"
+themesDir = "../.."
 # post pagination
 paginate = "6"
 # post excerpt
