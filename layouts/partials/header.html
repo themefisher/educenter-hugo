@@ -44,17 +44,17 @@
             {{ if .HasChildren }}
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                {{ i18n .Name }}
+                {{ .Name }}
               </a>
               <div class="dropdown-menu">
                 {{ range .Children }}
-                <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                 {{ end }}
               </div>
             </li>
             {{ else }}
             <li class="nav-item">
-              <a class="nav-link" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+              <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
             {{ end }}

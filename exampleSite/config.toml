@@ -42,83 +42,6 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 link = "plugins/google-map/gmap.js"
 
 
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "About"
-URL = "about"
-weight = 1
-
-[[menu.main]]
-name = "course"
-URL = "course"
-weight = 2
-
-[[menu.main]]
-weight = 3
-name = "Pages"
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "teacher"
-  URL = "teacher"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "notice"
-  URL = "notice"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "event"
-  URL = "event"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "scholarship"
-  URL = "scholarship"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "research"
-  URL = "research"
-  
-[[menu.main]]
-name = "blog"
-URL = "blog"
-weight = 4
-  
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 5
-
-
-# footer menu
-
-[[menu.footer]]
-name = "teacher"
-URL = "teacher"
-
-[[menu.footer]]
-name = "notice"
-URL = "notice"
-
-[[menu.footer]]
-name = "event"
-URL = "event"
-
-[[menu.footer]]
-name = "scholarship"
-URL = "scholarship"
-
-[[menu.footer]]
-name = "research"
-URL = "research"
-
-
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
@@ -199,6 +122,85 @@ home = "Home"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 
 
+
+################### English navigation ####################
+
+# main menu
+[[Languages.en.menu.main]]
+name = "About"
+url = "about"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "course"
+url = "course"
+weight = 2
+
+[[Languages.en.menu.main]]
+weight = 3
+name = "Pages"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "Pages"
+  name = "teacher"
+  url = "teacher"
+
+  [[Languages.en.menu.main]]
+  parent = "Pages"
+  name = "notice"
+  url = "notice"
+
+  [[Languages.en.menu.main]]
+  parent = "Pages"
+  name = "event"
+  url = "event"
+
+  [[Languages.en.menu.main]]
+  parent = "Pages"
+  name = "scholarship"
+  url = "scholarship"
+
+  [[Languages.en.menu.main]]
+  parent = "Pages"
+  name = "research"
+  url = "research"
+  
+[[Languages.en.menu.main]]
+name = "blog"
+url = "blog"
+weight = 4
+  
+[[Languages.en.menu.main]]
+name = "Contact"
+url = "contact"
+weight = 5
+
+
+# footer menu
+
+[[Languages.en.menu.footer]]
+name = "teacher"
+url = "teacher"
+
+[[Languages.en.menu.footer]]
+name = "notice"
+url = "notice"
+
+[[Languages.en.menu.footer]]
+name = "event"
+url = "event"
+
+[[Languages.en.menu.footer]]
+name = "scholarship"
+url = "scholarship"
+
+[[Languages.en.menu.footer]]
+name = "research"
+url = "research"
+
+
+
 ################################### French language #####################################
 [Languages.fr]
 languageName = "Fr"
@@ -208,3 +210,81 @@ weight = 2
 home = "Accueil"
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+
+
+
+################### French navigation ####################
+
+# main menu
+[[Languages.fr.menu.main]]
+name = "À propos"
+url = "about"
+weight = 1
+
+[[Languages.fr.menu.main]]
+name = "Cours"
+url = "course"
+weight = 2
+
+[[Languages.fr.menu.main]]
+weight = 3
+name = "Pages"
+hasChildren = true
+
+  [[Languages.fr.menu.main]]
+  parent = "Pages"
+  name = "teacher"
+  url = "teacher"
+
+  [[Languages.fr.menu.main]]
+  parent = "Pages"
+  name = "notice"
+  url = "notice"
+
+  [[Languages.fr.menu.main]]
+  parent = "Pages"
+  name = "Évènement"
+  url = "event"
+
+  [[Languages.fr.menu.main]]
+  parent = "Pages"
+  name = "Cursus"
+  url = "scholarship"
+
+  [[Languages.fr.menu.main]]
+  parent = "Pages"
+  name = "research"
+  url = "research"
+  
+[[Languages.fr.menu.main]]
+name = "blog"
+url = "blog"
+weight = 4
+  
+[[Languages.fr.menu.main]]
+name = "Contact"
+url = "contact"
+weight = 5
+
+
+# footer menu
+
+[[Languages.fr.menu.footer]]
+name = "teacher"
+url = "teacher"
+
+[[Languages.fr.menu.footer]]
+name = "notice"
+url = "notice"
+
+[[Languages.fr.menu.footer]]
+name = "event"
+url = "event"
+
+[[Languages.fr.menu.footer]]
+name = "scholarship"
+url = "scholarship"
+
+[[Languages.fr.menu.footer]]
+name = "research"
+url = "research"
