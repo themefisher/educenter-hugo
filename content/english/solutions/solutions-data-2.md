@@ -15,5 +15,5 @@ Onze aanpak zorgt ervoor, dat bedrijven datavervuiling voorkomen aan de bron, na
 **Binnen circa 2 weken tijd** gaan wij met ondersteuning van jouw domein specialisten:
 
 * een automatisch data test framework inbouwen in jouw bestaande data pipeline;
-* één datapipeline volledig uitprogrammeren met automatische tests;
+* één datapipeline volledig programmeren met automatische tests;
 * en je in workshops van alle nodige kennis voorzien, zodat jij de rest van jouw data pipelines zelf kan (test)automatiseren.
