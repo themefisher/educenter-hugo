@@ -2,7 +2,7 @@
 title: Continuous Delivery for Machine Learning (CD4ML)
 image: images/solutions/hero.jpg
 icon: ti-loop
-weight: 3
+weight: 2
 focus: solutions
 
 ---
