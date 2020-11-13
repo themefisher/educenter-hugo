@@ -22,3 +22,5 @@ fields:
   name: weight
   label: weight
   description: order
+pages:
+- content/english/solutions/clean-code-for-data-scienctists.md
