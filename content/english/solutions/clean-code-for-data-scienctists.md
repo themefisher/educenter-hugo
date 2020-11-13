@@ -1,6 +1,6 @@
 +++
 focus = "solutions"
-icon = ""
+icon = "ti-paragraph"
 image = "/images/clean-code-banner.png"
 title = "Clean code for data scienctists"
 weight = 3
