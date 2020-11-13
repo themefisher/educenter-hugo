@@ -3,7 +3,7 @@ focus = "solutions"
 icon = "ti-paragraph"
 image = "/images/clean-code-banner.png"
 title = "Clean code for data scienctists"
-weight = 3
+weight = 2
 
 +++
 Data Scientists opereren steeds meer in een wereld die verder reikt dan hun lokale 'eiland' van RStudio of Jupyter notebooks. Vanuit de business is behoefte om de getrainde modellen in de productie-omgeving van het bedrijf op te nemen. De code begint hiermee aan een lang leven buiten de notebook, waarin deze veranderd en onderhouden zal worden door andere data scientists.
