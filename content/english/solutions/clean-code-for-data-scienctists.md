@@ -1,5 +1,5 @@
 +++
-focus = ""
+focus = "solutions"
 icon = ""
 image = "/images/clean-code-banner.png"
 title = "Clean code for data scienctists"
