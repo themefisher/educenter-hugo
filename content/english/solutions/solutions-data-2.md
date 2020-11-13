@@ -1,7 +1,7 @@
 ---
 title: No more messy data
 image: images/solutions/hero.jpg
-weight: 2
+weight: 1
 icon: ti-trash
 focus: solutions
 
