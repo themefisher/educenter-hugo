@@ -156,7 +156,7 @@ email = "info@dataworkz.nl"
 # contact form action
 contact_form_action = "https://formspree.io/xleodbng" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "" # your id
+google_analitycs_id = "G-3PG6NYRP8M" # your id
 # top header
 top_header = false
 
