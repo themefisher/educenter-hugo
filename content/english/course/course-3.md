@@ -61,9 +61,9 @@ Students gain knowledge of data science and machine learning and how to implemen
 * Monitoring Models
 * For everyone with prerequisites: Programming skills, Azure Fundamentals knowledge
 
-### **Designing and Implementing an Azure AI Solution : 3 days**
+### **Designing and Implementing an Azure AI Solution : 5 days**
 
-#### _Microsoft AI-100 Certificate : Azure AI Engineer Associate_
+#### _Microsoft AI-102 Certificate : Azure AI Engineer Associate_
 
 Students for this course gain subject matter expertise using cognitive services, machine learning, and knowledge mining to architect and implement Microsoft AI solutions involving natural language processing, speech, computer vision, and conversational AI.
 
