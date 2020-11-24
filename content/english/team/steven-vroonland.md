@@ -1,5 +1,5 @@
 +++
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image = "images/backgrounds/page-title.jpg"
 bio = ""
 contact = []
 course = "Data engineer"
@@ -7,7 +7,6 @@ description = ""
 image = "/images/img_5426.JPG"
 interest = ["engineer"]
 title = "Steven Vroonland"
-
 type = "team"
 
 +++
