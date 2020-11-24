@@ -5,7 +5,7 @@ contact = []
 course = "Data engineer"
 description = ""
 image = "/images/img_5426.JPG"
-interest = ["Data engineer"]
+interest = ["engineer"]
 title = "Steven Vroonland"
 
 +++
