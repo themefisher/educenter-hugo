@@ -8,6 +8,8 @@ image = "/images/img_5426.JPG"
 interest = ["engineer"]
 title = "Steven Vroonland"
 
+type = "team"
+
 +++
 
 **Helm:** gelukkig nog nooit echt nodig gehad bij het gravelbiken
