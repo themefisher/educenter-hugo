@@ -1,5 +1,5 @@
 +++
-bg_image = ""
+bg_image: "images/backgrounds/page-title.jpg"
 bio = ""
 contact = []
 course = "Data engineer"
