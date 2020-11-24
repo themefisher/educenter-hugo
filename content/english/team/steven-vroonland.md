@@ -9,14 +9,15 @@ interest = ["engineer"]
 title = "Steven Vroonland"
 
 +++
-**Helm:** gelukkig nog nooit echt nodig gehad bij het gravelbiken 
+
+**Helm:** gelukkig nog nooit echt nodig gehad bij het gravelbiken
 
 **Plectrum:** voor een snerpend elektrische gitaarsolootje draai ik mijn hand niet om
 
 **Schoenen:** klimschoenen bij een van mijn favoriete hobby's: boulderen
 
-**Bladmuziek:** een van de klassieke stukken (Rachmaninov) die ik speel op piano  
-  
+**Bladmuziek:** een van de klassieke stukken (Rachmaninov) die ik speel op piano
+
 **Racket:** squash is een fantastisch explosieve sport
 
 **Reisgids:** ik reis graag, Hong Kong heb ik bijzondere herinneringen aan
