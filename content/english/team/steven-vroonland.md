@@ -2,10 +2,10 @@
 bg_image = ""
 bio = ""
 contact = []
-course = ""
+course = "Data engineer"
 description = ""
 image = "/images/img_5426.JPG"
-interest = []
+interest = ["Data engineer"]
 title = "Steven Vroonland"
 
 +++
