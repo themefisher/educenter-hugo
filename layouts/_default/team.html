@@ -1,5 +1,5 @@
 {{ $image := .Params.Image | printf "static/%s" | resources.Get }}
-{{ $image := $image.Resize "600x" }}
+{{ $image := $image.Resize "600x337" }}
 
 <div class="card border-0 rounded-0 hover-shadow mb-5">
     <img class="card-img-top rounded-0" src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
