@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-12 mb-4">
         <!-- course thumb -->
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
+        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}"
           class="img-fluid w-100">
       </div>
     </div>
@@ -65,7 +65,7 @@
         {{ range where site.RegularPages "Title" (.Params.Teacher | title) }}
         <div class="d-flex justify-content-between align-items-center flex-wrap">
           <div class="media mb-2 mb-sm-0 align-items-center">
-            <img class="mr-4 img-fluid teacher-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+            <img class="mr-4 img-fluid teacher-thumb-sm" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
             <div class="media-body">
               <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
               {{ .Params.Course }}

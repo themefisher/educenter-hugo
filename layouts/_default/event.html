@@ -1,6 +1,6 @@
 <div class="card border-0 rounded-0 hover-shadow">
   <div class="card-img position-relative">
-    <img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+    <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
     <div class="card-date"><span>{{ .Date.Format "02" }}</span><br>{{ .Date.Format "Jan" }}</div>
   </div>
   <div class="card-body">
