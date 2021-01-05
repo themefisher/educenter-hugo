@@ -10,11 +10,11 @@ duration: ''
 apply_url: "/contact"
 
 ---
-Onze Microsoft gecertificeerde trainers nemen je mee in de Microsoft wereld van AI en ML. Van Azure fundamentals tot AI solutions – met onze 7 trainingen ben je klaar voor elke belangrijk certificatie op je weg naar een gecertificeerd Azure Data Scientist Associate, Azure AI Engineer Associate of Azure Solutions Architect Expert.
+Onze Microsoft gecertificeerde trainers nemen je mee in de Microsoft wereld van AI en ML. Van Azure fundamentals tot AI solutions – met onze 9 trainingen ben je klaar voor elke belangrijk certificatie op je weg naar een gecertificeerd **Azure Data Scientist Associate,** **Azure Data Engineer Associate**, **Azure AI Engineer Associate** of **Azure Architect Expert**.
 
 ### **Microsoft Azure Fundamentals: 1 or 2 day training**
 
-#### _Microsoft AZ-900 Certificate : Microsoft Azure Fundamentals_
+#### _prepares for Microsoft AZ-900 Certificate : Microsoft Azure Fundamentals_
 
 Students for this course gain foundational knowledge of cloud services and how those services are provided with Microsoft Azure.
 
@@ -30,7 +30,7 @@ This course is intended for people beginning to work with cloud-based solutions 
 
 ### **Microsoft Azure AI Fundamentals : 1 day**
 
-#### _Microsoft AI-900 Certificate : Azure AI Fundamentals_
+#### _prepares for Microsoft AI-900 Certificate : Azure AI Fundamentals_
 
 Students for this course gain foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts, both related to Microsoft Azure services.
 
@@ -45,14 +45,14 @@ This course is an opportunity to gain knowledge of common ML and AI workloads an
 
 ### **Designing and Implementing an Azure Data Science Solution : 3 days**
 
-#### _Microsoft DP-100 Certificate : Azure Data Scientist Associate_
+#### _prepares for Microsoft DP-100 Certificate : Azure Data Scientist Associate_
 
 Students gain knowledge of data science and machine learning and how to implement and run machine learning workloads on Azure; in particular, using Azure Machine Learning Service. This entails planning and creating a suitable working environment for data science workloads on Azure, running data experiments and training predictive models, managing and optimizing models, and deploying machine learning models into production.
 
-* Introduction to Azure Machine Learning
-* “No-code” Machine Learning with Designer
-* Running Experiments and Training Models
-* Working with Data
+* Inleiding tot Azure Machine Learning
+* "No-code" Machine Learning met Designer
+* Experimenten en trainingsmodellen uitvoeren
+* Werken met gegevens
 * Compute Contexts
 * Orchestrating Operations with Pipelines
 * Deploying and Consuming Models
@@ -61,9 +61,9 @@ Students gain knowledge of data science and machine learning and how to implemen
 * Monitoring Models
 * For everyone with prerequisites: Programming skills, Azure Fundamentals knowledge
 
-### **Designing and Implementing an Azure AI Solution : 5 days**
+### **Ontwerpen en implementeren van een Azure AI-oplossing: 5 dagen**
 
-#### _Microsoft AI-102 Certificate : Azure AI Engineer Associate_
+#### _prepares for Microsoft AI-102 Certificate : Azure AI Engineer Associate_
 
 Students for this course gain subject matter expertise using cognitive services, machine learning, and knowledge mining to architect and implement Microsoft AI solutions involving natural language processing, speech, computer vision, and conversational AI.
 
@@ -81,7 +81,7 @@ Students learn how to translate the vision from solution architects and work wit
 
 ### **Microsoft Azure Architect Technologies : 5 days**
 
-#### _Microsoft AZ-303 Exam : Microsoft Azure Architect Technologies_
+#### _prepares for Microsoft AZ-303 Exam : Microsoft Azure Architect Technologies_
 
 Students for this course gain subject matter expertise in designing and implementing solutions on Microsoft Azure. Aspects include concepts like compute, networking, data storage, and security.
 
@@ -98,7 +98,7 @@ Students also learn about networking, virtualization, identity, security, busine
 
 ### **Microsoft Azure Architect Design : 4 days**
 
-#### _Microsoft AZ-304 Exam : Microsoft Azure Architect Design_
+#### _prepares for Microsoft AZ-304 Exam : Microsoft Azure Architect Design_
 
 Students for this course gain subject matter expertise in designing and implementing solutions on Microsoft Azure. Aspects include concepts like compute, networking, data storage, and security.
 
@@ -113,3 +113,36 @@ Students also learn about networking, virtualization, identity, security, busine
 * Design business continuity
 * Design migration, integration, and disaster recovery
 * For everyone with prerequisites: Azure developers, experienced with application development on Azure, seeking to become a solutions architect
+
+### **Implementing** **an Azure Data Solution:** **3** **days**
+
+#### _prepares for the Microsoft_ _DP-200_ _Exam : Azure Data Engineer_ _Associate_
+
+In this course, the students will implement various data platform technologies into solutions that are in line with business and technical requirements including on-premises, cloud, and hybrid data scenarios incorporating both relational and No-SQL data. They will also learn how to process data using a range of technologies and languages for both streaming and batch data.
+
+The students will also explore how to implement data security including authentication, authorization, data policies and standards. They will also define and implement data solution monitoring for both the data storage and data processing activities. Finally, they will manage and troubleshoot Azure data solutions which includes the optimization and disaster recovery of big data, batch processing and stream- ing data solutions.
+
+* Introduction Azure for the Data Engineer
+* Working with Data Storage
+* Enabling Team Based Data Science with Azure Databricks
+* Building Globally Distributed Data- base with Azure Cosmos DB
+* Working with Relational Data Stores in the cloud
+* Performing Real-Time Analytics with Stream Analytics
+* Orchestrating Data Movement with Azure Data Factory
+* Securing Azure Data Platforms
+* Monitoring and Troubleshooting Data Storage and processing
+
+### **Designing** **an Azure Data Solution:** **2** **days**
+
+#### _prepares for Microsoft_ _DP-201_ _Exam : Azure Data Engineer_ _Associate_
+
+In this course, the students will design various data platform technologies into solutions that are in line with business and technical requirements. This can include on-premises, cloud, and hybrid data scenarios which incorporate relational, No-SQL or Data Warehouse data. They will also learn how to design process architectures using a range of technologies for both streaming and batch data.
+
+The students will also explore how to design data security including data access, data policies and standards. They will also design Azure data solutions which includes the optimization, availability and disaster recovery of big data, batch processing and streaming data solutions.
+
+* Architecture Considerations
+* Azure Batch Processing Reference Architectures
+* Azure Real-Time Reference Architectures
+* Security Design Considerations
+* Designing for Scale and Resiliency
+* Design for Efficiency and Operations
