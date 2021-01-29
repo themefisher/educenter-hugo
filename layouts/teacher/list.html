@@ -21,7 +21,7 @@
     <!-- teacher list -->
     <div class="row filtr-container">
       <!-- teacher -->
-      {{ range .Data.Pages }}
+      {{ range .Data.Pages.ByWeight }}
       <div data-category="{{ .Params.Course | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
         {{ .Render "teacher" }}
       </div>
