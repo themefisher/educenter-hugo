@@ -10,7 +10,7 @@ duration: ''
 apply_url: "/contact"
 
 ---
-Onze Microsoft gecertificeerde trainers nemen je mee in de Microsoft wereld van AI en ML. Van Azure fundamentals tot AI solutions – met onze 9 trainingen ben je klaar voor elke belangrijk certificatie op je weg naar een gecertificeerd **Azure Data Scientist Associate,** **Azure Data Engineer Associate**, **Azure AI Engineer Associate** of **Azure Architect Expert**.
+Onze Microsoft gecertificeerde trainers nemen je mee in de Microsoft wereld van AI en ML. Van Azure fundamentals tot AI solutions – met onze 9 trainingen ben je klaar voor elke belangrijk certificatie op je weg naar een gecertificeerd **Azure Data Scientist Associate,** **Azure Data Engineer Associate**, **Azure AI Engineer Associate** of **Azure Solutions Architect Expert**.
 
 ### **Microsoft Azure Fundamentals: 1 or 2 day training**
 
@@ -49,10 +49,10 @@ This course is an opportunity to gain knowledge of common ML and AI workloads an
 
 Students gain knowledge of data science and machine learning and how to implement and run machine learning workloads on Azure; in particular, using Azure Machine Learning Service. This entails planning and creating a suitable working environment for data science workloads on Azure, running data experiments and training predictive models, managing and optimizing models, and deploying machine learning models into production.
 
-* Inleiding tot Azure Machine Learning
-* "No-code" Machine Learning met Designer
-* Experimenten en trainingsmodellen uitvoeren
-* Werken met gegevens
+* Introduction to Azure Machine Learning
+* "No-code" Machine Learning with Designer
+* Experiments and training models
+* Work with data
 * Compute Contexts
 * Orchestrating Operations with Pipelines
 * Deploying and Consuming Models
@@ -61,7 +61,7 @@ Students gain knowledge of data science and machine learning and how to implemen
 * Monitoring Models
 * For everyone with prerequisites: Programming skills, Azure Fundamentals knowledge
 
-### **Ontwerpen en implementeren van een Azure AI-oplossing: 5 dagen**
+### **Designing and Implementing a Microsoft Azure AI solution : 4 days**
 
 #### _prepares for Microsoft AI-102 Certificate : Azure AI Engineer Associate_
 
