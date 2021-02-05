@@ -11,7 +11,7 @@ title = "Tim de Klijn"
 
 +++
 * **Uiltje Speciaal Bier**: Speciaal bier, hoe vreemder hoe beter. Festivals, kroegen en thuis.
-* **(klein) bierglas**: bier festivals, heerlijk.
+* **(klein) bierglas:** bierfestivals, heerlijk.
 * **Lowlands bandje**: Muziek festivals, elk jaar minstens 1, 17 keer Lowlands gedaan.
 * **(e)Lezer**: Boekjes lezen, vooral fantasie.
 * **Illy koffie**: Koffie om de dag door te komen.
