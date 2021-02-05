@@ -2,7 +2,7 @@
 bg_image = ""
 bio = ""
 contact = []
-course = "Data Scientist"
+course = "Data scientist"
 description = ""
 draft = true
 image = "/images/foto-website-tim-de-klijn.jpg"
@@ -10,3 +10,11 @@ interest = []
 title = "Tim de Klijn"
 
 +++
+* **Uiltje Speciaal Bier**: Speciaal bier, hoe vreemder hoe beter. Festivals, kroegen en thuis.
+* **(klein) bierglas**: Bier festivals, heerlijk.
+* **Lowlands bandje**: Muziek festivals, elk jaar minstens 1, 17 keer Lowlands gedaan.
+* **(e)Reader**: Boekjes lezen, vooral fantasy.
+* **Illy koffie**: Koffie om de dag door te komen.
+* **Utrecht kalender**: Geboren en getogen in "me stadsie".
+* **Wielren schoen**: Lekker fietsen (als het mooi weer is).
+* **PS5 controller**: Gamen, op de bank, pc's zijn voor werk.
