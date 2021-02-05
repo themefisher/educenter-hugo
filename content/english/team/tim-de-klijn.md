@@ -2,7 +2,7 @@
 bg_image = ""
 bio = ""
 contact = []
-course = "Data science "
+course = "Data science"
 description = ""
 image = "/images/foto-website-tim-de-klijn.jpg"
 interest = ["Wetenschap"]
