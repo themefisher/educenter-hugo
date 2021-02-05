@@ -6,7 +6,7 @@ course = "Data scientist"
 description = ""
 draft = true
 image = "/images/foto-website-tim-de-klijn.jpg"
-interest = []
+interest = ["Wetenschap"]
 title = "Tim de Klijn"
 
 +++
