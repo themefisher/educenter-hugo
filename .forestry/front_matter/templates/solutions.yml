@@ -8,7 +8,7 @@ fields:
 - name: image
   type: file
   config:
-    maxSize: 250
+    maxSize: 3
   label: image
 - type: text
   name: focus
