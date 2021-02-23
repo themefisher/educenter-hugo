@@ -7,6 +7,7 @@ fee = ""
 image = "/images/screen-shot-2021-02-23-at-09-04-21.png"
 location = "virtual via the Dataworkz meetup group"
 title = "Workflow engines for a data driven world"
+type = ""
 [[speaker]]
 designation = ""
 image = ""
@@ -21,6 +22,8 @@ The evolution of data engineering pipelines has given rise to a new generation o
 Evolving from simple cron jobs scheduling recurring jobs, we have seen the birth of orchestration tools based on Directed Acyclic Graphs (DAG) like Airflow. But with the coming of data-centric organizations orchestrating static workflows on a fixed schedule is not enough anymore. How do we support data science workflows in ML pipelines where we need to pass data from one task to another? How do we cope with event driven or serverless architectures, or anything that does not fit into the logic of batch processing?
 
 In this meetup we introduce two next generation workflow tools, that allow for the needed sophistication in our new data driven IT world.
+
+_Both talks will be in English._ 
 
 **18:30 Talk 1: Argo**
 
