@@ -1,11 +1,11 @@
 +++
-apply_url = ""
+apply_url = "https://www.meetup.com/DataWorkz/events/276189719/"
 bg_image = ""
 date = 2021-03-16T17:30:00Z
 description = "Data engineering"
 fee = ""
 image = "/images/screen-shot-2021-02-23-at-09-04-21.png"
-location = ""
+location = "virtual via the Dataworkz meetup group"
 title = "Workflow engines for a data driven world"
 [[speaker]]
 designation = ""
