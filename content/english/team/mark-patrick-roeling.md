@@ -18,7 +18,7 @@ title = "Mark Patrick Roeling"
 * **Horse guards**: I lived in the UK for some time during my graduate training.
 * **Calculator:** The tool I used when the computational aspect of statistical modeling did not yet require a cluster computer.
 * **Geo triangle**: In statistics, you only know what you measure.
-* **Chess board and pieces**: Ik ben in december 2015 begonnen met spelen en elke dag een spelletje van twee te spelen ([https://www.chess.com/member/mproeling](https://www.chess.com/member/mproeling "https://www.chess.com/member/mproeling")).
+* **Chess board and pieces**: I started playing in December 2015 and try to play a game or two ([https://www.chess.com/member/mproeling](https://www.chess.com/member/mproeling "https://www.chess.com/member/mproeling")).
 * **Binoculars**: Having worked in statistics and machine learning for some years now, I specialized in finding hidden patterns and looking for a needle in a (usually imbalanced) haystack.
 * **Lego**: Guess this is typical and needs no explanation.
 * **Snorkel**: Although my experience is limited to only a few dives I really like diving.
