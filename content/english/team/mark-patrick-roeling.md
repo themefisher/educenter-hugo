@@ -1,6 +1,6 @@
 +++
 bg_image = ""
-bio = ""
+bio = " "
 contact = []
 course = "Data science "
 description = ""
