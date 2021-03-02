@@ -19,4 +19,4 @@ title = "Mark Patrick Roeling "
 * **Chess board and pieces**: I started playing in December 2015 and try to play a game or two every day ([https://www.chess.com/member/mproeling](https://www.chess.com/member/mproeling "https://www.chess.com/member/mproeling")).
 * **Binoculars**: Having worked in statistics and machine learning for some years now, I specialized in finding hidden patterns and looking for a needle in a (usually imbalanced) haystack.
 * **Lego**: Guess this is typical and needs no explanation.
-* **Snorkel :**Hoewel mijn ervaring beperkt is tot slechts een paar duiken, hou ik echt van duiken.
+* **Snorkel**: Although my experience is limited to only a few dives I really like diving.
