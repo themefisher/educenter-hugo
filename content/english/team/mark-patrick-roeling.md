@@ -10,14 +10,15 @@ interest = ["De wetenschap"]
 title = "Mark Patrick Roeling"
 
 +++
+
 * **Square academic cap**: Part of the sub-fusc of Oxford; I completed a PhD (Oxford / TU Delft) in cybersecurity and statistics.
 * **Chopin**: Ik probeer elke dag piano te spelen.
-* **Hoofdtelefoon :** Een geweldig hulpmiddel voor gemakkelijk afgeleide personen die wat moeten coderen.
-* **Klankschaal**: Als ASMR-liefhebber helpen deze geluiden me om te ontspannen.
-* **Paardenwachten**: Ik heb enige tijd in het Verenigd Koninkrijk gewoon door mijn graduate training.
-* **Rekenmachine:** De tool die ik gebruikte het computationele aspect van statistische modellering nog geen clustercomputer nodig had.
-* **Geodriehoek**: In statistieken weet je alleen wat je meet.
+* **Headphones**: A great tool for easily distracted persons who need to do some coding.
+* **Singing Bowl**: Being an ASMR aficionado these sounds help me to relax.
+* **Horse guards**: I lived in the UK for some time during my graduate training.
+* **Calculator:** The tool I used when the computational aspect of statistical modeling did not yet require a cluster computer.
+* **Geo triangle**: In statistics, you only know what you measure.
 * **Schaakbord en stukken**: Ik ben in december 2015 begonnen met spelen en elke dag een spelletje van twee te spelen ([https://www.chess.com/member/mproeling](https://www.chess.com/member/mproeling "https://www.chess.com/member/mproeling")).
-* **Verrekijker**: Na enkele jaren in statistiek en machine learning om te werken, heb ik me gespecialiseerd in het vinden van verborgen patronen en het zoeken naar een naald in een (meestal onevenwichtige) hooiberg.
+* **Binoculars**: Having worked in statistics and machine learning for some years now, I specialized in finding hidden patterns and looking for a needle in a (usually imbalanced) haystack.
 * **Lego**: Guess this is typical and needs no explanation.
-* **Snorkelen**: Hoewel mijn ervaring beperkt is tot slechts een paar duiken, hou ik echt van duiken.
+* **Snorkel**: Although my experience is limited to only a few dives I really like diving.
