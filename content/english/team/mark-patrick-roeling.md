@@ -2,7 +2,7 @@
 bg_image = ""
 bio = " "
 contact = []
-course = ""
+course = " "
 description = ""
 image = "/images/foto-website-2.JPG"
 interest = ["De wetenschap"]
