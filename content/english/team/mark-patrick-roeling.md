@@ -11,8 +11,8 @@ title = "Mark Patrick Roeling"
 
 +++
 
-* **Square academic cap**: Part of the sub-fusc of Oxford; I completed a PhD (Oxford / TU Delft) in cybersecurity and statistics. 
-* **Chopin**: Ik probeer elke dag piano te spelen. I try to play the piano every day.
+* **Square academic cap**: Part of the sub-fusc of Oxford; I completed a PhD (Oxford / TU Delft) in cybersecurity and statistics.
+* **Chopin**: 
 * **Headphones**: A great tool for easily distracted persons who need to do some coding.
 * **Singing Bowl**: Being an ASMR aficionado these sounds help me to relax.
 * **Horse guards**: I lived in the UK for some time during my graduate training.
