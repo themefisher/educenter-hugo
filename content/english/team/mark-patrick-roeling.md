@@ -7,6 +7,6 @@ description = ""
 draft = true
 image = "/images/foto-website-2.JPG"
 interest = ["De wetenschap"]
-title = "Mark Patrick Roeling"
+title = "Mark Patrick Roeling "
 
 +++
