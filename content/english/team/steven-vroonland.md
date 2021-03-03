@@ -6,7 +6,8 @@ course = "Data engineer"
 description = ""
 image = "/images/img_5426.JPG"
 interest = ["engineer"]
-title = "Steven Vroonland"
+title = "Steven"
+type = ""
 
 +++
 * **Roer:** Gelukkig nog nooit echt nodig bij het gravelbiken.

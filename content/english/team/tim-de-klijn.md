@@ -6,7 +6,8 @@ course = "Data science"
 description = ""
 image = "/images/foto-website-tim-de-klijn.jpg"
 interest = ["Wetenschap"]
-title = "Tim de Klijn"
+title = "Tim"
+type = ""
 
 +++
 * **Uiltje Speciaal Bier**: Speciaal bier, hoe vreemder hoe beter. Festivals, kroegen en thuis.

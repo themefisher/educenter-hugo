@@ -6,11 +6,11 @@ course = "Data science"
 description = ""
 image = "/images/foto-website-2.JPG"
 interest = ["De wetenschap"]
-title = "Mark Patrick Roeling "
+title = "Mark Patrick "
 
 +++
 * **Square academic cap**: Part of the sub-fusc of Oxford; I completed a PhD (Oxford / TU Delft) in cybersecurity and statistics.
-* **Chopin**: Ik probeer elke dag piano te spelen.
+* **Chopin**: I'll try to play piano every day.
 * **Headphones**: A great tool for easily distracted persons who need to do some coding.
 * **Singing Bowl**: Being an ASMR aficionado these sounds help me to relax.
 * **Horse guards**: I lived in the UK for some time during my graduate training.
