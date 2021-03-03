@@ -1,59 +1,15 @@
 ---
-title: "Lennard Eijsackers"
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : ""
-# teacher portrait
-image: "images/team/lennard_overview.jpg"
-# course
-course: "Data engineer"
-# biography
-bio: ""
-# interest
-interest: ["engineer"]
-# contact info
-contact:
-  # # contact item loop
-  # - name : "clarkmalik@email.com"
-  #   icon : "ti-email" # icon pack : https://themify.me/themify-icons
-  #   link : "mailto:clarkmalik@email.com"
+title: Lennard
+bg_image: images/backgrounds/page-title.jpg
+description: ''
+image: images/team/lennard_overview.jpg
+course: Data engineer
+bio: ''
+interest:
+- engineer
+contact: 
 
-  # # contact item loop
-  # - name : "+12 034 5876"
-  #   icon : "ti-mobile" # icon pack : https://themify.me/themify-icons
-  #   link : "tel:+120345876"
-
-  # # contact item loop
-  # - name : "Clark Malik"
-  #   icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
-  #   link : "#"
-
-  # # contact item loop
-  # - name : "Clark Malik"
-  #   icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
-  #   link : "#"
-
-  # # contact item loop
-  # - name : "Clark Malik"
-  #   icon : "ti-skype" # icon pack : https://themify.me/themify-icons
-  #   link : "#"
-
-  # # contact item loop
-  # - name : "clarkmalik.com"
-  #   icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  #   link : "#"
-
-  # # contact item loop
-  # - name : "1313 Boulevard Cremazie,Quebec"
-  #   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
-  #   link : "#"
-
-# type
-type: "team"
 ---
-
 * **Guitar**: I have been playing guitar for years, and I love the creative freedom it gives me. 
 * **Hamburgers book**: Good food is something I enjoy. Both eating and cooking good food, although I must admit that I am more of a gourmet then a chef. I am particularly fond of a good hamburger.
 * **Vektor – Outer Isolation**: As you might have guessed from the guitar, I a Heavy Metal fan. I especially enjoy the more progressive and technically proficient bands, which are pushing the boundaries of music. Vektor is a Progressive Thrash Metal Band.

@@ -6,7 +6,8 @@ course = "Data engineer"
 description = ""
 image = "/images/whatsapp-image-2020-11-25-at-12-01-46.jpeg"
 interest = ["engineer"]
-title = "Jeroen van Voorst"
+title = "Jeroen"
+type = ""
 
 +++
 * **Book One hundred years of solitude:** I love to read, especially books that make me think like “1984”, “Crime and punishment” and “One flew over the Cuckoo's Nest”.
