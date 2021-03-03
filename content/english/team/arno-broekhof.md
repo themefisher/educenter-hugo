@@ -1,5 +1,5 @@
 ---
-title: Arno Broekhof
+title: Arno
 bg_image: images/backgrounds/page-title.jpg
 description: ''
 image: images/team/arno_overview.jpg
@@ -14,6 +14,6 @@ contact:
 * **Trompet**: Muziek
 * **Koffie**: Heerlijk
 * **Java Magazine**: Codering
-* **Apple Macbook**: Work
+* **Apple Macbook**: Werken
 * **Apple watch**: Gadgets
 * **Fruit**: Gezond
