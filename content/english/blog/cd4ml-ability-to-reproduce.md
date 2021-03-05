@@ -1,5 +1,5 @@
 +++
-author = "Maarten van Duren, Laurens Koppenol, Olaf de Leeuw"
+author = "Maarten, Laurens, Olaf"
 bg_image = ""
 categories = ["Data Engineering", "Data Science"]
 date = 2020-10-23T10:00:00Z
