@@ -5,7 +5,7 @@ bg_image: images/backgrounds/page-title.jpg
 description: ''
 image: "/images/banners-website.jpg"
 category: Data
-teacher: Martin
+teacher: Mathijs
 duration: ''
 apply_url: "/contact"
 
