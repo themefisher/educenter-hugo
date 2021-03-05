@@ -5,7 +5,7 @@ bg_image: images/backgrounds/page-title.jpg
 description: ''
 image: "/images/intro-to-ds-banner.jpg"
 category: Data
-teacher: Martin
+teacher: Willem
 duration: ''
 apply_url: "/contact"
 
