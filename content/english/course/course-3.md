@@ -5,7 +5,7 @@ bg_image: images/backgrounds/page-title.jpg
 description: ''
 image: "/images/azure-certification-path-2020-cropped.png"
 category: Data
-teacher: Maarten van Duren, Tjan Lam
+teacher: Maarten en Tjian
 duration: ''
 apply_url: "/contact"
 
