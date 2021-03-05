@@ -1,5 +1,5 @@
 +++
-author = "Steven Vroonland"
+author = "Steven"
 bg_image = ""
 categories = ["Data Engineering", "Data Science"]
 date = 2020-10-15T22:00:00Z

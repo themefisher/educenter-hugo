@@ -1,5 +1,5 @@
 +++
-author = "Thijs Koot"
+author = "Thijs"
 bg_image = ""
 categories = ["Data Engineering"]
 date = 2019-12-05T23:00:00Z

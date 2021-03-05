@@ -1,5 +1,5 @@
 +++
-author = "Steven Vroonland"
+author = "Steven"
 bg_image = ""
 categories = ["Data Engineering"]
 date = 2020-10-11T22:00:00Z
@@ -12,7 +12,7 @@ type = "post"
 +++
 In a streaming data processing system, we frequently have to deal with:
 
-* a varying load of incoming events
+* een wisselende lading inkomende gebeurtenissen
 * calls to external APIs over the network to process those events
 
 The same situation applies to microservice architectures, where services make use of each other via remote calls and deal with varying loads. This interaction makes the stability of one system/microservice depend a lot on the availability and load of other systems/microservices.
