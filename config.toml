@@ -80,11 +80,6 @@ footerDisplay = true
   [[menu.main]]
   parent = "Insights"
   name = "Events"
-  URL = "insights"
-
-  [[menu.main]]
-  parent = "Insights"
-  name = "Events"
   URL = "event"
 
   [[menu.main]]
