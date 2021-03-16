@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="section solutions">
-  <div class="container  m-md-5">
+  <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="content">{{ .Content }}</div>
@@ -23,7 +23,7 @@
       </div>
     </div>
   </div>
-  <div class="container  m-md-5">
+  <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="">
@@ -41,7 +41,7 @@
       </div>
     </div>
   </div>
-  <div class="container  m-md-5">
+  <div class="container">
     {{ if .Params.Workshops }}
     <div class="row">
       <div class="col-12">
@@ -62,7 +62,7 @@
 
   <!-- courses -->
   {{ $courses := first 3 (where site.RegularPages "Type" "course") }}
-  <div class="container  m-md-5">
+  <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="">
