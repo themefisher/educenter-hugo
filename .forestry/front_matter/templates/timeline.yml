@@ -16,3 +16,5 @@ fields:
 - type: datetime
   name: date
   label: date
+pages:
+- content/english/timeline/coronaproef-christmas-drive-in.md
