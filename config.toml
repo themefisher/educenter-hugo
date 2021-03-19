@@ -59,18 +59,27 @@ footerDisplay = false
 
   [[menu.main]]
   parent = "Solutions"
+  name = "Our solutions"
+  URL = "solutions"
+  weight = 1
+
+  [[menu.main]]
+  parent = "Solutions"
   name = "Quick wins"
   URL = "solutions#data-oplossingen"
+  weight = 2
 
   [[menu.main]]
   parent = "Solutions"
   name = "Consulting"
   URL = "solutions#data-consulting"
+  weight = 3
 
   [[menu.main]]
   parent = "Solutions"
   name = "Workshops"
   URL = "solutions#data-workshop"
+  weight = 4
 
 [[menu.main]]
 weight = 2
