@@ -53,7 +53,6 @@ link = "plugins/scrollreveal/scrollreveal.min.js"
 # main menu
 [[menu.main]]
 name = "Solutions"
-URL = "solutions"
 weight = 1
 hasChildren = true
 footerDisplay = false
@@ -62,21 +61,23 @@ footerDisplay = false
   parent = "Solutions"
   name = "Quick wins"
   URL = "solutions#data-oplossingen"
+  weight = 1
 
   [[menu.main]]
   parent = "Solutions"
   name = "Consulting"
   URL = "solutions#data-consulting"
+  weight = 2
 
   [[menu.main]]
   parent = "Solutions"
   name = "Workshops"
   URL = "solutions#data-workshop"
+  weight = 3
 
 [[menu.main]]
 weight = 2
 name = "Insights"
-URL = "insights"
 footerDisplay = true
 
   [[menu.main]]
@@ -91,9 +92,13 @@ footerDisplay = true
 
 [[menu.main]]
 name = "about"
-URL = "about"
 weight = 4
 footerDisplay = true
+
+  [[menu.main]]
+  parent = "about"
+  name = "Over ons"
+  URL = "about"
 
   [[menu.main]]
   parent = "about"
