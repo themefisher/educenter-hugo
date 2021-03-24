@@ -96,6 +96,9 @@ success_story:
 event:
   enable: true
   title: Komende events
+career_featured_video:
+  video_link: https://www.youtube.com/watch?v=8EL5MO6-bng
+  bg_image: https://i.ytimg.com/vi/8EL5MO6-bng/maxresdefault.jpg
 funfacts:
   enable: false
   funfact_item:
