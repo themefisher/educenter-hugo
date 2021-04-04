@@ -1,11 +1,11 @@
 baseURL = "https://trainopia.netlify.app"
 disableLanguages = []
-disqusShortname = "educenter"
+disqusShortname = "trainopia"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
 themesDir = "../.."
-title = "Educenter | hugo education template"
+title = "Trainopia"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
