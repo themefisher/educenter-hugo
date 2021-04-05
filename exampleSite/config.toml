@@ -6,13 +6,16 @@ summaryLength = "10"
 theme = "educenter-hugo"
 themesDir = "../.."
 title = "Trainopia"
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "ar"
+
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
-weight = 1
+weight = 2
 [[Languages.en.menu.footer]]
 name = "teacher"
 url = "teacher"
@@ -68,65 +71,65 @@ weight = 4
 name = "Contact"
 url = "contact"
 weight = 5
-[Languages.fr]
-contentDir = "content/french"
+[Languages.ar]
+contentDir = "content/arabic"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
-weight = 2
-[[Languages.fr.menu.footer]]
+home = "الصفحة الرئيسية"
+languageCode = "ar"
+languageName = "Ar"
+weight = 1
+[[Languages.ar.menu.footer]]
 name = "teacher"
 url = "teacher"
-[[Languages.fr.menu.footer]]
+[[Languages.ar.menu.footer]]
 name = "notice"
 url = "notice"
-[[Languages.fr.menu.footer]]
+[[Languages.ar.menu.footer]]
 name = "event"
 url = "event"
-[[Languages.fr.menu.footer]]
+[[Languages.ar.menu.footer]]
 name = "scholarship"
 url = "scholarship"
-[[Languages.fr.menu.footer]]
+[[Languages.ar.menu.footer]]
 name = "research"
 url = "research"
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "À propos"
 url = "about"
 weight = 1
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "Cours"
 url = "course"
 weight = 2
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 hasChildren = true
 name = "Pages"
 weight = 3
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "teacher"
 parent = "Pages"
 url = "teacher"
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "notice"
 parent = "Pages"
 url = "notice"
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "Évènement"
 parent = "Pages"
 url = "event"
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "Cursus"
 parent = "Pages"
 url = "scholarship"
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "research"
 parent = "Pages"
 url = "research"
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "blog"
 url = "blog"
 weight = 4
-[[Languages.fr.menu.main]]
+[[Languages.ar.menu.main]]
 name = "Contact"
 url = "contact"
 weight = 5
