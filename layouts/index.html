@@ -42,7 +42,7 @@
       <div class="col-xl-8 col-lg-7">
         <div class="row feature-blocks bg-gray justify-content-between">
           {{ range .feature_item }}
-          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-right">
             <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
             <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
             <p>{{ .content | markdownify }}</p>
@@ -61,7 +61,7 @@
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
 <section class="section">
-  <div class="container">
+  <div class="container text-right" dir="rtl">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
