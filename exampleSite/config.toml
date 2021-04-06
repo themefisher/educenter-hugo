@@ -6,7 +6,7 @@ summaryLength = "10"
 theme = "educenter-hugo"
 themesDir = "../.."
 defaultContentLanguageInSubdir = true
-# DefaultContentLanguage = "ar"
+DefaultContentLanguage = "ar"
 
 [Languages.en]
 contentDir = "content/english"
