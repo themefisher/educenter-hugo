@@ -6,8 +6,8 @@ slider:
     # slider item loop
     - title : "Votre brillant avenir est notre mission"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
+      animation_in : "right"
+      animation_out : "left"
       # available animation : left, right, up, down
       button:
         enable : true
@@ -17,8 +17,8 @@ slider:
     # slider item loop
     - title : "Votre brillant avenir est notre mission"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
+      animation_in : "right"
+      animation_out : "left"
       # available animation : left, right, up, down
       button:
         enable : true
@@ -28,13 +28,24 @@ slider:
     # slider item loop
     - title : "Votre brillant avenir est notre mission"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
+      animation_in : "right"
+      animation_out : "left"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Postuler"
         link : "contact"
+
+_images_carousel:
+  enable : true
+  first_item: "images/_images_carousel/images_carousel-1.jpg"
+  feature_item:
+    # feature item loop
+    - image: "images/_images_carousel/images_carousel-2.jpg"
+    
+    # feature item loop
+    - image: "images/_images_carousel/images_carousel-3.jpg"
+
 
 
 ############################### Banner feature ###############################
@@ -119,25 +130,26 @@ event:
 ########################### funfacts ############################
 funfacts:
   enable : true
+  title : "إنجازاتنا"
+  description : "يمكنك مراجعة بعض الأرقام عن مؤسستنا التعليمية  "
   funfact_item:
     # funfact item loop
-    - name : "ENSEIGNANTS"
-      count : "60"
+    - name : "برنامج تم تدريبه"
+      count : "92"
 
     # funfact item loop
-    - name : "COURS"
-      count : "50"
+    - name : "متدربا منذ 2016"
+      count : "4946"
 
     # funfact item loop
-    - name : "ÉTUDIANTS"
-      count : "1000"
+    - name : "عضوًا محترفًا"
+      count : "70"
 
-    # funfact item loop
-    - name : "CLIENTS SATISFAITS"
-      count : "1400"
+    #funfact item loop
+    - name : "مدينة ومحافظة مختلفة"
+      count : "12"
 
 # funfact is for about page
-
 
 
 ############################# blog ################################

@@ -97,54 +97,54 @@ url = "scholarship"
 name = "research"
 url = "research"
 [[Languages.ar.menu.main]]
-name = "À propos"
+name = "من نحن؟"
 url = "about"
 weight = 1
 [[Languages.ar.menu.main]]
-name = "Cours"
+name = "برامج الفريق"
 url = "course"
 weight = 2
 [[Languages.ar.menu.main]]
 hasChildren = true
-name = "Pages"
+name = "الصفحات"
 weight = 3
 [[Languages.ar.menu.main]]
-name = "teacher"
-parent = "Pages"
+name = "الفريق"
+parent = "الصفحات"
 url = "teacher"
 [[Languages.ar.menu.main]]
-name = "notice"
-parent = "Pages"
+name = "تنبيهات"
+parent = "الصفحات"
 url = "notice"
 [[Languages.ar.menu.main]]
-name = "Évènement"
-parent = "Pages"
+name = "فعاليات"
+parent = "الصفحات"
 url = "event"
+# [[Languages.ar.menu.main]]
+# name = "Cursus"
+# parent = "الصفحات"
+# url = "scholarship"
+# [[Languages.ar.menu.main]]
+# name = "research"
+# parent = "الصفحات"
+# url = "research"
 [[Languages.ar.menu.main]]
-name = "Cursus"
-parent = "Pages"
-url = "scholarship"
-[[Languages.ar.menu.main]]
-name = "research"
-parent = "Pages"
-url = "research"
-[[Languages.ar.menu.main]]
-name = "blog"
+name = "معرض الصور"
 url = "blog"
 weight = 4
 [[Languages.ar.menu.main]]
-name = "Contact"
+name = "تواصل معنا"
 url = "contact"
 weight = 5
 [params]
-address = "9567 Turner Trace Apt. BC C3G8A4"
+address = "1 شارع تونس متفرع من شارع الجزائر، المعادي الجديدة"
 author = "Themefisher"
 contact_form_action = "#"
 description = "This is meta description"
-email = "info@educenter.com"
+email = "trainopia@gmail.com"
 google_analitycs_id = ""
 logo = "images/logo.png"
-mobile = "+211234565523"
+mobile = "+201093802680"
 top_header = true
 [params.cookies]
 enable = true
@@ -186,21 +186,21 @@ mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463e
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
+link = "https://www.facebook.com/TrainopiaT.D"
 title = "facebook"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-title = "twitter"
+# [[params.social]]
+# icon = "ti-twitter-alt"
+# link = "#"
+# title = "twitter"
 [[params.social]]
 icon = "ti-instagram"
-link = "#"
+link = "https://www.instagram.com/trainopia_td/"
 title = "instagram"
-[[params.social]]
-icon = "ti-github"
-link = "#"
-title = "github"
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
-title = "linkedin"
+# [[params.social]]
+# icon = "ti-github"
+# link = "#"
+# title = "github"
+# [[params.social]]
+# icon = "ti-linkedin"
+# link = "#"
+# title = "linkedin"

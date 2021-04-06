@@ -12,7 +12,14 @@
             {{ end }}
           </ul>
         </div>
-        <div class="col-lg-8 text-center text-lg-right">
+        <div class="col-lg-2 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a class="time-of-day text-color mr-3" ><strong>{{ i18n "time" | upper }} : </strong></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 text-center text-lg-right">
           <ul class="list-inline">
             <li class="list-inline-item">
               <a class="text-color mr-3" href="tel:{{ site.Params.mobile }}"><strong>{{ i18n "call" | upper }} : </strong> {{ site.Params.mobile }}</a></li>

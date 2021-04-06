@@ -36,6 +36,16 @@ slider:
         label : "Apply now"
         link : "contact"
 
+_images_carousel:
+  enable : true
+  first_item: "images/_images_carousel/images_carousel-1.jpg"
+  feature_item:
+    # feature item loop
+    - image: "images/_images_carousel/images_carousel-2.jpg"
+    
+    # feature item loop
+    - image: "images/_images_carousel/images_carousel-3.jpg"
+
 
 ############################### Banner feature ###############################
 banner_feature:
