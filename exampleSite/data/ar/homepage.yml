@@ -4,36 +4,36 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Code Valley"
+      content : "اصنع مستقبلك بيديك"
       animation_in : "right"
       animation_out : "left"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler maintenant"
+        label : "اقرأ المزيد"
         link : "contact"
 
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "ترينوبيا للأطفال والمراهقين"
+      content : "بنرسم بكرة"
       animation_in : "right"
       animation_out : "left"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
+        label : "اقرأ المزيد"
         link : "contact"
 
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "يلا كامب"
+      content : "عيش المغامرة"
       animation_in : "right"
       animation_out : "left"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
+        label : "اقرأ المزيد"
         link : "contact"
 
 _images_carousel:
@@ -54,45 +54,42 @@ banner_feature:
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Bourses académiques"
+    - name : "شركائنا"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "في رحلة نجاحنا، لا يمكننا أنا نصل إلى أهدافنا ونتخطى تحدياتنا دون تعاون الشركاء الأقوياء والمبدعين في مجال التدريب. تعرف على شركاء فريق ترينوبيا في مسيرة النجاح."
 
     # feature item loop
-    - name : "Notre bureau"
+    - name : "خدماتنا"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "استمتع بالقائمة الكبيرة من برامج تدريب الأطفال والمراهقين وتطوير مهاراتهم الحياتية. دع طفلك يخوض التجربة كاملة وحقق أقصى استفادة من التدريب."
 
     # feature item loop
-    - name : "Nos accomplissements"
+    - name : "رحلة داخل ترينوبيا"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "تعال معنا في رحلة داخل أحداث فريق ترينوبيا وبرامجه وذكرياته الأكثر إمتاعًا وإفادة. أكثر من 80 حدث وبرنامج وتجمع يمكنك زيارته في هذه الرحلة."
 
     # feature item loop
-    - name : "Admission"
+    - name : "قابل أفراد الفريق"
       icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "تعرف على عائلة فريق ترينوبيا الكبيرة، والذي يكونه مجموعة من المتطوعين والعاملين المحترفين والمبدعين في مصنع من العقول الإيجابية."
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "À propos d’Educenter"
+  title : "عن ترينوبيا"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  content : "فريق ترينوبيا للتدريب والتطوير هو فريق ذو تأثير مجتمعي، بدأ نشاطه عام 2015. وهو فريق متخصص في صنع وإقامة المناهج التدريبية وبرامج الوعي بالذات وتحفيز الذات، بأفضل وأحدث النظريات التدريبية والتربوية للأطفال والمراهقين والشباب. وتهدف مؤسسة ترينوبيا لتنمية مهارات الأطفال والمراهقين وتطوير طرق تفكيرهم بتدريبهم على مفاهيم اكتشاف الذات وفهم أنماط الشخصيات المختلفة والتدريب على أفضل طرق التواصل الإيجابي معهم، كما يهدف الفريق إلى تنشئتهم على قيم المسئولية والالتزام والإيجابية والصدق والتعاون والتواضع والتفكير الإبداعي."
   button:
     enable : true
-    label : "En savoir plus"
+    label : "اقرأ المزيد"
     link : "about"
 
 
 ############################# Course ################################
 course:
   enable : true
-  title : "Notre cours"
+  title : "برامجنا القادمة"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
@@ -110,7 +107,7 @@ cta:
 success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Histoires de réussites"
+  title : "قصة نجاح"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
             
             

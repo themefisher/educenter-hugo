@@ -106,28 +106,44 @@ url = "course"
 weight = 2
 [[Languages.ar.menu.main]]
 hasChildren = true
-name = "الصفحات"
+name = "خدماتنا"
 weight = 3
-[[Languages.ar.menu.main]]
-name = "الفريق"
-parent = "الصفحات"
-url = "teacher"
-[[Languages.ar.menu.main]]
-name = "تنبيهات"
-parent = "الصفحات"
-url = "notice"
-[[Languages.ar.menu.main]]
-name = "فعاليات"
-parent = "الصفحات"
-url = "event"
+# [[Languages.ar.menu.main]]
+# name = "الفريق"
+# parent = "خدماتنا"
+# url = "teacher"
+# [[Languages.ar.menu.main]]
+# name = "تنبيهات"
+# parent = "خدماتنا"
+# url = "notice"
+# [[Languages.ar.menu.main]]
+# name = "فعاليات"
+# parent = "خدماتنا"
+# url = "event"
 # [[Languages.ar.menu.main]]
 # name = "Cursus"
-# parent = "الصفحات"
+# parent = "خدماتنا"
 # url = "scholarship"
 # [[Languages.ar.menu.main]]
 # name = "research"
-# parent = "الصفحات"
+# parent = "خدماتنا"
 # url = "research"
+
+[[Languages.ar.menu.main]]
+name = "كود فالي"
+parent = "خدماتنا"
+url = "research"
+
+[[Languages.ar.menu.main]]
+name = "ترانوبيا للاطفال و المراهقين"
+parent = "خدماتنا"
+url = "research"
+
+[[Languages.ar.menu.main]]
+name = "يلا كامب"
+parent = "خدماتنا"
+url = "research"
+
 [[Languages.ar.menu.main]]
 name = "معرض الصور"
 url = "blog"

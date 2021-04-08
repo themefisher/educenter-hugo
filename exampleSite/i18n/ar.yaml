@@ -11,7 +11,7 @@
   translation: Contact Info
 
 - id: subscribe_newsletter
-  translation: Subscribe Newsletter
+  translation: اشترك في منصة الاخبار
 
 - id: subscribe
   translation: Subscribe
@@ -29,10 +29,10 @@
   translation: Tags
 
 - id: see_all
-  translation: See all
+  translation: تصفح المزيد
 
 - id: apply_now
-  translation: Apply now
+  translation: اشترك الان
 
 - id: posted_by
   translation: Posted by

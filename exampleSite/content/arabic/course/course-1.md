@@ -1,19 +1,19 @@
 ---
-title: "Photographie"
+title: "Trainopia Champions"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "عش المغامرة والتحدي في مخيم أبطال ترينوبيا للأطفال، مخيم المسابقات الحركية وتعلم قيم المسئولية وروح الفريق"
 # course thumbnail
 image: "images/courses/course-1.jpg"
 # taxonomy
-category: "Photography"
+category: "بناء الشخصية"
 # teacher
 teacher: "Clark Malik"
 # duration
-duration: "06 mois"
+duration: "3 ايام"
 # weekly
 weekly: "03 heures"
 # course fee
@@ -25,7 +25,7 @@ type: "course"
 ---
 
 
-### À propos du cours
+### معلومات عن الكورس
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

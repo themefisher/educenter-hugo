@@ -6,7 +6,7 @@
       <li class="list-inline-item"><i class="ti-bookmark-alt"></i> {{ .Params.Category }}</li>
     </ul>
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p>
+    <p class="card-text mb-4">{{ .Params.description }}</p>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "apply_now"}}</a>
   </div>
 </div>
