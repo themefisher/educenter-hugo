@@ -152,27 +152,27 @@
 {{ end }}
 <!-- /courses -->
 
-<!-- cta -->
-{{ if $data.homepage.cta.enable }}
-{{ with $data.homepage.cta }}
-<section class="section bg-primary">
+<!-- funfacts -->
+{{ if $data.homepage.funfacts.enable }}
+{{ with $data.homepage.funfacts }}
+<section class="section-sm bg-primary">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
-        <h6 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
-        <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-light">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+      <!-- funfacts item -->
+      {{ range .funfact_item }}
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="text-center">
+          <h2 class="count text-white" data-count="{{ .count }}">0</h2>
+          <h5 class="text-white">{{ .name }}</h5>
+        </div>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
 {{ end }}
 {{ end }}
-<!-- /cta -->
+<!-- /funfacts -->
 
 <!-- success story -->
 {{ if $data.homepage.success_story.enable }}

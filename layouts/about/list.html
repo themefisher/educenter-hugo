@@ -17,27 +17,7 @@
 </section>
 <!-- /about -->
 
-<!-- funfacts -->
-{{ if $data.homepage.funfacts.enable }}
-{{ with $data.homepage.funfacts }}
-<section class="section-sm bg-primary">
-  <div class="container">
-    <div class="row">
-      <!-- funfacts item -->
-      {{ range .funfact_item }}
-      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-        <div class="text-center">
-          <h2 class="count text-white" data-count="{{ .count }}">0</h2>
-          <h5 class="text-white">{{ .name }}</h5>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /funfacts -->
+
 
 <!-- success story -->
 {{ partial "success-story.html" . }}
