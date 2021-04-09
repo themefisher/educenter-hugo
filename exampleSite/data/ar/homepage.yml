@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Code Valley"
+    - title : "كود فالي"
       content : "اصنع مستقبلك بيديك"
       animation_in : "right"
       animation_out : "left"
@@ -12,7 +12,7 @@ slider:
       button:
         enable : true
         label : "اقرأ المزيد"
-        link : "contact"
+        link : "program/program-1"
 
     # slider item loop
     - title : "ترينوبيا للأطفال والمراهقين"
@@ -23,7 +23,7 @@ slider:
       button:
         enable : true
         label : "اقرأ المزيد"
-        link : "contact"
+        link : "program/program-2"
 
     # slider item loop
     - title : "يلا كامب"
@@ -34,7 +34,7 @@ slider:
       button:
         enable : true
         label : "اقرأ المزيد"
-        link : "contact"
+        link : "program/program-3"
 
 _images_carousel:
   enable : true

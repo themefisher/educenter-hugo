@@ -100,6 +100,7 @@ sections:
   match: "**/*"
   templates:
   - event
+
 - type: heading
   label: Research
 - type: directory
@@ -116,6 +117,26 @@ sections:
   match: "**/*"
   templates:
   - research
+
+  - type: heading
+  label: Program
+- type: directory
+  path: exampleSite/content/english/program
+  label: Program (en)
+  create: all
+  match: "**/*"
+  templates:
+  - program
+- type: directory
+  path: exampleSite/content/arabic/program
+  label: Program (ar)
+  create: all
+  match: "**/*"
+  templates:
+  - program
+
+
+
 - type: heading
   label: Scholarship
 - type: directory
