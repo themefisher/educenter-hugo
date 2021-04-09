@@ -6,13 +6,13 @@
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
-  <div class="container">
+  <div class="container text-right">
     <div class="hero-slider">
       <!-- slider item -->
       {{ range .slider_item }}
       <div class="hero-slider-item">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-12">
             <h1 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
               data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
             <p class="h2 text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
@@ -123,11 +123,11 @@
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
-          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
             <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
           </div>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
         </div>
       </div>
     </div>
@@ -185,7 +185,7 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 text-right">
         <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
       </div>
     </div>

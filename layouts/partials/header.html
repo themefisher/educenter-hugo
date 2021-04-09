@@ -32,7 +32,7 @@
   </div>
   {{ end }}
   <!-- navbar -->
-  <div class="navigation w-100 {{ if site.Params.top_header }} top-hider {{ end }}">
+  <div class="navigation w-100 {{ if site.Params.top_header }} top-hider {{ end }}" dir="rtl">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
         <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid"
@@ -53,9 +53,9 @@
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
                 {{ .Name }}
               </a>
-              <div class="dropdown-menu">
+              <div class="dropdown-menu" style="right: 0%;">
                 {{ range .Children }}
-                <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                <a class="dropdown-item text-right" style=" white-space: initial;" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                 {{ end }}
               </div>
             </li>

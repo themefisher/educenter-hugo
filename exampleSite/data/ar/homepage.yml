@@ -6,8 +6,8 @@ slider:
     # slider item loop
     - title : "كود فالي"
       content : "اصنع مستقبلك بيديك"
-      animation_in : "right"
-      animation_out : "left"
+      animation_in : "left"
+      animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
@@ -17,8 +17,8 @@ slider:
     # slider item loop
     - title : "ترينوبيا للأطفال والمراهقين"
       content : "بنرسم بكرة"
-      animation_in : "right"
-      animation_out : "left"
+      animation_in : "left"
+      animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
@@ -28,8 +28,8 @@ slider:
     # slider item loop
     - title : "يلا كامب"
       content : "عيش المغامرة"
-      animation_in : "right"
-      animation_out : "left"
+      animation_in : "left"
+      animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
@@ -152,5 +152,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "DERNIÈRES NOUVELLES"
+  title : "قالوا عنا"
   # blog item comes from "content/**/blog" folder.
