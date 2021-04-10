@@ -180,6 +180,12 @@
 {{ end }}
 <!-- /success story -->
 
+<!-- testimonial -->
+{{ if $data.homepage.testimonial.enable }}
+{{ partial "testimonial.html" . }}
+{{ end }}
+<!-- /testimonial -->
+
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
 <section class="section">

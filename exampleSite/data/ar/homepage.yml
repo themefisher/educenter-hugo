@@ -117,6 +117,35 @@ success_story:
   video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
 
 
+######################## Testimonial #############################
+testimonial:
+  enable : true
+  title : "قالوا عنا"
+  testimonial_item:
+      # testimonial item loop
+      - name : "شخصا ما"
+        data : "ناس حلوه اوي"
+
+      # testimonial item loop
+      - name : "شخصا ما"
+        data : "ناس حلوه اوي"
+
+      # testimonial item loop
+      - name : "شخصا ما"
+        data : "ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي"
+
+      #testimonial item loop
+      - name : "شخصا ما"
+        data : "ناس حلوه اوي ناس حلوه الأقوياء ناس حلوه اوي ناس حلوه اوي"
+
+      #testimonial item loop
+      - name : "شخصا ما"
+        data : "ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي"
+
+      #testimonial item loop
+      - name : "شخصا ما ناس حلوه اوي"
+        data : "ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي"
+
 ############################# event ################################
 event:
   enable : true

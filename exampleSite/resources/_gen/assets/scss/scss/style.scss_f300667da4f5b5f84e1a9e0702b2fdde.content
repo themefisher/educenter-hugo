@@ -152,7 +152,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FFDC11;
+  background-color: #0ea8b7;
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -597,6 +597,50 @@ link:focus,
     .hero-slider .slick-dots li.slick-active button {
       background: #0ea8b7; }
     .hero-slider .slick-dots li button {
+      color: transparent;
+      padding: 0;
+      overflow: hidden;
+      height: 10px;
+      width: 10px;
+      background: rgba(255, 255, 255, 0.5);
+      border: 0;
+      outline: 0; }
+
+.slider-center .prevArrow,
+.slider-center .nextArrow {
+  position: absolute;
+  bottom: -73px;
+  z-index: 9;
+  padding: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  border: 0;
+  font-size: 30px;
+  transition: all linear .2s;
+  background: transparent; }
+  .slider-center .prevArrow:focus,
+  .slider-center .nextArrow:focus {
+    outline: 0; }
+  .slider-center .prevArrow:hover,
+  .slider-center .nextArrow:hover {
+    color: #0ea8b7; }
+
+.slider-center .prevArrow {
+  right: 60px; }
+
+.slider-center .nextArrow {
+  right: 0; }
+
+.slider-center .slick-dots {
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  padding-left: 0; }
+  .slider-center .slick-dots li {
+    display: inline-block;
+    margin: 0 6px; }
+    .slider-center .slick-dots li.slick-active button {
+      background: #0ea8b7; }
+    .slider-center .slick-dots li button {
       color: transparent;
       padding: 0;
       overflow: hidden;

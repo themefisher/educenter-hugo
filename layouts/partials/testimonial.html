@@ -1,0 +1,51 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ with $data.homepage.testimonial }}
+<section class="section overlay bg-secondary">
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-4 position-relative success-video">
+        <a class="play-btn venobox" href="{{ .video_link | safeURL }}" data-vbtype="video">
+          <i class="ti-control-play"></i>
+        </a>
+      </div>
+      <div class="col-lg-6 col-sm-8 text-right">
+        <div class="bg-white p-5">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="container bg-light" style="border: 2px solid white;">
+    <div class="row">
+      <div class="col-12 text-right pt-3">
+        <h2 class="section-title text-white">{{ .title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-right pt-3">
+        <div class="slider-center">
+          {{ range .testimonial_item }}
+          <div>
+            <div class="col-md-10 pb-3">
+              <div class="card bg-primary white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                  <p class="text-white">{{ .data }}</p>
+                  <footer class="blockquote-footer">
+                    <small class="text-white">
+                      {{ .name }}<cite title="Source Title"></cite>
+                    </small>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+{{ end }}
