@@ -186,6 +186,8 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
+link = "plugins/slick/slick-theme.css"
+[[params.plugins.css]]
 link = "plugins/animate/animate.css"
 [[params.plugins.css]]
 link = "plugins/venobox/venobox.css"
