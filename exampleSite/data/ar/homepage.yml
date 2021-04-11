@@ -84,10 +84,18 @@ success_story:
   enable: true
   bg_image: images/backgrounds/success-story.jpg
   title: قصة نجاح
-  content: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-
-    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  content: في سنة 2018 أقام فريق ترينوبيا للتدريب والتطوير أول مسابقة في مصر بين الأطفال
+    والمراهقين Trainopia Game jam في مجال تعلم البرمجة وتصميم الألعاب الإلكترونية
+    وتطبيقات الهاتف المحمول. المسابقة كانت تقام بين 85 مشارك ومشاركة بعد برنامج استمر
+    لمدة 3 شهور في تعلم اللغات وتطبيق الألعاب ورسوم الجرافيك وتنفيذ الأصوات والحركات
+    والأوامر المختلفة. وتم تقسيم المتدربين حينها إلى فرق عمل متكاملة لتقسم المهام
+    على كل فرد من أفراد الفريق. وقدم كل فريق عرضًا بالمشروع الذي أنجزه وكان جزءًا
+    من المسابقة النهائية. تم تسليم الجوائز والشهادات للفريق الفائز، كما تسلم باقي
+    الأفراد المشاركين في البرنامج شهادة باجتياز برنامج Game & Mobile Development Track.
+    وتم تكريم المدربين القائمين على البرنامج كذلك. أقيم الحفل الختامي للمسابقة في
+    مكتبة المعادي العامة في القاهرة وسط حضور لجنة تحكيم من غرفة الصناعة والتجارة ومن
+    كلية حاسبات ومعلومات جامعة القاهرة، كما تم تكريم المتدربين بحضور أولياء أمورهم
+    وأصدقائهم.
   video_link: https://www.youtube.com/watch?v=ResipmZmpDU
 testimonial:
   enable: true
