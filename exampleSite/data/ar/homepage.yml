@@ -1,185 +1,137 @@
-################################# Slider #####################################
+---
 slider:
-  enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  enable: true
+  bg_image: images/banner/banner-1.jpg
   slider_item:
-    # slider item loop
-    - title : "كود فالي"
-      content : "اصنع مستقبلك بيديك"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "اقرأ المزيد"
-        link : "program/program-1"
-
-    # slider item loop
-    - title : "ترينوبيا للأطفال والمراهقين"
-      content : "بنرسم بكرة"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "اقرأ المزيد"
-        link : "program/program-2"
-
-    # slider item loop
-    - title : "يلا كامب"
-      content : "عيش المغامرة"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "اقرأ المزيد"
-        link : "program/program-3"
-
+  - title: كود فالي
+    content: اصنع مستقبلك بيديك
+    animation_in: left
+    animation_out: right
+    button:
+      enable: true
+      label: اقرأ المزيد
+      link: program/program-1
+  - title: ترينوبيا للأطفال والمراهقين
+    content: بنرسم بكرة
+    animation_in: left
+    animation_out: right
+    button:
+      enable: true
+      label: اقرأ المزيد
+      link: program/program-2
+  - title: يلا كامب
+    content: عيش المغامرة
+    animation_in: left
+    animation_out: right
+    button:
+      enable: true
+      label: اقرأ المزيد
+      link: program/program-3
 _images_carousel:
-  enable : true
-  first_item: "images/_images_carousel/images_carousel-1.jpg"
+  enable: true
+  first_item: images/_images_carousel/images_carousel-1.jpg
   feature_item:
-    # feature item loop
-    - image: "images/_images_carousel/images_carousel-2.jpg"
-    
-    # feature item loop
-    - image: "images/_images_carousel/images_carousel-3.jpg"
-
-
-
-############################### Banner feature ###############################
+  - image: images/_images_carousel/images_carousel-2.jpg
+  - image: images/_images_carousel/images_carousel-3.jpg
 banner_feature:
-  enable : true
-  image : "images/banner/banner-feature.png"
+  enable: true
+  image: images/banner/banner-feature.png
   feature_item:
-    # feature item loop
-    - name : "شركائنا"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "في رحلة نجاحنا، لا يمكننا أنا نصل إلى أهدافنا ونتخطى تحدياتنا دون تعاون الشركاء الأقوياء والمبدعين في مجال التدريب. تعرف على شركاء فريق ترينوبيا في مسيرة النجاح."
-
-    # feature item loop
-    - name : "خدماتنا"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "استمتع بالقائمة الكبيرة من برامج تدريب الأطفال والمراهقين وتطوير مهاراتهم الحياتية. دع طفلك يخوض التجربة كاملة وحقق أقصى استفادة من التدريب."
-
-    # feature item loop
-    - name : "رحلة داخل ترينوبيا"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "تعال معنا في رحلة داخل أحداث فريق ترينوبيا وبرامجه وذكرياته الأكثر إمتاعًا وإفادة. أكثر من 80 حدث وبرنامج وتجمع يمكنك زيارته في هذه الرحلة."
-
-    # feature item loop
-    - name : "قابل أفراد الفريق"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "تعرف على عائلة فريق ترينوبيا الكبيرة، والذي يكونه مجموعة من المتطوعين والعاملين المحترفين والمبدعين في مصنع من العقول الإيجابية."
-
-
-############################## about ##################################
+  - name: شركائنا
+    icon: ti-book
+    content: في رحلة نجاحنا، لا يمكننا أنا نصل إلى أهدافنا ونتخطى تحدياتنا دون تعاون
+      الشركاء الأقوياء والمبدعين في مجال التدريب. تعرف على شركاء فريق ترينوبيا في
+      مسيرة النجاح.
+  - name: خدماتنا
+    icon: ti-blackboard
+    content: استمتع بالقائمة الكبيرة من برامج تدريب الأطفال والمراهقين وتطوير مهاراتهم
+      الحياتية. دع طفلك يخوض التجربة كاملة وحقق أقصى استفادة من التدريب.
+  - name: رحلة داخل ترينوبيا
+    icon: ti-agenda
+    content: تعال معنا في رحلة داخل أحداث فريق ترينوبيا وبرامجه وذكرياته الأكثر إمتاعًا
+      وإفادة. أكثر من 80 حدث وبرنامج وتجمع يمكنك زيارته في هذه الرحلة.
+  - name: قابل أفراد الفريق
+    icon: ti-write
+    content: تعرف على عائلة فريق ترينوبيا الكبيرة، والذي يكونه مجموعة من المتطوعين
+      والعاملين المحترفين والمبدعين في مصنع من العقول الإيجابية.
 about:
-  enable : true
-  title : "عن ترينوبيا"
-  image : "images/about/about-us.jpg"
-  content : "فريق ترينوبيا للتدريب والتطوير هو فريق ذو تأثير مجتمعي، بدأ نشاطه عام 2015. وهو فريق متخصص في صنع وإقامة المناهج التدريبية وبرامج الوعي بالذات وتحفيز الذات، بأفضل وأحدث النظريات التدريبية والتربوية للأطفال والمراهقين والشباب. وتهدف مؤسسة ترينوبيا لتنمية مهارات الأطفال والمراهقين وتطوير طرق تفكيرهم بتدريبهم على مفاهيم اكتشاف الذات وفهم أنماط الشخصيات المختلفة والتدريب على أفضل طرق التواصل الإيجابي معهم، كما يهدف الفريق إلى تنشئتهم على قيم المسئولية والالتزام والإيجابية والصدق والتعاون والتواضع والتفكير الإبداعي."
+  enable: true
+  title: عن ترينوبيا
+  image: images/about/about-us.jpg
+  content: فريق ترينوبيا للتدريب والتطوير هو فريق ذو تأثير مجتمعي، بدأ نشاطه عام 2015.
+    وهو فريق متخصص في صنع وإقامة المناهج التدريبية وبرامج الوعي بالذات وتحفيز الذات،
+    بأفضل وأحدث النظريات التدريبية والتربوية للأطفال والمراهقين والشباب. وتهدف مؤسسة
+    ترينوبيا لتنمية مهارات الأطفال والمراهقين وتطوير طرق تفكيرهم بتدريبهم على مفاهيم
+    اكتشاف الذات وفهم أنماط الشخصيات المختلفة والتدريب على أفضل طرق التواصل الإيجابي
+    معهم، كما يهدف الفريق إلى تنشئتهم على قيم المسئولية والالتزام والإيجابية والصدق
+    والتعاون والتواضع والتفكير الإبداعي.
   button:
-    enable : true
-    label : "اقرأ المزيد"
-    link : "about"
-
-
-############################# Course ################################
+    enable: true
+    label: اقرأ المزيد
+    link: about
 course:
-  enable : true
-  title : "برامجنا القادمة"
-  # course item comes from "content/**/course" folder.
-
-########################## Call to action ############################
+  enable: true
+  title: برامجنا القادمة
 cta:
-  enable : true
-  subtitle : "Cliquez pour vous joindre à l’atelier avancé"
-  title : "Apprentissage en réseautique avancée"
+  enable: true
+  subtitle: Cliquez pour vous joindre à l’atelier avancé
+  title: Apprentissage en réseautique avancée
   button:
-    enable : true
-    label : "Se joindre"
-    link : "contact"
-
-
-######################## Success story #############################
+    enable: true
+    label: Se joindre
+    link: contact
 success_story:
-  enable : true
-  bg_image : "images/backgrounds/success-story.jpg"
-  title : "قصة نجاح"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-            
-            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-  # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  enable: true
+  bg_image: images/backgrounds/success-story.jpg
+  title: قصة نجاح
+  content: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
 
-
-######################## Testimonial #############################
+    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  video_link: https://www.youtube.com/watch?v=ResipmZmpDU
 testimonial:
-  enable : true
-  title : "قالوا عنا"
+  enable: true
+  title: قالوا عنا
   testimonial_item:
-      # testimonial item loop
-      - name : "شخصا ما"
-        data : "ناس حلوه اوي"
-
-      # testimonial item loop
-      - name : "شخصا ما"
-        data : "ناس حلوه اوي"
-
-      # testimonial item loop
-      - name : "شخصا ما"
-        data : "ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي"
-
-      #testimonial item loop
-      - name : "شخصا ما"
-        data : "ناس حلوه اوي ناس حلوه الأقوياء ناس حلوه اوي ناس حلوه اوي"
-
-      #testimonial item loop
-      - name : "شخصا ما"
-        data : "ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي"
-
-      #testimonial item loop
-      - name : "شخصا ما ناس حلوه اوي"
-        data : "ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي ناس حلوه اوي"
-
-############################# event ################################
+  - name: ولي أمر مازم ومحمد الهوال
+    data: '"الشكر لن يوفي Trainopia  حقهم على كامب الأطفال، فعلاً أول أسبوع كان رائع،
+      تنظيم ممتاز والتزام مع مدربين متخصصين وفاهمين وشاطرين، أسلوبهم سهل وسلس، والقيم
+      والفقرات اللي اشتغلوا بيها فعلاً جميلة وقيمة وممتعة وبتبني شخصية الطفل وبتنمي
+      مهاراته.  ألف شكر لكل فرد في ترينوبيا، لكم الشكر والتقدير"'
+  - name: ولي أمر أسامة عبد العزيز
+    data: "\"أول مرة أشوف تدريب Online فعال بالصورة دي مع ابني وإنه ما يفقدش تركيزه
+      وقت الفقرات من كثرة استمتاعه بالمحتوى، شكرًا جدًا ليكم ولمجهودكم."
+  - name: سمير بهائي – المدير الإقليمي لشركة Google في الشرق الأوسط
+    data: فريق ترينوبيا، أنتم حققتم فعلاً نجاحًا كبيرًا، وأثبتم قدرتكم العالية على
+      الالتزام والانضباط. أنتم بنيتم ثقة في عقول أولياء الأمور والأسر تنتظر من فريقكم
+      الواعد المزيد من التقدم والنجاح."
+  - name: أحمد فوزي – مؤسس ومدير ستوديو AN للألعاب الإلكترونية
+    data: '"أنا فعلاً منبهر بالعقول الصغيرة اللي قدرت في السن دة تصمم مشاريع تكنولوجية
+      رائعة. أنا كنت في العشرينيات من عمري لما قدمت أول منتج لي من خلال البرمجة. دة
+      انجاز عظيم جدًا فعلاً."'
+  - name: م.عمرو محمد – مهندس مدني
+    data: لما قررت أطلع رحلة مع فريق ترينوبيا، اعتقدت في الأول إن الرحلة للأطفال،
+      وأنا هكون مجرد مصاحب لأولادي في تدريبهم. ولكني انبهرت برحلة "يلا كامب" وإنها
+      ممتازة لكل الفئات العمرية، أنا وزوجتي وأولادي ولو والدي قرر يطلع رحلة أكيد هرشح
+      له فريق ترينوبيا"
+  - name: ولي أمر أحد المتدربين
+    data: أنا بفضل أجيب ابني فعلاً يتدرب ويتعلم منكم أكتر من أي مكان تاني
 event:
-  enable : true
-  title : "Événements à venir"
-  # event item comes from "content/**/event" folder.
-
-  
-########################### funfacts ############################
+  enable: true
+  title: Événements à venir
 funfacts:
-  enable : true
-  title : "إنجازاتنا"
-  description : "يمكنك مراجعة بعض الأرقام عن مؤسستنا التعليمية  "
+  enable: true
+  title: إنجازاتنا
+  description: 'يمكنك مراجعة بعض الأرقام عن مؤسستنا التعليمية  '
   funfact_item:
-    # funfact item loop
-    - name : "برنامج تم تدريبه"
-      count : "92"
-
-    # funfact item loop
-    - name : "متدربا منذ 2016"
-      count : "4946"
-
-    # funfact item loop
-    - name : "عضوًا محترفًا"
-      count : "70"
-
-    #funfact item loop
-    - name : "مدينة ومحافظة مختلفة"
-      count : "12"
-
-# funfact is for about page
-
-
-############################# blog ################################
+  - name: برنامج تم تدريبه
+    count: "92"
+  - name: متدربا منذ 2016
+    count: "4946"
+  - name: عضوًا محترفًا
+    count: "70"
+  - name: مدينة ومحافظة مختلفة
+    count: "12"
 blog:
-  enable : true
-  title : "قالوا عنا"
-  # blog item comes from "content/**/blog" folder.
+  enable: true
+  title: قالوا عنا
