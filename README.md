@@ -48,7 +48,7 @@ Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) 
 
 **The images are only for demonstration purpose, Please don't use those images.**
 
-[Live Demo](http://demo.gethugothemes.com/educenter-hugo/).
+[Live Demo](http://demo.gethugothemes.com/educenter/).
 
 ## Installation
 At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
