@@ -5,6 +5,8 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 <!-- count how many times we've called this shortcode; load the css if it's the first time -->
 {{- if not ($.Page.Scratch.Get "figurecount") }}
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />{{ end }}
+<link rel="stylesheet" href="/css/lightbox.min.css" />
+<script src="/js/lightbox-plus-jquery.min.js"></script>
 {{- $.Page.Scratch.Add "figurecount" 1 }}
 {{ $baseURL := .Site.BaseURL }}
 <div style="max-width: none;" class="gallery caption-position-{{ with .Get " caption-position" | default "bottom" }}{{.}}{{end}}
@@ -32,7 +34,10 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 	<!-- does a thumbnail image exist? -->
 	{{- $thumbURL := print $baseURL ($.Get "dir") "/" $thumb | absURL }}
 	<!-- absolute URL to thumbnail image -->
-		<img loading="lazy" style="width: 350px; height: 400px; padding: 10px; object-fit: cover;" src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="">
+		{{/*  <img loading="lazy" style="width: 350px; height: 400px; padding: 10px; object-fit: cover;" src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="">  */}}
+		<a class="example-image-link" href="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}"
+			data-lightbox="example-1"><img class="example-image"
+				src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" /></a>
 	{{- end }}
 	{{- end }}
 	{{- else -}}
