@@ -4,6 +4,7 @@ bio = ""
 contact = []
 course = "Support"
 description = ""
+draft = true
 image = "/images/img_0471.jpg"
 interest = []
 title = "Florine"
