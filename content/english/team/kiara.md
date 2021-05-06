@@ -4,7 +4,6 @@ bio = ""
 contact = []
 course = "Data engineer "
 description = ""
-draft = true
 image = "/images/img_0484.jpg"
 interest = []
 title = "Kiara "
