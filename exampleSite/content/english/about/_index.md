@@ -10,8 +10,8 @@ description: 'Our goal is to connect students, teachers, and classrooms.  The gr
 ---
 ## What We Do
 
-* **Develop** effective curriculums on topics such as computer literacy, design, programming, problem-solving, creative thinking, design thinking, and innovation
-* **Acquire** resources to set up computer labs, such as internet access, computers, tablets, and mobile phones, for academic purposes
+* Develop effective curriculums on topics such as computer literacy, design, programming, problem-solving, creative thinking, design thinking, and innovation
+* Acquire resources to set up computer labs, such as internet access, computers, tablets, and mobile phones, for academic purposes
 
-  **Build** mentorship programs for children  
-  Training teachers on relevant curriculums
+  Build mentorship programs for children 
+* Train teachers on relevant curriculums
