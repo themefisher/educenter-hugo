@@ -4,10 +4,10 @@ bio = ""
 contact = []
 course = "Data science "
 description = ""
-draft = true
 image = "/images/foto-dennis.JPG"
 interest = []
 title = "Dennis "
+type = ""
 
 +++
 * **Jongleerballen:** Goede manier om m'n hoofd leeg te maken.
