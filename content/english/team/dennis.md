@@ -2,12 +2,11 @@
 bg_image = ""
 bio = ""
 contact = []
-course = "Data science "
+course = "Data science"
 description = ""
 image = "/images/foto-dennis.JPG"
 interest = []
-title = "Dennis "
-type = ""
+title = "Dennis"
 
 +++
 * **Jongleerballen:** Goede manier om m'n hoofd leeg te maken.
