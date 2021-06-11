@@ -158,6 +158,9 @@ $accent: #212121;
 }
 
 @media screen and (max-width: 768px) {
+	.timeline-img-header img {
+		height: 180px;
+	}
 
 	.timeline {
 
