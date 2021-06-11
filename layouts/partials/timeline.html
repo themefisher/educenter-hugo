@@ -7,6 +7,7 @@
       
       {{ $fade := ""}}
       {{ $timelinecard := ""}}
+      {{ $imageLink := ""}}
 
       {{if not (modBool $i 2)}}
         {{ $fade = "js--fadeInLeft"}}
@@ -16,6 +17,9 @@
       
       {{ if (isset .Params "image") | and  (not (eq .Params.image "")) }}
         {{ $timelinecard = "timeline-card"}}
+        {{ $image := .Params.image | printf "static%s" | resources.Get }}
+        {{ $image := $image.Resize "500x" }}
+        {{ $imageLink = $image.RelPermalink }}
       {{ end }}
 
       <!-- {{ .Render "timeline" }} -->
@@ -24,7 +28,7 @@
         <div class="timeline-content {{ $timelinecard }} {{ $fade }}">
         {{ if not (eq $timelinecard "") }}
           <div class="timeline-img-header">
-            <img src="{{ .Params.image }}"/>
+            <img src="{{ $imageLink }}"/>
             <h2>{{ .Title }}</h2>
           </div>
         {{ else }}

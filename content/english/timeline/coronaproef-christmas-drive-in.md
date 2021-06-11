@@ -1,6 +1,6 @@
 +++
 date = 2020-12-15T23:00:00Z
-image = "/images/img_0039.jpeg"
+image = "/images/img_0039.jpg"
 title = "Coronaproef Christmas Drive In"
 
 +++
