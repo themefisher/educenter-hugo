@@ -47,3 +47,5 @@ fields:
   name: type
   label: type
   default: course
+pages:
+- content/english/course/business-consulting-data-driven.learn-how-to-apply-data-science-to-make-strategic-business-decisions.md
