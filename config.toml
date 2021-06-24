@@ -51,99 +51,99 @@ link = "plugins/scrollreveal/scrollreveal.min.js"
 ############################## navigation ###############################
 
 # main menu
-[[menu.main]]
+[[Languages.en.menu.main]]
 name = "Solutions"
 weight = 1
 hasChildren = true
 footerDisplay = false
 
-  [[menu.main]]
+  [[Languages.en.menu.main]]
   parent = "Solutions"
   name = "Quick wins"
   URL = "solutions#data-oplossingen"
   weight = 1
 
-  [[menu.main]]
+  [[Languages.en.menu.main]]
   parent = "Solutions"
   name = "Consulting"
   URL = "solutions#data-consulting"
   weight = 2
 
-  [[menu.main]]
+  [[Languages.en.menu.main]]
   parent = "Solutions"
   name = "Workshops"
   URL = "solutions#data-workshop"
   weight = 3
 
-[[menu.main]]
+[[Languages.en.menu.main]]
 weight = 2
 name = "Insights"
 footerDisplay = true
 
-  [[menu.main]]
+  [[Languages.en.menu.main]]
   parent = "Insights"
   name = "Events"
   URL = "event"
 
-  [[menu.main]]
+  [[Languages.en.menu.main]]
   parent = "Insights"
   name = "Blogs"
   URL = "blog"
 
-[[menu.main]]
+[[Languages.en.menu.main]]
 name = "about"
 weight = 4
 footerDisplay = true
 
-  [[menu.main]]
+  [[Languages.en.menu.main]]
   parent = "about"
   name = "Over ons"
   URL = "about"
 
-  [[menu.main]]
+  [[Languages.en.menu.main]]
   parent = "about"
   name = "Team"
   URL = "team"
 
-  [[menu.main]]
+  [[Languages.en.menu.main]]
   parent = "about"
   name = "Werken bij"
   URL = "career"
 
-[[menu.main]]
+[[Languages.en.menu.main]]
 name = "Contact"
 URL = "contact"
 weight = 5
 
-[[menu.company]]
+[[Languages.en.menu.company]]
 name = "Insights"
 URL = "insights"
 weight = 1
 
-[[menu.company]]
+[[Languages.en.menu.company]]
 name = "Over"
 URL = "about"
 weight = 3
 
-[[menu.company]]
+[[Languages.en.menu.company]]
 name = "Contact"
 URL = "contact"
 weight = 5
 
 # footer menu
-[[menu.footer]]
+[[Languages.en.menu.footer]]
 name = "Team"
 URL = "team"
 
-[[menu.footer]]
+[[Languages.en.menu.footer]]
 name = "Events"
 URL = "event"
 
-[[menu.footer]]
+[[Languages.en.menu.footer]]
 name = "Werken bij"
 URL = "career"
 
-[[menu.footer]]
+[[Languages.en.menu.footer]]
 name = "Blogs"
 URL = "blog"
 
