@@ -8,7 +8,7 @@ duration = ""
 fee = ""
 image = "/images/untitled-design-23.png"
 teacher = ""
-title = "Business Consulting - Data Driven"
+title = "Data Driven Business Consulting"
 weekly = ""
 
 +++
