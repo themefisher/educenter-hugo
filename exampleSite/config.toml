@@ -20,9 +20,6 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.footer]]
-URL = ""
-name = ""
-[[menu.footer]]
 URL = "teacher"
 name = "teacher"
 [[menu.footer]]
