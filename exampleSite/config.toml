@@ -67,12 +67,8 @@ URL = "research"
 name = "research"
 parent = "Pages"
 [[menu.main]]
-URL = "blog"
-name = "blog"
-weight = 4
-[[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "contact"
 weight = 5
 [params]
 address = "9567 Turner Trace Apt. BC C3G8A4"
