@@ -43,10 +43,6 @@ URL = "course"
 name = "course"
 weight = 2
 [[menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 3
-[[menu.main]]
 URL = "teacher"
 name = "teacher"
 parent = "Pages"
