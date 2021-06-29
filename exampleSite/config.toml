@@ -1,5 +1,5 @@
 baseURL = "http://examplesite.org"
-disableLanguages = []
+disableLanguages = ["french"]
 disqusShortname = "educenter"
 paginate = "6"
 summaryLength = "10"
