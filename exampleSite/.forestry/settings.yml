@@ -100,8 +100,6 @@ sections:
   match: "**/*"
   templates:
   - event
-- type: heading
-  label: Research
 - type: directory
   path: exampleSite/content/english/research
   label: Research (en)
@@ -118,13 +116,6 @@ sections:
   - research
 - type: heading
   label: Scholarship
-- type: directory
-  path: exampleSite/content/english/scholarship
-  label: Scholarship (en)
-  create: all
-  match: "**/*"
-  templates:
-  - scholarship
 - type: directory
   path: exampleSite/content/french/scholarship
   label: Scholarship (fr)
