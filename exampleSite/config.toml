@@ -40,22 +40,6 @@ URL = "course"
 name = "course"
 weight = 2
 [[menu.main]]
-URL = "teacher"
-name = "teacher"
-parent = "Pages"
-[[menu.main]]
-URL = "event"
-name = "event"
-parent = "Pages"
-[[menu.main]]
-URL = "scholarship"
-name = "scholarship"
-parent = "Pages"
-[[menu.main]]
-URL = "research"
-name = "research"
-parent = "Pages"
-[[menu.main]]
 URL = "contact"
 name = "contact"
 weight = 5
