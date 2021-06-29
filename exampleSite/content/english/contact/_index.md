@@ -1,9 +1,10 @@
 ---
 title: About Us
 bg_image: images/backgrounds/page-title.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud.
+description: Our goal is to connect students, teachers, and classrooms. The grassroots
+  approach of each interaction is why our local teachers are teaching our technology
+  lessons in their native language, so that the students are better able to absorb
+  the information.
 
 ---
 Thank you for your interest in Think Tools for Children International. Our team is always open to listen to any ideas or suggestions, so please reach out if you’d like to connect.
