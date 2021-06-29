@@ -1,8 +1,9 @@
 ---
-title: "Our Courses"
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+title: Our Courses
+bg_image: images/backgrounds/page-title.jpg
+description: Our goal is to connect students, teachers, and classrooms. The grassroots
+  approach of each interaction is why our local teachers are teaching our technology
+  lessons in their native language, so that the students are better able to absorb
+  the information.
+
 ---
