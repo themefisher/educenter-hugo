@@ -23,9 +23,6 @@ weight = 2
 URL = "teacher"
 name = "teacher"
 [[menu.footer]]
-URL = "notice"
-name = "notice"
-[[menu.footer]]
 URL = "event"
 name = "event"
 [[menu.footer]]
@@ -45,10 +42,6 @@ weight = 2
 [[menu.main]]
 URL = "teacher"
 name = "teacher"
-parent = "Pages"
-[[menu.main]]
-URL = "notice"
-name = "notice"
 parent = "Pages"
 [[menu.main]]
 URL = "event"
@@ -75,7 +68,8 @@ email = "admin@thinktoolsforchildren.org"
 google_analitycs_id = ""
 logo = "images/logo.png"
 mobile = ""
-top_header = true
+social = []
+top_header = false
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
@@ -111,23 +105,3 @@ preloader = "images/preloader.gif"
 enable = false
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
-[[params.social]]
-icon = "ti-facebook"
-link = "#"
-title = "facebook"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-title = "twitter"
-[[params.social]]
-icon = "ti-instagram"
-link = "#"
-title = "instagram"
-[[params.social]]
-icon = "ti-github"
-link = "#"
-title = "github"
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
-title = "linkedin"
