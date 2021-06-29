@@ -67,7 +67,7 @@ URL = "contact"
 name = "contact"
 weight = 5
 [params]
-address = "9567 Turner Trace Apt. BC C3G8A4"
+address = ""
 author = "Themefisher"
 contact_form_action = "#"
 description = "This is meta description"
