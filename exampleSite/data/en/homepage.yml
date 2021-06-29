@@ -57,7 +57,7 @@ course:
   enable: true
   title: Our Course
 cta:
-  enable: true
+  enable: false
   subtitle: Click to Join the Advance Workshop
   title: Training In Advannce Networking
   button:
@@ -77,7 +77,7 @@ success_story:
     so that one day she can achieve her dream.
   video_link: https://www.youtube.com/watch?v=ResipmZmpDU
 event:
-  enable: true
+  enable: false
   title: What we do
 funfacts:
   enable: true
@@ -91,5 +91,5 @@ funfacts:
   - name: SATISFIED CLIENT
     count: "1400"
 blog:
-  enable: true
+  enable: false
   title: Latest News
