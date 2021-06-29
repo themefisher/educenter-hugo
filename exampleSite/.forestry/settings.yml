@@ -115,15 +115,6 @@ sections:
   templates:
   - research
 - type: heading
-  label: Scholarship
-- type: directory
-  path: exampleSite/content/french/scholarship
-  label: Scholarship (fr)
-  create: all
-  match: "**/*"
-  templates:
-  - scholarship
-- type: heading
   label: Others Pages
 - type: directory
   path: exampleSite/content/english/about
