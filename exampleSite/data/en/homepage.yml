@@ -35,9 +35,9 @@ banner_feature:
 '
   - name: How you can help
     icon: ti-write
-    content: "Email us at ________ if you’ve got an idea of how you can help.  Though
-      donations are always needed (we are a registered non-profit, if you’re looking
-      for tax exemption information click here) \n"
+    content: "Email us at admin@thinktoolsforchildren.org if you’ve got an idea of
+      how you can help.  Though donations are always needed (we are a registered non-profit,
+      if you’re looking for tax exemption information click here) \n"
 about:
   enable: true
   title: Every child in the world deserves
