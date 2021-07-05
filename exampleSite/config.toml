@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org"
+baseURL = "https://demo.gethugothemes.com/educenter/"
 title = "Educenter | hugo education template"
 theme = "educenter-hugo"
 # post pagination
