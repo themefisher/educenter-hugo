@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+{{ $data := index site.Data site.Language.Lang }}
+
+<!-- content -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 content">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /content -->
+
+{{ end }}

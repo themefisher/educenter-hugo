@@ -103,12 +103,34 @@ footerDisplay = true
   [[menu.main]]
   parent = "about"
   name = "Team"
-  URL = "team"
+  URL = "about/team"
 
   [[menu.main]]
   parent = "about"
   name = "Werken bij"
   URL = "career"
+
+[[menu.main]]
+name = "career"
+weight = 5
+
+  [[menu.main]]
+  parent = "career"
+  name = "Vacatures"
+  URL = "career/jobs"
+  weight = 1
+
+  [[menu.main]]
+  parent = "career"
+  name = "Cultuur"
+  URL = "career/culture"
+  weight = 2
+
+  [[menu.main]]
+  parent = "career"
+  name = "Cases"
+  URL = "career/cases"
+  weight = 3
 
 [[menu.main]]
 name = "Contact"
