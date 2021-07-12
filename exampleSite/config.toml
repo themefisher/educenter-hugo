@@ -32,10 +32,6 @@ name = "scholarship"
 URL = "research"
 name = "research"
 [[menu.main]]
-URL = "about"
-name = "About US"
-weight = ""
-[[menu.main]]
 URL = "contact"
 name = "contact"
 weight = 5
