@@ -19,14 +19,26 @@ home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 2
+[[menu.footer]]
+URL = "teacher"
+name = "teacher"
+[[menu.footer]]
+URL = "event"
+name = "event"
+[[menu.footer]]
+URL = "scholarship"
+name = "scholarship"
+[[menu.footer]]
+URL = "research"
+name = "research"
 [[menu.main]]
 URL = "about"
-name = "About"
-weight = 1
+name = "About US"
+weight = ""
+[[menu.main]]
+URL = "contact"
+name = "contact"
+weight = 5
 [params]
 address = ""
 author = "Themefisher"
