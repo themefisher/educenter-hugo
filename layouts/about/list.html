@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        {{ with .Params.Image }}
+        {{ with .Params.image }}
         <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
         {{ end }}
         {{ .Content }}

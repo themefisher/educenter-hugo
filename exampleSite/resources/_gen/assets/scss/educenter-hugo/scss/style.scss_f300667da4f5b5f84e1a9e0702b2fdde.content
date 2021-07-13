@@ -142,16 +142,16 @@ h6, .h6 {
     color: #fff;
     border: 1px solid #fff; }
 
-.btn-primary-outline {
+.btn-outline-primary {
   border: 1px solid #ffbc3b;
   color: #ffbc3b;
   background: transparent; }
-  .btn-primary-outline::before {
+  .btn-outline-primary::before {
     background: #fff; }
-  .btn-primary-outline:hover {
+  .btn-outline-primary:hover {
     background: #ffbc3b;
     color: #ffbc3b; }
-  .btn-primary-outline:active {
+  .btn-outline-primary:active {
     background: #ffbc3b;
     color: #fff; }
 

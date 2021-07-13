@@ -16,6 +16,10 @@
 
   @include desktop {
     background: $secondary-color;
+
+    .navbar-brand {
+      padding: 12px 0;
+    }
   }
 }
 

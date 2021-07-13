@@ -186,6 +186,13 @@
     right: 25px;
     top: 50%;
     transform: translateY(-50%);
+    @include mobile {
+      position: static;
+      transform: translateY(-10px);
+      width: 100%;
+      outline: 5px solid #fff;
+      outline-offset: -5px;
+    }
   }
 }
 
@@ -203,7 +210,11 @@
 
 .newsletter-block {
   .form-control {
-    height: 90px;
+    height: 80px;
+    padding-right: 160px;
+    @include mobile {
+      padding-right: 25px;
+    }
   }
 }
 
@@ -219,6 +230,20 @@
 .footer {
   border-color: #494a43 !important;
   padding-top: 275px;
+  color: #8996a7;
+  a {
+    color: #8996a7;
+    text-transform: capitalize;
+    &:hover {
+      text-decoration: underline;
+      color: $white;
+    }
+  }
+}
+
+.copyright p {
+  color: #8996a7;
+  text-transform: capitalize;
 }
 
 /* /footer */

@@ -62,7 +62,7 @@
 
           <!-- Language List -->
           {{ if .IsTranslated }}
-          <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
+          <select class="m-2 border-0 mb-5 mb-lg-2" id="select-language" onchange="location = this.value;">
             {{ $siteLanguages := site.Languages}}
             {{ $pageLang := .Page.Lang}}
             {{ range .Page.AllTranslations }}

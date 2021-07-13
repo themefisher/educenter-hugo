@@ -68,7 +68,7 @@
         <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-primary-outline">{{ .label }}</a>
+        <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -94,7 +94,7 @@
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
           </div>
         </div>
       </div>
@@ -112,7 +112,7 @@
     <!-- mobile see all button -->
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+        <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
       </div>
     </div>
   </div>
@@ -131,7 +131,7 @@
         <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-secondary">{{ .label }}</a>
+        <a href="{{ .link | absLangURL }}" class="btn btn-light">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -158,7 +158,7 @@
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.event.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+            <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@
     <!-- mobile see all button -->
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+        <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
       </div>
     </div>
   </div>

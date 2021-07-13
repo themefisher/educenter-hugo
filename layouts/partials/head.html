@@ -4,9 +4,17 @@
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta name="description"
+    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
+  {{ "<!-- multilingual SEO optimizations -->" | safeHTML }}
+  {{ if .IsTranslated }}
+  {{ range .Page.AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  {{ end }}
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
@@ -14,8 +22,8 @@
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
-  {{ $styles := resources.Get "scss/style.scss" | toCSS }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  {{ $styles := resources.Get "scss/main.scss" | toCSS | fingerprint "sha512" }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">

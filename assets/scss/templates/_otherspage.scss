@@ -24,3 +24,8 @@
     }
   }
 }
+
+.media a:hover h5 {
+  color: $primary-color;
+  transition: 0.3s;
+}

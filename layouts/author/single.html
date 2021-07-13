@@ -6,8 +6,8 @@
 			<div class="col-lg-10 mx-auto">
 				<div class="text-center">
 					<figure>
-						{{ if .Params.Image }}
-						<img class="rounded-circle img-fluid mb-4" src="{{.Params.Image | relURL }}">
+						{{ if .Params.image }}
+						<img class="rounded-circle img-fluid mb-4" src="{{.Params.image | relURL }}">
 						{{else if .Params.Email}}
 						<img class="rounded-circle img-fluid mb-4" src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
 						{{ end }}
