@@ -2,7 +2,7 @@ baseURL = "http://examplesite.org"
 disableLanguages = ["french", "Fr", "fr"]
 disqusShortname = "educenter"
 paginate = "6"
-summaryLength = "10"
+summaryLength = "5"
 theme = "educenter-hugo"
 title = "Educenter | hugo education template"
 [Languages.en]
