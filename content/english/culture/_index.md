@@ -4,8 +4,7 @@ bg_image: images/backgrounds/page-title.jpg
 image: images/career/hero.jpg
 description: ''
 url: "/career/culture"
-layout: page
-
+layout: culture
 
 ---
 
