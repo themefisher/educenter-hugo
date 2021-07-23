@@ -11,9 +11,7 @@ description : ""
 
 Bij ProRail heb ik onderzocht of het mogelijk was om de conditie van alle dwarliggerbevestigingen op het Nederlandse spoor te controleren op basis van 250.000.000 afbeeldingen ieder half jaar. Hiervoor heb ik een neuraal netwerk getraind en vervolgens in een beeldherkenning pipeline ingezet.
 
-Prorail case
-
-Mijn naam is … en ik weer al weer vier jaar voor Dataworkz. Een van de klanten dan Dataworkz is Prorail. Bij ProRail heb ik onderzocht of het mogelijk is om de conditie van alle dwarsliggerbevestigingen op het Nederlandse spoor te controleren op basis van 250.000.000 afbeeldingen ieder half jaar. Deze beelden worden gemaakt door een speciale trein met 8 camera’s die ’s nachts over het spoor rijdt. Hiervoor heb ik een neuraal netwerk getraind en vervolgens in een beeldherkenning pipeline ingezet.
+Mijn naam is Olaf en ik weer al weer vier jaar voor Dataworkz. Een van de klanten dan Dataworkz is Prorail. Bij ProRail heb ik onderzocht of het mogelijk is om de conditie van alle dwarsliggerbevestigingen op het Nederlandse spoor te controleren op basis van 250.000.000 afbeeldingen ieder half jaar. Deze beelden worden gemaakt door een speciale trein met 8 camera’s die ’s nachts over het spoor rijdt. Hiervoor heb ik een neuraal netwerk getraind en vervolgens in een beeldherkenning pipeline ingezet.
 
 De gebruikte Techstack was MobileNet, Python, TensorFlow, OpenCV, Azure, Databricks, Docker en Kubernetes.
 

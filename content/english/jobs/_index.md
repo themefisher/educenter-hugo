@@ -1,9 +1,9 @@
 ---
 title: Open vacature bij Dataworkz
-bg_image: images/backgrounds/page-title.jpg
+bg_image: images/career/bground.jpg
 image: images/career/hero.jpg
 description: ''
-url: "/career/jobs"
+url: "/career"
 layout: career-jobs
 
 

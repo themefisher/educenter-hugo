@@ -1,7 +1,6 @@
 ---
 title: Culture bij Dataworkz
-bg_image: images/backgrounds/page-title.jpg
-image: images/career/hero.jpg
+bg_image: images/culture/bground.jpg
 description: ''
 url: "/career/culture"
 layout: culture

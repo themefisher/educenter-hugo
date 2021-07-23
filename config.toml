@@ -110,7 +110,7 @@ footerDisplay = true
   [[menu.main]]
   parent = "about"
   name = "Werken bij"
-  URL = "career"
+  URL = "work-at"
 
 [[menu.main]]
 name = "career"
@@ -119,7 +119,7 @@ weight = 5
   [[menu.main]]
   parent = "career"
   name = "Vacatures"
-  URL = "career/jobs"
+  URL = "career"
   weight = 1
 
   [[menu.main]]
@@ -131,7 +131,7 @@ weight = 5
   [[menu.main]]
   parent = "career"
   name = "Cases"
-  URL = "career/cases"
+  URL = "cases"
   weight = 3
 
 [[menu.main]]
@@ -165,7 +165,7 @@ URL = "event"
 
 [[menu.footer]]
 name = "Werken bij"
-URL = "career"
+URL = "work-at"
 
 [[menu.footer]]
 name = "Blogs"

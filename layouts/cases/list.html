@@ -15,8 +15,8 @@
         <div class="row justify-content-center">
             <!-- case item -->
             {{ range .Data.Pages }}
-            <div class="col-lg-12 col-sm-12 mb-12">
-                {{ .Render "case" }}
+            <div class="col-12 content">
+                {{ .Render "cases" }}
             </div>
             {{ end }}
         </div>
