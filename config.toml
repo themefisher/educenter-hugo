@@ -47,6 +47,8 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 link = "plugins/owl.carousel/owl.carousel.min.js"
 [[params.plugins.js]]
 link = "plugins/scrollreveal/scrollreveal.min.js"
+[[params.plugins.js]]
+link = "plugins/rellax/rellax.min.js"
 
 ############################## navigation ###############################
 

@@ -4,7 +4,7 @@ bg_image: images/backgrounds/page-title.jpg
 image: images/career/hero.jpg
 description: ''
 url: "/career/jobs"
-layout: page
+layout: career-jobs
 
 
 ---

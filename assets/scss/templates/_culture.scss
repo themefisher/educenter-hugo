@@ -33,7 +33,7 @@
 
 .testimonial-quote blockquote p:first-child:before {
     content: '\201C';
-    color: #81bedb;
+    color: $primary-color;
     font-size: 7.5em;
     font-weight: 700;
     opacity: .3;
@@ -45,7 +45,7 @@
 }
 
 .testimonial-quote img {
-    border: 3px solid #9CC1D3;
+    border: 3px solid $primary-color;
     border-radius: 50%;
     display: block;
     width: 120px;
