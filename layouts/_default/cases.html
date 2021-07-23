@@ -1,0 +1,5 @@
+<div class="text-center">
+    <h4>{{ .Title }}</h4>
+</div>
+<p>{{ .Content | safeHTML | truncate 500 }}</p>
+<a href="{{ .Permalink }}">Check hier de case</a>
