@@ -107,10 +107,10 @@ footerDisplay = true
   name = "Team"
   URL = "about/team"
 
-  [[menu.main]]
-  parent = "about"
-  name = "Werken bij"
-  URL = "work-at"
+  #[[menu.main]]
+  #parent = "about"
+  #name = "Werken bij"
+  #URL = "work-at"
 
 [[menu.main]]
 name = "career"
