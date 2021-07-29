@@ -241,7 +241,7 @@ contentDir = "content/english"
 weight = 2
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 by [kokkelaar](https://kokkelaar.nl)"
+copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
 
 
 ################################### Dutch language #####################################
@@ -252,7 +252,7 @@ contentDir = "content/dutch"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 by [kokkelaar](https://kokkelaar.nl)"
+copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
 
 # Custom mounts to be able to use files from the `static` dir as resources
 [module]
