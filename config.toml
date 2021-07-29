@@ -128,11 +128,11 @@ weight = 5
   URL = "career/culture"
   weight = 2
 
-  [[menu.main]]
-  parent = "career"
-  name = "Cases"
-  URL = "cases"
-  weight = 3
+  #[[menu.main]]
+  #parent = "career"
+  #name = "Cases"
+  #URL = "cases"
+  #weight = 3
 
 [[menu.main]]
 name = "Contact"
