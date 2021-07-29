@@ -78,6 +78,15 @@
 .testimonial-quote .quote-container {
     padding-left: 160px; 
 }
+
+.testimonial-quote .quote-container cite {
+    padding-top: 1em;
+    padding-left: 3em;
+}
+
+.testimonial-quote.right .quote-container cite {
+    padding-right: 3em;
+}
   
 .testimonial-quote.right .quote-container {
     padding-left: 0;
