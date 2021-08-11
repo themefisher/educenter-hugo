@@ -21,3 +21,7 @@ Zorg altijd dat je een backup hebt van de data. Dat heeft ons data lake gered ;)
 ### Wat is een bijzondere belevenis die is blijven hangen?
 
 De healthcare hackathon die we samen met CorrelAid georganiseerd hebben. Tientallen mensen waren bezig om hun data science skills te gebruiken voor social good, zoals bijvoorbeeld het voorspellen van een uitbraak van een virus aan de hand van de muggen populatie.
+
+### Wat voor technologie heb je gebruikt?
+
+Snowflake, Airflow, Kubernetes, AWS, Python, DBT, Singer.
