@@ -6,7 +6,7 @@ description = ""
 fee = ""
 image = "/images/copy-of-untitled-3.png"
 location = "Talk at Hamburg Data Science meetup."
-title = "Data Science Meetup - Continuous Delivery for Machine Learning - On the right tracks with CD4ML"
+title = "Continuous Delivery for Machine Learning - On the right tracks with CD4ML"
 [[speaker]]
 designation = ""
 image = ""
