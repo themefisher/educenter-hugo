@@ -14,3 +14,5 @@ fields:
     maxSize: 3
   label: bg image
   description: page header background image
+pages:
+- content/english/cases/carepay-giving-everyone-the-power-to-care.md
