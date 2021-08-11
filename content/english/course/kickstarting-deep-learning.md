@@ -1,5 +1,5 @@
 +++
-apply_url = ""
+apply_url = "/contact"
 bg_image = ""
 category = ""
 date = ""
