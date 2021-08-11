@@ -2,12 +2,9 @@
 title: Prorail computer vision – We’re on track
 bg_image: images/backgrounds/page-title.jpg
 description: ''
-draft: true
 
 ---
-### Willem - Deep Learning Expert
-
-![](https://dataworkz.nl/static/images/team/willem_overview_hu4e14fd071c641a4a82f5ab034e9ba884_299187_600x337_resize_q75_box.jpg)
+### ![](/images/7f09bd7d-3723-4431-927d-2bd97b6f5642.png)
 
 ### Wat heb je gedaan?
 
@@ -23,7 +20,7 @@ De gebruikte Techstack was MobileNet, Python, TensorFlow, OpenCV, Azure, Databri
 
 ### Wat heb je geleerd in het project?
 
-Voor mij was het werken op Databricks nieuw, hoewel ik sceptisch was, bleek dit wel een heel fijn platform te zijn om deep learning te doen op big data. 
+Voor mij was het werken op Databricks nieuw, hoewel ik sceptisch was, bleek dit wel een heel fijn platform te zijn om deep learning te doen op big data.
 
 ### Wat is 1 bijzonder belevenis/ding die is blijven hangen?
 
