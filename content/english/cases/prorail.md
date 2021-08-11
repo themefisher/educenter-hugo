@@ -8,7 +8,7 @@ description: ''
 
 ### Wat heb je gedaan?
 
-Bij **ProRail** heb ik onderzocht of het mogelijk was om de conditie van alle dwarsligger bevestigingen op het Nederlandse spoor te controleren, op basis van 250.000.000 afbeeldingen ieder half jaar. Hiervoor heb ik een neuraal netwerk getraind en vervolgens in een beeldherkenning pipeline ingezet. Deze beelden worden gemaakt door een speciale trein met 8 camera’s die ’s nachts over het spoor rijdt. Hiervoor heb ik een neuraal netwerk getraind en vervolgens in een beeldherkenning pipeline ingezet.
+Bij **ProRail** heb ik onderzocht of het mogelijk was om de conditie van alle dwarsligger bevestigingen op het Nederlandse spoor te controleren. Dit op basis van 250.000.000 afbeeldingen ieder half jaar. Hiervoor heb ik een neuraal netwerk getraind en vervolgens in een beeldherkenning pipeline ingezet. Deze beelden worden gemaakt door een speciale trein met 8 camera’s die ’s nachts over het spoor rijdt. Hiervoor heb ik een neuraal netwerk getraind en vervolgens in een beeldherkenning pipeline ingezet.
 
 ### Wat sprak je bijzonders aan bij dit project?
 
