@@ -12,7 +12,7 @@ title = "Kickstarting Deep Learning"
 weekly = ""
 
 +++
-Kickstarting Deeplearning neem je mee in de wereld van neurale netwerken, genetische algoritmen. Voor een technisch en enthousiast publiek werden in twee avondsessies op basis van praktische voorbeelden de belangrijkste en meest relevante onderwerpen op gebied van Deep Learning behandelt.
+Kickstarting Deeplearning neemt je mee in de wereld van neurale netwerken. Voor een technisch en enthousiast publiek werden in twee avondsessies of dagdelen op basis van praktische voorbeelden de belangrijkste en meest relevante onderwerpen op gebied van Deep Learning behandelt.
 
 Wij gaan onder de motorkap kijken en op basis van effectieve voorbeelden de meest gebruikte libraries (o.a. Tensorflow) behandelen waarbij de deelnemers hier zelf controle over hebben en daardoor direct de impact kunnen zien van hun ontwerp en keuzes.
 
