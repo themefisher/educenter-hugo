@@ -3,7 +3,6 @@ apply_url = "https://www.meetup.com/Hamburg-Data-Science-Meetup/events/279530699
 bg_image = ""
 date = 2021-08-26T16:15:00Z
 description = ""
-draft = true
 fee = ""
 image = "/images/copy-of-untitled-3.png"
 location = "Talk at Hamburg Data Science meetup."
