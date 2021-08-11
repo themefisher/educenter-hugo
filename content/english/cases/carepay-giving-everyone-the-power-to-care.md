@@ -4,9 +4,7 @@ description = ""
 title = "Carepay - Giving everyone the power to care"
 
 +++
-### Lennard
-
-![](https://dataworkz.nl/static/images/team/lennard_overview_hu0e633db20984bec36648a79e8ed07177_404459_600x337_resize_q75_box.jpg)
+![](/images/34166dd3-5097-4e82-9f9c-75f2f939077b.png)
 
 ### Wat heb je gedaan?
 
@@ -14,7 +12,7 @@ Bij CarePay werk ik als Data Engineer aan het opzetten van het data platform. Wi
 
 ### Wat sprak je bijzonders aan bij dit project?
 
-CarePay als bedrijf probeert echt de healthcare industrie te vernieuwen door automatisering van het claims en als als Data team hebben wij hierdoor nauw met onze stakeholders mogen meedenken. De focus lag heel sterk op het leveren van data die direct bruikbaar is voor de stakeholders. Hierdoor hebben we als team een enorme positieve impact op de organisatie kunnen maken. 
+CarePay als bedrijf probeert echt de healthcare industrie te vernieuwen door automatisering van het claims en als als Data team hebben wij hierdoor nauw met onze stakeholders mogen meedenken. De focus lag heel sterk op het leveren van data die direct bruikbaar is voor de stakeholders. Hierdoor hebben we als team een enorme positieve impact op de organisatie kunnen maken.
 
 ### Wat heb je geleerd in het project?
 
