@@ -3,12 +3,14 @@ apply_url = ""
 bg_image = ""
 date = 2021-07-06T22:00:00Z
 description = ""
-draft = true
 fee = ""
-image = "/images/copy-of-untitled.png"
+image = "/images/copy-of-untitled-2.png"
 location = ""
-speaker = []
 title = "Experiences with go(lang) for ML in production"
+[[speaker]]
+designation = ""
+image = ""
+name = "Thijs"
 
 +++
 Making the leap from experimental ML projects to operational, production-ready remains an industry-wide challenge.
