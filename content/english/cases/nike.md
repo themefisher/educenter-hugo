@@ -8,20 +8,20 @@ title = "Nike - Basketballen met de directeur"
 
 ### Wat heb je gedaan?
 
-Ik werk met mijn team aan een systeem dat infrastructuur automatiseert  omtrent het bouwen van datapijplijnen. Wij hebben een framework gebouwd waarmee onze  data pipelines geautomatiseerd worden gegenereerd  door een metadata-gestuurde ETL-engine. Hierdoor wordt het mogelijk, dat data op een consistente en betrouwbare manier in de Nike Data Foundation platform wordt ingeladen.
+Ik werk met mijn team aan een systeem dat infrastructuur automatiseert omtrent het bouwen van datapijplijnen. We hebben een framework gebouwd waarmee onze datapijplijnen geautomatiseerd en gegenereerd worden door een metadata-gestuurde ETL-engine. Hierdoor wordt het mogelijk dat data op een consistente en betrouwbare manier in het Nike Data Foundation platform wordt geladen.
 
-### Wat sprak je bijzonders aan bij dit project?
+### Wat sprak je in het bijzonder aan tijdens het project?
 
-Het maken van oplossingen die er daarwerkelijk voor zorgen dat de business sneller en met hogere kwaliteit hun werk kunnen doen en iedereen is gedreven om het beste te doen voor het bedrijf ongeacht de moeite -> Do the right thing!
+Het creëren van oplossingen die er daadwerkelijk voor zorgen dat bedrijven sneller en kwaliteitsgericht hun werk kunnen doen. Iedereen is gedreven om hetgeen te doen dat het beste is voor het bedrijf, ongeacht de moeite. Do the right thing!
 
-### Wat heb je geleerd in het project?
+### Wat heb je geleerd tijdens het project?
 
-Het gaat bijna nooit om de technische oplossing, maar om de gebruikers goed te begrijpen en oplossingen te bieden die voor echte verbetering kunnen zorgen
+Het gaat bijna nooit om de technische oplossing, maar om het goed begrijpen van de gebruikers en het bieden van oplossingen die voor echte verbetering kunnen zorgen.
 
-### Wat is een bijzondere belevenis die is blijven hangen?
+### Wat was voor jou bijzonder en is je het meest bijgebleven?
 
-Een basketbal uitdaging met de senior director tijdens lunchtijd
+Een basketbal partijtje met de senior director tijdens lunchtijd.
 
-### Wat voor technologie heb je gebruikt? 
+### Wat voor technologie heb je gebruikt?
 
-AWS, kubernetes, python (mainly FastAPI), golang, spark, airflow, Prometheus, Elastic
+AWS, kubernetes, python (mainly FastAPI), golang, spark, airflow, Prometheus, Elastic.
