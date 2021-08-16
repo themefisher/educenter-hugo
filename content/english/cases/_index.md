@@ -1,6 +1,6 @@
 ---
 title: Cases bij Dataworkz
-bg_image: "/images/3b4d560b-89ad-4eed-8d88-facf5c193176.JPG"
+bg_image: "/images/untitled-design-25.png"
 image: images/career/hero.jpg
 description: ''
 url: "/cases"
