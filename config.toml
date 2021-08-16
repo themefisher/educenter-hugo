@@ -1,22 +1,162 @@
-######################## default configuration ####################
 baseURL = "/"
-title = "Dataworkz | Specialist in data science & data engineering"
-theme = "educenter"
-# post pagination
-paginate = "6"
-# post excerpt
-summaryLength = "10"
-# disqus short name
- disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = ["nl"] # disable language from here
-# For comming events
 buildFuture = true
-
-
-############################# Plugins ##############################
-
-# CSS Plugins
+disableLanguages = ["nl"]
+disqusShortname = ""
+paginate = "6"
+summaryLength = "10"
+theme = "educenter"
+title = "Dataworkz | Specialist in data science & data engineering"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
+home = "Home"
+languageCode = "nl-NL"
+languageName = "En"
+weight = 2
+[Languages.nl]
+contentDir = "content/dutch"
+copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
+home = "Home"
+languageCode = "nl-NL"
+languageName = "Nl"
+weight = 1
+[[menu.company]]
+URL = "contact"
+name = "Contact"
+weight = 3
+[[menu.company]]
+URL = "about"
+name = "Over"
+weight = 2
+[[menu.company]]
+URL = "insights"
+name = "Insights"
+weight = 1
+[[menu.footer]]
+URL = "work-at"
+name = "Werken bij"
+weight = 4
+[[menu.footer]]
+URL = "blog"
+name = "Blogs"
+weight = 3
+[[menu.footer]]
+URL = "event"
+name = "Events"
+weight = 2
+[[menu.footer]]
+URL = "team"
+name = "Team"
+weight = 1
+[[menu.main]]
+URL = "blog"
+name = "Blogs"
+parent = "Insights"
+weight = 1
+[[menu.main]]
+URL = "event"
+name = "Events"
+parent = "Insights"
+weight = 2
+[[menu.main]]
+URL = "about/team"
+name = "Team"
+parent = "about"
+weight = 1
+[[menu.main]]
+URL = "about"
+name = "Over ons"
+parent = "about"
+weight = 2
+[[menu.main]]
+URL = "solutions#data-workshop"
+name = "Workshops"
+parent = "Solutions"
+weight = 3
+[[menu.main]]
+URL = "solutions#data-consulting"
+name = "Consulting"
+parent = "Solutions"
+weight = 2
+[[menu.main]]
+URL = "career/culture"
+name = "Cultuur"
+parent = "career"
+weight = 2
+[[menu.main]]
+URL = "solutions#data-oplossingen"
+name = "Quick wins"
+parent = "Solutions"
+weight = 1
+[[menu.main]]
+URL = "career"
+name = "Vacatures"
+parent = "career"
+weight = 1
+[[menu.main]]
+name = "career"
+weight = 5
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+[[menu.main]]
+footerDisplay = true
+name = "about"
+weight = 3
+[[menu.main]]
+footerDisplay = true
+name = "Insights"
+weight = 2
+[[menu.main]]
+footerDisplay = false
+hasChildren = true
+name = "Solutions"
+weight = 1
+[[module.mounts]]
+lang = "nl"
+source = "content/dutch"
+target = "content"
+[[module.mounts]]
+lang = "en"
+source = "content/english"
+target = "content"
+[[module.mounts]]
+source = "static"
+target = "static"
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+[[module.mounts]]
+source = "data"
+target = "data"
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "static"
+target = "assets/static"
+[[module.mounts]]
+source = "i18n"
+target = "i18n"
+[[module.mounts]]
+source = "archetypes"
+target = "archetypes"
+[params]
+address = "Tractieweg 41 studio N, 3534 AP Utrecht"
+author = "Dataworkz BV."
+contact_form_action = "https://formspree.io/xleodbng"
+description = "Dataworkz is de specialist in data science & data engineering"
+email = "info@dataworkz.nl"
+google_analitycs_id = "G-3PG6NYRP8M"
+logo = "images/logo.png"
+mobile = "+31 (0)6 10 49 20 44"
+top_header = false
+[params.map]
+enable = false
+map_latitude = "52.105107"
+map_longitude = "5.079772"
+map_marker = "images/marker.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -31,8 +171,6 @@ link = "plugins/themify-icons/themify-icons.css"
 link = "plugins/owl.carousel/assets/owl.carousel.min.css"
 [[params.plugins.css]]
 link = "plugins/owl.carousel/assets/owl.theme.default.min.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -49,247 +187,26 @@ link = "plugins/owl.carousel/owl.carousel.min.js"
 link = "plugins/scrollreveal/scrollreveal.min.js"
 [[params.plugins.js]]
 link = "plugins/rellax/rellax.min.js"
-
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "Solutions"
-weight = 1
-hasChildren = true
-footerDisplay = false
-
-  [[menu.main]]
-  parent = "Solutions"
-  name = "Quick wins"
-  URL = "solutions#data-oplossingen"
-  weight = 1
-
-  [[menu.main]]
-  parent = "Solutions"
-  name = "Consulting"
-  URL = "solutions#data-consulting"
-  weight = 2
-
-  [[menu.main]]
-  parent = "Solutions"
-  name = "Workshops"
-  URL = "solutions#data-workshop"
-  weight = 3
-
-[[menu.main]]
-weight = 2
-name = "Insights"
-footerDisplay = true
-
-  [[menu.main]]
-  parent = "Insights"
-  name = "Events"
-  URL = "event"
-
-  [[menu.main]]
-  parent = "Insights"
-  name = "Blogs"
-  URL = "blog"
-
-[[menu.main]]
-name = "about"
-weight = 4
-footerDisplay = true
-
-  [[menu.main]]
-  parent = "about"
-  name = "Over ons"
-  URL = "about"
-
-  [[menu.main]]
-  parent = "about"
-  name = "Team"
-  URL = "about/team"
-
-  #[[menu.main]]
-  #parent = "about"
-  #name = "Werken bij"
-  #URL = "work-at"
-
-[[menu.main]]
-name = "career"
-weight = 5
-
-  [[menu.main]]
-  parent = "career"
-  name = "Vacatures"
-  URL = "career"
-  weight = 1
-
-  [[menu.main]]
-  parent = "career"
-  name = "Cultuur"
-  URL = "career/culture"
-  weight = 2
-
-  #[[menu.main]]
-  #parent = "career"
-  #name = "Cases"
-  #URL = "cases"
-  #weight = 3
-
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 5
-
-[[menu.company]]
-name = "Insights"
-URL = "insights"
-weight = 1
-
-[[menu.company]]
-name = "Over"
-URL = "about"
-weight = 3
-
-[[menu.company]]
-name = "Contact"
-URL = "contact"
-weight = 5
-
-# footer menu
-[[menu.footer]]
-name = "Team"
-URL = "team"
-
-[[menu.footer]]
-name = "Events"
-URL = "event"
-
-[[menu.footer]]
-name = "Werken bij"
-URL = "work-at"
-
-[[menu.footer]]
-name = "Blogs"
-URL = "blog"
-
-
-#################### default parameters ################################
-[params]
-logo = "images/logo.png"
-# Meta data
-description = "Dataworkz is de specialist in data science & data engineering"
-author = "Dataworkz BV."
-# contact info
-address = "Tractieweg 41 studio N, 3534 AP Utrecht"
-mobile = "+31 (0)6 10 49 20 44"
-email = "info@dataworkz.nl"
-# contact form action
-contact_form_action = "https://formspree.io/xleodbng" # contact form works with https://formspree.io
-# Google Analitycs
-google_analitycs_id = "G-3PG6NYRP8M" # your id
-# top header
-top_header = false
-
-# Preloader
 [params.preloader]
 enable = false
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
-
-# Subscription
+preloader = "images/preloader.gif"
 [params.subscription]
 enable = false
-# mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
-
-# google map
-[params.map]
-enable = false
-# gmap_api = ""
-map_latitude = "52.105107"
-map_longitude = "5.079772"
-map_marker = "images/marker.png" # marker size 37*55 px
-
-
-############################# social site ########################
-
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+icon = "ti-twitter-alt"
 link = "https://twitter.com/dataworkznl"
-
+title = "twitter"
 [[params.social]]
-title = "meetup"
-icon = "ti-sharethis" # themify icon : https://themify.me/themify-icons
+icon = "ti-sharethis"
 link = "https://www.meetup.com/nl-NL/DataWorkz/"
-
+title = "meetup"
 [[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
+icon = "ti-github"
 link = "https://github.com/DataWorkz-NL"
-
+title = "github"
 [[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/dataworkz/"
-
-
-################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "nl-NL"
-contentDir = "content/english"
-weight = 2
-home = "Home"
-# copyright
-copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
-
-
-################################### Dutch language #####################################
-[Languages.nl]
-languageName = "Nl"
-languageCode = "nl-NL"
-contentDir = "content/dutch"
-weight = 1
-home = "Home"
-# copyright
-copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
-
-# Custom mounts to be able to use files from the `static` dir as resources
-[module]
-  [[module.mounts]]
-    source = "content/dutch"
-    target = "content"
-    lang = "nl"
-
-  [[module.mounts]]
-    source = "content/english"
-    target = "content"
-    lang = "en"
-
-  [[module.mounts]]
-    source = "static"
-    target = "static"
-
-  [[module.mounts]]
-    source = "layouts"
-    target = "layouts"
-
-  [[module.mounts]]
-    source = "data"
-    target = "data"
-
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-
-  [[module.mounts]]
-    source = "static"
-    target = "assets/static" # The crux of this piece of config
-
-  [[module.mounts]]
-    source = "i18n"
-    target = "i18n"
-
-  [[module.mounts]]
-    source = "archetypes"
-    target = "archetypes"
+title = "linkedin"
