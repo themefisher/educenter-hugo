@@ -10,11 +10,11 @@ title = "CoNet - een ideale CoMbo uit Data Science en Data Engineering"
 
 Ik heb een machine learning model ontwikkeld om afwijkingen in productkwaliteit te signaleren voor complexe, grootschalige industriële productie. De modellen, variërend van neurale netten tot gradient boosting modellen, werden ingezet met behulp van een combinatie van Azure Machine Learning en Azure IoT Hub.
 
-### Wat sprak je in het bijzonder aan tijdens het project?
+### Wat sprak je in het bijzonder aan tijdens dit project?
 
 Grote hoeveelheden beschikbare data, snel schakelen naar iteratieve implementatie EN bovenal zeer gemotiveerde visionairs als teamgenoten maakten dit project erg leuk.
 
-### Wat heb je geleerd tijdens het project?
+### Wat heb je geleerd tijdens dit project?
 
 Echt kunnen focussen op een deployment proces van A tot Z was erg leerzaam.
 
