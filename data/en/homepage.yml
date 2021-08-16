@@ -45,6 +45,16 @@ banner_feature:
       enable: true
       label: meer info
       link: "/solutions#data-consulting"
+  - name: Partnership
+    icon: ti-face-smile
+    button:
+      enable: false
+    content: 'Wij vinden een goede partnerschap en samenwerking heel belangrijk. Niet
+      alleen met klanten maar ook met de community en toonaangevend bedrijven. Als
+      Microsoft Silver Partner hebben wij bijzonder veel ervaring op gebied van Azure
+      gebaseerde data platformen en ML solutions. En omdat wij vinden dat ook enterprise
+      AI platformen van code moeten houden kunnen wij als Dataiku partner snel en
+      betrouwbaar Data Science en ML flows op productie realiseren. '
 about:
   enable: true
   title: Over Dataworkz
