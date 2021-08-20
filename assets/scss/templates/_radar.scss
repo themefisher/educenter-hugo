@@ -1,0 +1,67 @@
+#radar-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#radar {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
+
+.status-circle {
+    fill: #85B5B4;
+    stroke: #FFF;
+    stroke-width: 2px;
+    opacity: 0.5;
+  }
+.category-radius {
+    stroke: #FFF;
+    stroke-width: 2px;
+  }
+
+  .category-label {
+    fill: rgb(102, 102, 102);
+    text-anchor: middle;
+  }
+  .status-label {
+    &__rect {
+      fill: #FFF;
+    }
+
+    &__text {
+      text-anchor: middle;
+    }
+  }
+
+  .pointer {
+    &__text {
+      fill: #FFF;
+      text-anchor: middle;
+      font-size: 1em;
+    }
+  }
+
+  .pointer:hover {
+    cursor: pointer;
+    z-index: 999999;
+
+    .pointer__circle {
+      fill: #000;
+    }
+  }
+  .status-label {
+    &__rect {
+      fill: #FFF;
+    }
+
+    &__text {
+      text-anchor: middle;
+    }
+  }
