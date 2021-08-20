@@ -193,11 +193,11 @@ link = "plugins/scrollreveal/scrollreveal.min.js"
 [[params.plugins.js]]
 link = "plugins/rellax/rellax.min.js"
 [[params.plugins.js]]
-link = "plugins/tech-radar/d3.v4.min.js"
+link = "plugins/tech-radar/d3.min.js"
 [[params.plugins.js]]
-link = "plugins/tech-radar/seedrandom.js"
+link = "plugins/tech-radar/random.js"
 [[params.plugins.js]]
-link = "plugins/tech-radar/radar.js"
+link = "plugins/tech-radar/tech-radar.js"
 [params.preloader]
 enable = false
 preloader = "images/preloader.gif"
