@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 {{ $data := index site.Data site.Language.Lang }}
+{{ $csv := readFile "static/data/radar.csv" | transform.Unmarshal (dict "delimiter" ",")}}
 
 <!-- content -->
 <section class="section">
@@ -18,11 +19,53 @@
         <div class="col-12 content">
             <div id="radar-container">
                 <div id="radar"></div>
-                <div class="radar-legend"></div>
+                <div class="radar-legend">
+
+<table border="1">
+    <thead>
+        <tr>
+
+            <th>ID</th>
+            <th>Naam</th>
+            <th>Categorie</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+
+    {{ $counter := 0 }}
+    {{ range $i, $r := $csv }}
+
+    {{ if eq $i 0 }}
+    {{else}}
+    {{ $counter = add $counter 1 }}
+    <tbody>
+        <tr>
+            <td>{{ $counter }}</td>
+            <td>{{ index $r 0 }} </td>
+            <td>{{ index $r 2 }} </td>
+            <td>{{ index $r 1 }} </td>
+
+        </tr>
+    </tbody>
+    {{end}}
+    {{ end }}
+</table>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <!-- /content -->
+
+
+
+
+<!-- {{ range $elem_index, $elem_val := $csv }}
+{{ $elem_index }} <br> {{$elem_val}}
+{{ index $elem_val 0 }}
+{{ end }} -->
+
+
+
 
 {{ end }}

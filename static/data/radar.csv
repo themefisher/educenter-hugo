@@ -1,40 +1,40 @@
-name,ring,quadrant,isNew,suggested by,
-Weights and Biases,Assess,Tools,FALSE,Tim,
-Fast AI,Hold,Languages and Frameworks,FALSE,Laurens,
-FastAPI,Assess,Tools,FALSE,Tjian, Robbert,
-nix,Hold,Tools,FALSE,Kiara,
-Facebook Prophet,Hold,Tools,TRUE,Tim,
-Flask,Hold,Tools,,,
-Julia,Assess,Languages and Frameworks,FALSE,David,
-Airflow,Hold,Tools,TRUE,,
-AWS Glue,Hold,Tools,TRUE,,
-HashiCorp Vault,Adopt,Tools,FALSE,David,
-CD4ML,Adopt,Techniques,FALSE,Maarten, Laurens,
-Apache Flink,Trial,Platforms,FALSE,Lennard,
-Data Lake table formats,Trial,Languages and Frameworks,FALSE,Thijs,
-Deep Learning Java Library,Trial,Languages and Frameworks,FALSE,Arno,
-Delta lake,Trial,Platforms,FALSE,Laurens,
-Okteto,Trial,Platforms,FALSE,Arno,
-Serverless,Trial,Platforms,FALSE,Robbert,
-Temporal,Trial,Tools,FALSE,David, Pieter, Arno,
-timescaleDB,Trial,Tools,FALSE,Mathijs,
-APM for CD4ML,Assess,Techniques,FALSE,Joep,
-Dapr,Assess,Platforms,FALSE,Steven,
-Datastax Astra ( Cassandra as a Service ),Assess,Platforms,FALSE,Arno,
-Federated Graphql ,Assess,Languages and Frameworks,FALSE,Pieter,
-foundationDB,Assess,Platforms,FALSE,Mathijs,
-Gan-based augmentation of data for a richer data set for cnns,Assess,Techniques,FALSE,Jeroen,
-HashiCorp Boundary,Assess,Tools,FALSE,David,
-HashiCorp Nomad,Assess,Platforms,FALSE,David,
-Kedro,Assess,Tools,FALSE,Tjian,
-Open Policy Agent,Assess,Tools,FALSE,Lennard,
-Prefect,Assess,Tools,FALSE,Jeroen,
-PyOD library for outlier detection,Assess,Tools,FALSE,Dennis,
-Redash,Assess,Tools,FALSE,Jeroen,
-Rust,Assess,Languages and Frameworks,FALSE,David,
-SHAP (SHapley Additive exPlanations),Assess,Tools,FALSE,Olaf,
-Singer,Assess,Languages and Frameworks,FALSE,Lennard,
-Streamlit,Assess,Languages and Frameworks,FALSE,Jeff,
-TensorFlow dataset,Assess,Techniques,FALSE,Willem,
-TensorFlow Extended (TFX),Assess,Tools,FALSE,Tim,
-TileDB,Assess,Tools,FALSE,Mathijs,
+name,ring,quadrant,isNew,suggested by
+Weights and Biases,Assess,Tools,FALSE,Tim
+Fast AI,Hold,Languages and Frameworks,FALSE,Laurens
+FastAPI,Assess,Tools,FALSE,Tjian Robbert
+nix,Hold,Tools,FALSE,Kiara
+Facebook Prophet,Hold,Tools,TRUE,Tim
+Flask,Hold,Tools,,
+Julia,Assess,Languages and Frameworks,FALSE,David
+Airflow,Hold,Tools,TRUE,
+AWS Glue,Hold,Tools,TRUE,
+HashiCorp Vault,Adopt,Tools,FALSE,David
+CD4ML,Adopt,Techniques,FALSE,Maarten Laurens
+Apache Flink,Trial,Platforms,FALSE,Lennard
+Data Lake table formats,Trial,Languages and Frameworks,FALSE,Thijs
+Deep Learning Java Library,Trial,Languages and Frameworks,FALSE,Arno
+Delta lake,Trial,Platforms,FALSE,Laurens
+Okteto,Trial,Platforms,FALSE,Arno
+Serverless,Trial,Platforms,FALSE,Robbert
+Temporal,Trial,Tools,FALSE,David Pieter Arno
+timescaleDB,Trial,Tools,FALSE,Mathijs
+APM for CD4ML,Assess,Techniques,FALSE,Joep
+Dapr,Assess,Platforms,FALSE,Steven
+Datastax Astra ( Cassandra as a Service ),Assess,Platforms,FALSE,Arno
+Federated Graphql ,Assess,Languages and Frameworks,FALSE,Pieter
+foundationDB,Assess,Platforms,FALSE,Mathijs
+Gan-based augmentation of data for a richer data set for cnns,Assess,Techniques,FALSE,Jeroen
+HashiCorp Boundary,Assess,Tools,FALSE,David
+HashiCorp Nomad,Assess,Platforms,FALSE,David
+Kedro,Assess,Tools,FALSE,Tjian
+Open Policy Agent,Assess,Tools,FALSE,Lennard
+Prefect,Assess,Tools,FALSE,Jeroen
+PyOD library for outlier detection,Assess,Tools,FALSE,Dennis
+Redash,Assess,Tools,FALSE,Jeroen
+Rust,Assess,Languages and Frameworks,FALSE,David
+SHAP (SHapley Additive exPlanations),Assess,Tools,FALSE,Olaf
+Singer,Assess,Languages and Frameworks,FALSE,Lennard
+Streamlit,Assess,Languages and Frameworks,FALSE,Jeff
+TensorFlow dataset,Assess,Techniques,FALSE,Willem
+TensorFlow Extended (TFX),Assess,Tools,FALSE,Tim
+TileDB,Assess,Tools,FALSE,Mathijs
