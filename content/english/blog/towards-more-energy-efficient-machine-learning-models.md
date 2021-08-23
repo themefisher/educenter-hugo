@@ -87,7 +87,7 @@ from bindsnet.models import DiehlAndCook2015
 # build Diehl & Cook network
 network = DiehlAndCook2015(
   n_inpt=784,  # number of input neurons
-	n_neurons=100,  # Number of excitatory, inhibitory neurons
+  n_neurons=100,  # Number of excitatory, inhibitory neurons
   exc=22.5,  # Strength of synapse weights from excitatory to inhibitory layer
   inh=17.5,  # Strength of synapse weights from inhibitory to excitatory layer
   dt=1.0,  # Simulation time step
