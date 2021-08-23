@@ -101,3 +101,27 @@
 .testimonial-quote.right cite {
     text-align: right; 
 }
+
+
+
+.culture-video {
+
+    min-height: 80px;
+
+    .play-btn {
+        left: 50%;
+        margin-left: -40px;
+    }
+
+    @include mobile {
+    min-height: 100px;
+    .play-btn {
+        margin-left: 0px;
+        height: 40px;
+        width: 40px; 
+        i {
+            line-height: 40px;
+        }
+    }
+}
+}
