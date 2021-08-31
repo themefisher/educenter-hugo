@@ -1,21 +1,18 @@
 {{ define "main" }}
-
 {{ $data := index site.Data site.Language.Lang }}
-
 {{ $video_image1 := "/images/culture/video-1.png" }}
 {{ $video_image2 := "/images/culture/video-2.png" }}
 {{ $video_image3 := "/images/culture/video-3.png" }}
 {{ $video_link1 := "https://youtu.be/3HxEJk6APy0"}}
 {{ $video_link2 := "https://youtu.be/sZMcCRtbL28"}}
 {{ $video_link3 := "https://youtu.be/IdV4n4hgIRY"}}
-
-
 <section class="section">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-sm-12 mb-4">
-                <div class="section bg-cover" data-background="{{ $video_image1 | absURL }}">
+                <div class=" bg-cover">
                     <div class="position-relative success-video culture-video">
+                        <img src="{{ $video_image1 | absURL }}"/>
                         <a class="play-btn venobox" href="{{ $video_link1 | safeURL }}" data-vbtype="video">
                             <i class="ti-control-play"></i>
                         </a>
@@ -23,8 +20,9 @@
                 </div>
             </div>
             <div class="col-lg-4 col-sm-12 mb-4">
-                <div class="section bg-cover" data-background="{{ $video_image2 | absURL }}">
+                <div class=" bg-cover">
                     <div class="position-relative success-video  culture-video">
+                        <img src="{{ $video_image2 | absURL }}" />
                         <a class="play-btn venobox" href="{{ $video_link2 | safeURL }}" data-vbtype="video">
                             <i class="ti-control-play"></i>
                         </a>
@@ -32,8 +30,9 @@
                 </div>
             </div>
             <div class="col-lg-4 col-sm-12">
-                <div class="section bg-cover" data-background="{{ $video_image3 | absURL }}">
+                <div class=" bg-cover">
                     <div class="position-relative success-video  culture-video">
+                        <img src="{{ $video_image3 | absURL }}" />
                         <a class="play-btn venobox" href="{{ $video_link3 | safeURL }}" data-vbtype="video">
                             <i class="ti-control-play"></i>
                         </a>
