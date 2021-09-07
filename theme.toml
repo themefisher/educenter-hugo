@@ -3,6 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/themefisher/educenter-hugo/blob/master/LICENSE"
 description = "Hugo port of the Themefisher’s Educenter theme"
 homepage = "https://gethugothemes.com/products/educenter-hugo/"
+demosite = "https://demo.gethugothemes.com/educenter/"
 tags = ["blog",'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'education', 'white', 'light', 'multilingual', "bootstrap", "company", "portfolio", "projects", "responsive", "themefisher", "gethugothemes"]
 features = ["blog", "company", "responsive", "seo-friendly"]
 min_version = "0.70.0"
