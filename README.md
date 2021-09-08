@@ -33,13 +33,13 @@
 - Netlify settings predefine
 - Forestry cms pre-configured
 - Multiple author available
-- Google page speed optimized ( 86% )
 - Contact form Support
 - Mailchimp integrate
 - GDPR consent enable
 - Google map support
 - Top header customization
 - Taxonomy or category
+- Google page speed optimized ( 86% )
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -116,7 +116,7 @@ share those images.
 
 ## Hire Us
 We are available for **Hiring** for your next HUGO project. Please, check our
-[services](https://cutt.ly/ght-service)
+[services](https://gethugothemes.com/services/?ref=github)
 
 <!-- premium themes -->
 ## Premium Themes By Us
