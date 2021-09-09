@@ -3,7 +3,6 @@ apply_url = "https://www.meetup.com/DataWorkz/events/280334091"
 bg_image = ""
 date = 2021-09-22T18:00:00Z
 description = ""
-draft = true
 fee = ""
 image = "/images/content-recommenations-at-jodel-com-2.png"
 location = "Dataworkz offices, Tractieweg 41 - Studio N, 3534AO, Utrecht"
