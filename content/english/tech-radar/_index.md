@@ -11,7 +11,7 @@ layout: "tech-radar"
 
 Op deze pagina beschrijven we onze tech radar.
 
-- **ADOPT** Moeten we gaan gebruiken
-- **TRIAL** Moeten we gaan proberen
-- **ASSESS** Moeten we gaan bekijken
-- **HOLD** Moeten we niets mee doen
+- **ADOPT** Dit kan je gebruiken
+- **TRIAL** Dit moet je kennen
+- **ASSESS** Dit moet je onderzoeken
+- **HOLD** Dit moet je stoppen

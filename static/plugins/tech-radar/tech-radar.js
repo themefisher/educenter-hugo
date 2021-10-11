@@ -232,5 +232,5 @@ function techRadarViz(config) {
       return getStatusLabelYPos(d, i) + labelHeight * 0.7 + containerOffset;
     });
 
-    console.log(statuses);
+    // console.log(statuses);
 }
