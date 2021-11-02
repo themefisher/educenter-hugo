@@ -43,7 +43,7 @@ This course is an opportunity to gain knowledge of common ML and AI workloads an
 * Conversational AI
 * For AI Engineers, ML Engineers, Data Scientists, general audience
 
-### **Designing and Implementing an Azure Data Science Solution : 3 days**
+### **Designing and Implementing a Data Science solution on Azure : 3 days**
 
 #### _prepares for Microsoft DP-100 Certificate : Azure Data Scientist Associate_
 
@@ -60,6 +60,18 @@ Students gain knowledge of data science and machine learning and how to implemen
 * Interpreting Models
 * Monitoring Models
 * For everyone with prerequisites: Programming skills, Azure Fundamentals knowledge
+
+### **Implementing a Machine Learning Solution with Microsoft Azure Databricks : 1 day**
+
+#### _complements course Microsoft DP-100 (Designing and Implementing a Data Science solution on Azure, which prepares for Certificate : Azure Data Scientist Associate)_
+
+Students for this course will learn how to use Azure Databricks for machine learning workloads in the cloud. Students will work through the material and hands-on exercises in this course, and will build on their existing data science and machine learning knowledge and learn how to leverage cloud services to perform machine learning at scale.
+
+* Create an Azure Databricks workspace, and manage compute, data, and coding environments for machine learning workloads
+* Prepare data and train a machine learning model using Spark ML
+* Track model details and register models with MLflow
+* Run Azure Machine Learning experiments on Azure Databricks and deploy trained models onto Azure Kubernetes Service and Azure Container Instances using Azure Machine Learning
+* For everyone with prerequisites: Data engineers, data scientists, and machine learning engineers, who know the concepts of machine learning and would like to use the scalability of the cloud and bring machine learning models into production.
 
 ### **Designing and Implementing a Microsoft Azure AI solution : 4 days**
 
