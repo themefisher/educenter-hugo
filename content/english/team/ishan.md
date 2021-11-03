@@ -2,10 +2,10 @@
 bg_image = ""
 bio = ""
 contact = []
-course = "Data science "
+course = "Data engineer "
 description = ""
 draft = true
-image = "/images/ishan-foto.jpg"
+image = "/images/foto-ishan-def.jpg"
 interest = []
 title = "Ishan "
 
