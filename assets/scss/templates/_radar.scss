@@ -72,6 +72,22 @@
   max-width: 960px;
 }
 
+.radar-item {
+
+  cursor: pointer;
+
+  &.active {
+    font-weight: bold;
+  }
+
+  &-description {
+
+    &.hidden {
+      display: none;
+    }
+  }
+}
+
 .category {
   flex-basis: 25%;
   border-radius: 10px;

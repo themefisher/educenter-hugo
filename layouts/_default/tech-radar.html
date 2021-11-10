@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{ $data := index site.Data site.Language.Lang }}
-{{ $csv := readFile "static/data/radar.csv" | transform.Unmarshal (dict "delimiter" ",")}}
+{{ $csv := readFile "static/data/radar.csv" | transform.Unmarshal (dict "delimiter" ";")}}
 
 <!-- content -->
 <section class="section">
@@ -19,7 +19,7 @@
         <div class="col-12 content">
             <div id="radar-container">
                 <div id="radar"></div>
-                <div class="radar-legend">
+                <div id="radar-legend" class="radar-legend">
                     <table border="1">
                         <thead>
                             <tr>
@@ -29,22 +29,25 @@
                                 <th>Status</th>
                             </tr>
                         </thead>
-                        {{ $counter := 0 }}
-                        {{ range $i, $r := $csv }}
-                        {{ if eq $i 0 }}
-                        {{else}}
-                        {{ $counter = add $counter 1 }}
                         <tbody>
-                            <tr>
-                                <td>{{ $counter }}</td>
-                                <td>{{ index $r 0 }} </td>
-                                <td>{{ index $r 2 }} </td>
-                                <td>{{ index $r 1 }} </td>
+                            {{ $counter := 0 }}
+                            {{ range $i, $r := $csv }}
+                                {{ if gt $i 0 }}
+                                    {{ $counter = add $counter 1 }}
+                                
+                                    <tr class="radar-item" data-id="{{$i}}">
+                                        <td>{{ $counter }}</td>
+                                        <td>{{ index $r 0 }} </td>
+                                        <td>{{ index $r 2 }} </td>
+                                        <td>{{ index $r 1 }} </td>
+                                    </tr>
+                                    <tr class="radar-item-description hidden" data-id="{{$i}}">
+                                        <td colspan="4">{{ index $r 4 | safeHTML }}</td>
+                                    </tr>
 
-                            </tr>
-                        </tbody>
-                        {{end}}
-                        {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        </tbody>    
                     </table>
                 </div>
             </div>

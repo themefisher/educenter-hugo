@@ -186,19 +186,51 @@
         return resp.text();
       })
       .then(function (csv) {
-        var entries = d3.csvParse(csv, function (row) {
+        let psv = d3.dsvFormat(';');
+        var entries = psv.parse(csv, function (row) {
           return toEntry(row);
         });
         draw_radar(entries);
       });
   }
+
+  let $radarLegend = $('#radar-legend');
+
+  if ($radarLegend.length) {
+    
+    $radarLegend.on('click', 'tr.radar-item', function() {
+      let id = $(this).data('id');
+
+      $(`tr.radar-item`).removeClass('active');
+      $(this).toggleClass('active');
+
+      $(`tr.radar-item-description`).addClass('hidden');
+      $(`tr.radar-item-description[data-id=${id}]`, $radarLegend).toggleClass('hidden');
+    });
+  }
+
 })(jQuery);
 
 function draw_radar(my_entries) {
+
   techRadarViz({
     quadrants: quadrants,
     rings: rings,
     entries: my_entries,
+    onClick: (i) => {
+      let $radarLegend = $('#radar-legend');
+      let el = $(`.radar-legend tbody tr.radar-item[data-id=${i+1}]`).get(0);
+
+      $(`tr.radar-item`).removeClass('active');
+      $(`tr.radar-item-description`).addClass('hidden');
+      $(`tr.radar-item[data-id=${i+1}]`, $radarLegend).addClass('active');
+      $(`tr.radar-item-description[data-id=${i+1}]`, $radarLegend).removeClass('hidden');
+
+      let headerHeight = $('.fixed-top.header').height();
+      let y = el.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+      window.scrollTo({top: y, behavior: 'smooth'});
+    }
   });
 }
 

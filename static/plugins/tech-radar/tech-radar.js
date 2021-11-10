@@ -184,12 +184,17 @@ function techRadarViz(config) {
     })
     .attr("cy", function (d, i) {
       return getTechnologyYPos(d, i) + containerOffset;
+    })
+    .on("click", function(d, i) {
+      if(config.onClick) {
+        config.onClick.call(this, i);
+      }
     });
 
   techPoints
     .append("text")
     .text(function (d, i) {
-      return i;
+      return i + 1;
     })
     .attr("class", "pointer__text")
     .attr("x", function (d, i) {
@@ -197,6 +202,11 @@ function techRadarViz(config) {
     })
     .attr("y", function (d, i) {
       return getTechnologyYPos(d, i) + containerOffset + pointerSize * 0.5;
+    })
+    .on("click", function(d, i) {
+      if(config.onClick) {
+        config.onClick.call(this, i);
+      }
     });
 
   var statusPoints = radar
