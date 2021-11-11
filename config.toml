@@ -59,6 +59,11 @@ name = "Events"
 parent = "Insights"
 weight = 2
 [[menu.main]]
+URL = "insights/radar"
+name = "Tech Radar"
+parent = "Insights"
+weight = 2
+[[menu.main]]
 URL = "about/team"
 name = "Team"
 parent = "about"
@@ -187,6 +192,12 @@ link = "plugins/owl.carousel/owl.carousel.min.js"
 link = "plugins/scrollreveal/scrollreveal.min.js"
 [[params.plugins.js]]
 link = "plugins/rellax/rellax.min.js"
+[[params.plugins.js]]
+link = "plugins/tech-radar/d3.min.js"
+[[params.plugins.js]]
+link = "plugins/tech-radar/random.js"
+[[params.plugins.js]]
+link = "plugins/tech-radar/tech-radar.js"
 [params.preloader]
 enable = false
 preloader = "images/preloader.gif"

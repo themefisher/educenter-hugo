@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+{{ $data := index site.Data site.Language.Lang }}
+{{ $csv := readFile "static/data/radar.csv" | transform.Unmarshal (dict "delimiter" ";")}}
+
+<!-- content -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 content">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section ">
+    <div class="row">
+        <div class="col-12 content">
+            <div id="radar-container">
+                <div id="radar"></div>
+                <div id="radar-legend" class="radar-legend">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Naam</th>
+                                <th>Categorie</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{ $counter := 0 }}
+                            {{ range $i, $r := $csv }}
+                                {{ if gt $i 0 }}
+                                    {{ $counter = add $counter 1 }}
+                                
+                                    <tr class="radar-item" data-id="{{$i}}">
+                                        <td>{{ $counter }}</td>
+                                        <td>{{ index $r 0 }} </td>
+                                        <td>{{ index $r 2 }} </td>
+                                        <td>{{ index $r 1 }} </td>
+                                    </tr>
+                                    <tr class="radar-item-description hidden" data-id="{{$i}}">
+                                        <td colspan="4">{{ index $r 4 | safeHTML }}</td>
+                                    </tr>
+
+                                {{ end }}
+                            {{ end }}
+                        </tbody>    
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /content -->
+
+
+
+
+<!-- {{ range $elem_index, $elem_val := $csv }}
+{{ $elem_index }} <br> {{$elem_val}}
+{{ index $elem_val 0 }}
+{{ end }} -->
+
+
+
+
+{{ end }}
