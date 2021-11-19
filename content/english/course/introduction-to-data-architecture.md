@@ -4,7 +4,6 @@ bg_image = ""
 category = "Architecture"
 date = ""
 description = ""
-draft = true
 duration = ""
 fee = ""
 image = "/images/untitled-design-26.png"
