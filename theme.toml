@@ -1,7 +1,7 @@
 name = "Educenter Hugo"
 license = "MIT"
 licenselink = "https://github.com/themefisher/educenter-hugo/blob/master/LICENSE"
-description = "Hugo port of the Themefisher’s Educenter theme"
+description = "Educenter is an educational website template powered by Hugo. It can be used as an online teaching platform, school and university website."
 homepage = "https://gethugothemes.com/products/educenter-hugo/"
 demosite = "https://demo.gethugothemes.com/educenter/"
 tags = ["blog",'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'education', 'white', 'light', 'multilingual', "bootstrap", "company", "portfolio", "projects", "responsive", "themefisher", "gethugothemes"]
