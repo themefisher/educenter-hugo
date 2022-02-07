@@ -12,7 +12,7 @@ slider:
       button:
         enable : true
         label : "Postuler maintenant"
-        link : "contact"
+        link : "contact/"
 
     # slider item loop
     - title : "Votre brillant avenir est notre mission"
@@ -23,7 +23,7 @@ slider:
       button:
         enable : true
         label : "Postuler"
-        link : "contact"
+        link : "contact/"
 
     # slider item loop
     - title : "Votre brillant avenir est notre mission"
@@ -34,7 +34,7 @@ slider:
       button:
         enable : true
         label : "Postuler"
-        link : "contact"
+        link : "contact/"
 
 
 ############################### Banner feature ###############################
@@ -75,7 +75,7 @@ about:
   button:
     enable : true
     label : "En savoir plus"
-    link : "about"
+    link : "about/"
 
 
 ############################# Course ################################
@@ -92,7 +92,7 @@ cta:
   button:
     enable : true
     label : "Se joindre"
-    link : "contact"
+    link : "contact/"
 
 
 ######################## Success story #############################

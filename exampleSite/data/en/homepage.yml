@@ -12,7 +12,7 @@ slider:
       button:
         enable : true
         label : "Apply now"
-        link : "contact"
+        link : "contact/"
 
     # slider item loop
     - title : "Your bright future is our mission"
@@ -23,7 +23,7 @@ slider:
       button:
         enable : true
         label : "Apply now"
-        link : "contact"
+        link : "contact/"
 
     # slider item loop
     - title : "Your bright future is our mission"
@@ -34,7 +34,7 @@ slider:
       button:
         enable : true
         label : "Apply now"
-        link : "contact"
+        link : "contact/"
 
 
 ############################### Banner feature ###############################
@@ -75,7 +75,7 @@ about:
   button:
     enable : true
     label : "Learn more"
-    link : "about"
+    link : "about/"
 
 
 ############################# Course ################################
@@ -92,7 +92,7 @@ cta:
   button:
     enable : true
     label : "join now"
-    link : "contact"
+    link : "contact/"
 
 
 ######################## Success story #############################

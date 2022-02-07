@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/educenter/"
+baseURL = "https://demo.gethugothemes.com/educenter/examplesite/"
 title = "Educenter | hugo education template"
 theme = "educenter-hugo"
 # post pagination
@@ -127,12 +127,12 @@ copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefi
 # main menu
 [[Languages.en.menu.main]]
 name = "About"
-url = "about"
+url = "about/"
 weight = 1
 
 [[Languages.en.menu.main]]
 name = "course"
-url = "course"
+url = "course/"
 weight = 2
 
 [[Languages.en.menu.main]]
@@ -143,36 +143,36 @@ hasChildren = true
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "teacher"
-  url = "teacher"
+  url = "teacher/"
 
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "notice"
-  url = "notice"
+  url = "notice/"
 
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "event"
-  url = "event"
+  url = "event/"
 
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "scholarship"
-  url = "scholarship"
+  url = "scholarship/"
 
   [[Languages.en.menu.main]]
   parent = "Pages"
   name = "research"
-  url = "research"
+  url = "research/"
   
 [[Languages.en.menu.main]]
 name = "blog"
-url = "blog"
+url = "blog/"
 weight = 4
   
 [[Languages.en.menu.main]]
 name = "Contact"
-url = "contact"
+url = "contact/"
 weight = 5
 
 
@@ -180,23 +180,23 @@ weight = 5
 
 [[Languages.en.menu.footer]]
 name = "teacher"
-url = "teacher"
+url = "teacher/"
 
 [[Languages.en.menu.footer]]
 name = "notice"
-url = "notice"
+url = "notice/"
 
 [[Languages.en.menu.footer]]
 name = "event"
-url = "event"
+url = "event/"
 
 [[Languages.en.menu.footer]]
 name = "scholarship"
-url = "scholarship"
+url = "scholarship/"
 
 [[Languages.en.menu.footer]]
 name = "research"
-url = "research"
+url = "research/"
 
 
 
@@ -217,12 +217,12 @@ copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefi
 # main menu
 [[Languages.fr.menu.main]]
 name = "À propos"
-url = "about"
+url = "about/"
 weight = 1
 
 [[Languages.fr.menu.main]]
 name = "Cours"
-url = "course"
+url = "course/"
 weight = 2
 
 [[Languages.fr.menu.main]]
@@ -233,36 +233,36 @@ hasChildren = true
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "teacher"
-  url = "teacher"
+  url = "teacher/"
 
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "notice"
-  url = "notice"
+  url = "notice/"
 
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "Évènement"
-  url = "event"
+  url = "event/"
 
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "Cursus"
-  url = "scholarship"
+  url = "scholarship/"
 
   [[Languages.fr.menu.main]]
   parent = "Pages"
   name = "research"
-  url = "research"
+  url = "research/"
   
 [[Languages.fr.menu.main]]
 name = "blog"
-url = "blog"
+url = "blog/"
 weight = 4
   
 [[Languages.fr.menu.main]]
 name = "Contact"
-url = "contact"
+url = "contact/"
 weight = 5
 
 
@@ -270,20 +270,20 @@ weight = 5
 
 [[Languages.fr.menu.footer]]
 name = "teacher"
-url = "teacher"
+url = "teacher/"
 
 [[Languages.fr.menu.footer]]
 name = "notice"
-url = "notice"
+url = "notice/"
 
 [[Languages.fr.menu.footer]]
 name = "event"
-url = "event"
+url = "event/"
 
 [[Languages.fr.menu.footer]]
 name = "scholarship"
-url = "scholarship"
+url = "scholarship/"
 
 [[Languages.fr.menu.footer]]
 name = "research"
-url = "research"
+url = "research/"
