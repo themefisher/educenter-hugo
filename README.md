@@ -121,6 +121,6 @@ If you need to customize the theme or complete website development from scratch,
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle/?utm_source=educenter_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.webp)](https://gethugothemes.com/products/bizcraft/) | [![Meghna](https://demo.gethugothemes.com/thumbnails/bexer.webp)](https://gethugothemes.com/products/bexer/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=educenter_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.png)](https://gethugothemes.com/products/bizcraft/) | [![Meghna](https://demo.gethugothemes.com/thumbnails/bexer.png)](https://gethugothemes.com/products/bexer/) |
 |:---:|:---:|:---:|
 | **Get 50+ Premium Hugo Themes Bundle** | **Bizcraft** | **Bexer** |
