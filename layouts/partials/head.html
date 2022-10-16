@@ -8,6 +8,10 @@
     content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with site.Params.author }}
   <meta name="author" content="{{ . }}">{{ end }}
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="educenter-hugo" />
+  
   {{ hugo.Generator }}
   {{ "<!-- multilingual SEO optimizations -->" | safeHTML }}
   {{ if .IsTranslated }}
