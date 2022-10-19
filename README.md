@@ -1,4 +1,8 @@
-<h1 align=center>Educenter Hugo | <a target="_blank" href="https://demo.gethugothemes.com/educenter" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Feducenter%2F">Page Speed (86%)</a></h1>
+<h1 align=center>Educenter Hugo</h1> 
+<p align=center> Educenter is a Hugo theme designed specifically for educational websites. This sleek theme is packed with all the elements that you need to show info about your school, courses, instructors, announcements, and more. </p>
+
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/educenter" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Feducenter%2Fsite%2F&form_factor=desktop">Page Speed (89%)</a></h2>
+
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.70.0" alt="Contributors">
@@ -25,7 +29,7 @@
 </p>
 
 ---
-## Features
+## Key Features
 - Multiple language support (Fr, En) 
 - Google analytics  support
 - CSS and Js bundle with hugo pipe
@@ -86,10 +90,10 @@ If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/themefisher/educenter-hugo/issues).
 
 
-<!-- ## Educenter Hugo Powered Websites
+ ## Educenter Hugo Powered Websites
+- <https://knetsolutions.in/>
 
-
-View all the websites powered by Educenter Hugo [here](https://github.com/themefisher/educenter-hugo/wiki/All-educenter-hugo-theme-Powered-Websites). Want to submit your own website powered by Educenter Hugo? You can submit it [here](https://github.com/themefisher/educenter-hugo/discussions/38). -->
+View all the websites powered by Educenter Hugo [here](https://gethugothemes.com/showcase). Want to submit your own website powered by Educenter Hugo? You can submit it [here](https://gethugothemes.com/showcase).
 
 <!-- licence -->
 ## License
@@ -123,4 +127,4 @@ If you need to customize the theme or complete website development from scratch,
 ## Premium Themes By Us
 | [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=educenter_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.png)](https://gethugothemes.com/products/bizcraft/) | [![Meghna](https://demo.gethugothemes.com/thumbnails/bexer.png)](https://gethugothemes.com/products/bexer/) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Bizcraft** | **Bexer** |
+| **Get 55+ Premium Hugo Themes Bundle** | **Bizcraft** | **Bexer** |
