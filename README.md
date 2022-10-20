@@ -42,7 +42,7 @@
 - Google map support
 - Top header customization
 - Taxonomy or category
-- Google page speed optimized ( 96% )
+- Google page speed optimized
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -90,10 +90,15 @@ If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/themefisher/educenter-hugo/issues).
 
 
- ## Educenter Hugo Powered Websites
-- <https://knetsolutions.in/>
+ ## Submit Your Website To Our Showcase
 
-View all the websites powered by Educenter Hugo [here](https://gethugothemes.com/showcase). Want to submit your own website powered by Educenter Hugo? You can submit it [here](https://gethugothemes.com/showcase).
+Are you using Educenter Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
+
+Our showcase aims to demonstrate to the world what amazing websites people like you have created utilizing our Hugo themes and to show that Hugo has tremendous capabilities as a Static Site Generator. 
+
+View all the websites powered by Educenter Hugo from [here](https://gethugothemes.com/showcase?theme=educenter). 
+
+[Submit](https://gethugothemes.com/showcase?submit=show) your Educenter Hugo powered website.
 
 <!-- licence -->
 ## License
