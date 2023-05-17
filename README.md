@@ -34,7 +34,7 @@
 -  📄 19+ Pre-designed pages
 -  📚Multiple language support (Fr, En) 
 - 〽️Google analytics  support 
--  🎨CSS and Js bundle with hugo pipe
+-  📂CSS and Js bundle with hugo pipe
 -  🔧Netlify settings predefine
 -  👥Multiple author available
 -  📝Contact form Support
@@ -69,6 +69,7 @@
 - 👑Scholarship Page
 - 🧑‍💼Teacher Page
 - 🧑‍💼Teacher Single Page 
+- 📖404 Page
 
 
 ## Local development
