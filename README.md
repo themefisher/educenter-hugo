@@ -115,7 +115,7 @@ If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/themefisher/educenter-hugo/issues).
 
 
- ## 🗳️Submit Your Website To Our Showcase
+ ## 📱Submit Your Website To Our Showcase
 
 Are you using Educenter Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
 
