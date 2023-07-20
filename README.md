@@ -5,8 +5,8 @@
 
 
 <p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.70.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.70.0&color=f00&logo=hugo" />
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.115.1" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.115.1&color=f00&logo=hugo" />
   </a>
 
   <a href="https://github.com/themefisher/educenter-hugo/blob/master/LICENSE">
@@ -78,11 +78,11 @@
 # clone the repository
 git clone git@github.com:themefisher/educenter-hugo.git
 
-# cd in the project directory
-$ cd educenter-hugo/exampleSite/
+# setup project
+$ npm run project-setup
 
 # Start local dev server
-$ hugo server --themesDir ../..
+$ npm run dev
 ```
 Or Check out [Full Documentation](https://docs.gethugothemes.com/educenter/?ref=github).
 
