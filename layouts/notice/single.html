@@ -8,7 +8,7 @@
         <div class="d-flex">
           <div class="text-center mr-4">
             <div class="p-4 bg-primary text-white">
-              <span class="h2 d-block">{{ .PublishDate.Format "06"}}</span> {{ .PublishDate.Format "JAN, 2006"}}
+              <span class="h2 d-block">{{ humanize .PublishDate.Day }}</span> {{ .PublishDate.Format "Jan, 2006"}}
             </div>
           </div>
           <!-- notice content -->
