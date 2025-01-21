@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 mb-5">
-        <img class="img-fluid w-100" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+        {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "img-fluid w-100") }}
       </div>
       <div class="col-md-6 mb-5">
         <h3>{{ .Title }}</h3>

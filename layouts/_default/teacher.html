@@ -1,5 +1,5 @@
 <div class="card border-0 rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+  {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "card-img-top rounded-0" ) }}
   <div class="card-body">
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <p>{{ .Params.Course }}</p>

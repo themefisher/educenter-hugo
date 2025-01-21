@@ -1,21 +1,20 @@
-######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/educenter/site/"
-title = "Educenter | hugo education template"
-theme = "educenter-hugo"
-# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
-# post pagination
-paginate = 6 # see https://gohugo.io/extras/pagination/
-# post excerpt
-summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
-# google analytics
-googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-# disqus short name
-disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
-# disable language
-disableLanguages = [
-] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
-hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact info
+address = "9567 Turner Trace Apt. BC C3G8A4"
+mobile = "+211234565523"
+email = "info@educenter.com"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# top header
+top_header = true
 
 ############################# Build ##############################
 [build]
@@ -89,23 +88,6 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 link = "plugins/google-map/gmap.js"
 
 
-#################### default parameters ################################
-[params]
-logo = "images/logo.png"
-# Meta data
-description = "This is meta description"
-author = "Themefisher"
-# contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@educenter.com"
-# contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
-# Google Analitycs
-google_analitycs_id = "" # your id
-# top header
-top_header = true
-
 # Preloader
 [params.preloader]
 enable = true
@@ -156,186 +138,3 @@ link = "#"
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "#"
-
-
-################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
-
-[Languages.en.params]
-home = "Home"
-# copyright
-copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
-
-
-
-################### English navigation ####################
-
-# main menu
-[[Languages.en.menu.main]]
-name = "About"
-url = "about/"
-weight = 1
-
-[[Languages.en.menu.main]]
-name = "course"
-url = "course/"
-weight = 2
-
-[[Languages.en.menu.main]]
-weight = 3
-name = "Pages"
-hasChildren = true
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "teacher"
-  url = "teacher/"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "notice"
-  url = "notice/"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "event"
-  url = "event/"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "scholarship"
-  url = "scholarship/"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "research"
-  url = "research/"
-  
-[[Languages.en.menu.main]]
-name = "blog"
-url = "blog/"
-weight = 4
-  
-[[Languages.en.menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 5
-
-
-# footer menu
-
-[[Languages.en.menu.footer]]
-name = "teacher"
-url = "teacher/"
-
-[[Languages.en.menu.footer]]
-name = "notice"
-url = "notice/"
-
-[[Languages.en.menu.footer]]
-name = "event"
-url = "event/"
-
-[[Languages.en.menu.footer]]
-name = "scholarship"
-url = "scholarship/"
-
-[[Languages.en.menu.footer]]
-name = "research"
-url = "research/"
-
-
-
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-
-[Languages.fr.params]
-home = "Accueil"
-# copyright
-copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
-
-
-
-################### French navigation ####################
-
-# main menu
-[[Languages.fr.menu.main]]
-name = "À propos"
-url = "about/"
-weight = 1
-
-[[Languages.fr.menu.main]]
-name = "Cours"
-url = "course/"
-weight = 2
-
-[[Languages.fr.menu.main]]
-weight = 3
-name = "Pages"
-hasChildren = true
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "teacher"
-  url = "teacher/"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "notice"
-  url = "notice/"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Évènement"
-  url = "event/"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Cursus"
-  url = "scholarship/"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "research"
-  url = "research/"
-  
-[[Languages.fr.menu.main]]
-name = "blog"
-url = "blog/"
-weight = 4
-  
-[[Languages.fr.menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 5
-
-
-# footer menu
-
-[[Languages.fr.menu.footer]]
-name = "teacher"
-url = "teacher/"
-
-[[Languages.fr.menu.footer]]
-name = "notice"
-url = "notice/"
-
-[[Languages.fr.menu.footer]]
-name = "event"
-url = "event/"
-
-[[Languages.fr.menu.footer]]
-name = "scholarship"
-url = "scholarship/"
-
-[[Languages.fr.menu.footer]]
-name = "research"
-url = "research/"

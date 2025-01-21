@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 {{ $data := index site.Data site.Language.Lang }}
 
 <!-- about -->
@@ -8,7 +7,7 @@
     <div class="row">
       <div class="col-12">
         {{ with .Params.image }}
-        <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
+        {{ partial "image.html" (dict "Src" . "Alt" "about image" "Class" "img-fluid w-100 mb-4" ) }}
         {{ end }}
         {{ .Content }}
       </div>

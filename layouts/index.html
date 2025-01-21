@@ -37,7 +37,7 @@
   <div class="container-fluid p-0">
     <div class="row no-gutters">
       <div class="col-xl-4 col-lg-5 align-self-end">
-        <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="banner-feature">
+        {{ partial "image.html" (dict "Src" .image "Alt" "banner-feature" "Class" "img-fluid w-100" ) }}
       </div>
       <div class="col-xl-8 col-lg-7">
         <div class="row feature-blocks bg-gray justify-content-between">
@@ -74,7 +74,7 @@
       </div>
       {{ with .image }}
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
+        {{ partial "image.html" (dict "Src" . "Alt" "about image" "Class" "img-fluid w-100" ) }}
       </div>
       {{ end }}
     </div>

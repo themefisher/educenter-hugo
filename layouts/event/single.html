@@ -9,7 +9,7 @@
       </div>
       <!-- event image -->
       <div class="col-12 mb-4">
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100">
+        {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "img-fluid w-100" "Style" "height: 500px; width: 100%; object-fit: cover;") }}
       </div>
     </div>
     <!-- event info -->
@@ -77,7 +77,10 @@
       {{ range .Params.Speaker }}
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="media">
-         {{ with .image }}<img class="mr-3 img-fluid" src="{{ . | relURL }}" alt="speaker">{{ end }}
+         {{ with .image }}
+         <!-- <img class="mr-3 img-fluid" src="{{ . | relURL }}" alt="speaker"> -->
+          
+         {{ end }}
           <div class="media-body">
             <h4 class="mt-0">{{ .name }}</h4>
             {{ .designation }}

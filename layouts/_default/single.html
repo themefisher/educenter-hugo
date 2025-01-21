@@ -7,7 +7,7 @@
       <div class="col-lg-8 order-2 order-lg-1">
         <div class="row">
           <div class="col-12 mb-4">
-            <img src="{{ .Params.image | relURL }}" alt="blog-thumb" class="img-fluid w-100">
+            {{ partial "image.html" (dict "Src" .Params.image "Alt" "blog-thumb" "Class" "img-fluid w-100" ) }}
           </div>
           <div class="col-12">
             <ul class="list-inline">
@@ -33,12 +33,12 @@
           <div class="col-12 mb-5">
             {{ .Content }}
           </div>
-          <!-- comments -->
-          {{ if site.DisqusShortname }}
-          <div class="col-12">
-            {{ template "_internal/disqus.html" . }}
-          </div>
-          {{ end }}
+           <!-- Disqus comments -->
+        {{ if site.Config.Services.Disqus.Shortname }}
+        <div class="mt-20">
+          {{ template "_internal/disqus.html" . }}
+        </div>
+      {{ end }}
         </div>
       </div>
       {{ partial "blog-sidebar.html" . }}

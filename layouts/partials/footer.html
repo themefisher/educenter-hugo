@@ -29,7 +29,9 @@
       <div class="row">
         <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
           <!-- logo -->
-          <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+          <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}">
+            {{ partial "image.html" (dict "Src" site.Params.logo "Alt" site.Title "Class" "img-fluid mb-4") }}
+          </a>
           <ul class="list-unstyled">
             <li class="mb-4">{{ site.Params.address | markdownify }}</li>
             <li class="mb-4">{{ site.Params.email | markdownify }}</li>

@@ -7,9 +7,9 @@
 				<div class="text-center">
 					<figure>
 						{{ if .Params.image }}
-						<img class="rounded-circle img-fluid mb-4" src="{{.Params.image | relURL }}">
+						{{ partial "image.html" (dict "Src" .Params.image "Alt" "Image" "Class" "rounded-circle img-fluid mb-4" ) }}
 						{{else if .Params.Email}}
-						<img class="rounded-circle img-fluid mb-4" src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
+						{{ partial "image.html" (dict "Src" .Params.image "Alt" "https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" "Class" "rounded-circle img-fluid mb-4" ) }}
 						{{ end }}
 						<figcaption>
 							<h4 class="font-weight-bold">

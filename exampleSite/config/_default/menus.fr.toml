@@ -1,0 +1,74 @@
+################### French navigation ####################
+
+[[main]]
+name = "À propos"
+url = "about/"
+weight = 1
+
+[[main]]
+name = "Cours"
+url = "course/"
+weight = 2
+
+[[main]]
+weight = 3
+name = "Pages"
+hasChildren = true
+
+  [[main]]
+  parent = "Pages"
+  name = "teacher"
+  url = "teacher/"
+
+  [[main]]
+  parent = "Pages"
+  name = "notice"
+  url = "notice/"
+
+  [[main]]
+  parent = "Pages"
+  name = "Évènement"
+  url = "event/"
+
+  [[main]]
+  parent = "Pages"
+  name = "Cursus"
+  url = "scholarship/"
+
+  [[main]]
+  parent = "Pages"
+  name = "research"
+  url = "research/"
+  
+[[main]]
+name = "blog"
+url = "blog/"
+weight = 4
+  
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 5
+
+
+# footer menu
+
+[[footer]]
+name = "teacher"
+url = "teacher/"
+
+[[footer]]
+name = "notice"
+url = "notice/"
+
+[[footer]]
+name = "event"
+url = "event/"
+
+[[footer]]
+name = "scholarship"
+url = "scholarship/"
+
+[[footer]]
+name = "research"
+url = "research/"

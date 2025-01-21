@@ -289,6 +289,8 @@ textarea.form-control{
 
 .post-thumb-sm {
   max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
 }
 
 

@@ -28,8 +28,9 @@
   <div class="navigation w-100 {{ if site.Params.top_header }} top-hider {{ end }}">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
-        <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid"
-            src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+        <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
+          {{ partial "image.html" (dict "Src" site.Params.logo "Alt" site.Title "Class" "img-fluid") }}
+        </a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
