@@ -75,7 +75,7 @@ jobs:
           echo "BASE_URL=$BASE_URL" >> $GITHUB_ENV
 
       - name: Modify hugo.toml
-        run: sed -i "s|baseURL = .*|baseURL = \"$BASE_URL\"|" hugo.toml
+        run: sed -i "s|baseURL = .*|baseURL = \"$BASE_URL\"|" config/_default/hugo.toml
 
       - name: Build site
         run: npm run build
