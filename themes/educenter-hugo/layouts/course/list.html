@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<!-- courses -->
+<section class="section">
+  <div class="container">
+    <!-- course list -->
+    <div class="row justify-content-center">
+      <!-- course item -->
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "course" }}
+      </div>
+      {{ end }}
+    </div>
+    <!-- /course list -->
+  </div>
+</section>
+<!-- /courses -->
+
+{{ end }}

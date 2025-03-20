@@ -53,6 +53,9 @@ jobs:
           rm go${{ env.GO_VERSION }}.linux-amd64.tar.gz
           go version
 
+      - name: Setup Project
+        run: npm run project-setup
+
       - name: Install npm dependencies
         run: npm install
 

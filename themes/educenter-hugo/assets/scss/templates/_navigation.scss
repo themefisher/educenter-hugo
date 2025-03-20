@@ -1,0 +1,172 @@
+.top-header {
+  font-size: 12px;
+  transition: transform .2s ease;
+  transform-origin: top;
+  font-weight: 600;
+
+  &.hide {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+}
+
+.navigation {
+  background: linear-gradient(to right, transparent 50%, $primary-color 50%);
+  transition: .2s ease;
+
+  @include desktop {
+    background: $secondary-color;
+
+    .navbar-brand {
+      padding: 12px 0;
+    }
+  }
+}
+
+.navbar-collapse{
+  @include desktop {
+    background: $secondary-color;
+  }
+}
+
+.navbar-nav {
+  padding-left: 50px;
+  background: $primary-color;
+
+  @include desktop {
+    padding-left: 0;
+    background: $secondary-color;
+  }
+}
+
+.nav-bg {
+  background-color: $secondary-color;
+}
+
+.nav-item {
+  .nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  margin: 0 15px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 6px;
+    width: 100%;
+    content: "";
+    background: $white;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .3s ease;
+  }
+
+  &:hover,
+  &.active {
+    &::before {
+      transform: scaleY(1);
+      transform-origin: bottom;
+    }
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $white;
+}
+
+link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $white;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+  color: $white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 40px 0px;
+
+  @include desktop {
+    padding: 20px;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: $white;
+  box-shadow: 0 2px 5px #0000000d;
+}
+
+.navbar {
+  .dropdown {
+    &:hover {
+      .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+
+    &-menu {
+      box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
+      border-bottom: 5px solid $primary-color;
+      padding: 15px;
+      top: 96px;
+      border-radius: 0;
+      display: block;
+      visibility: hidden;
+      transition: .3s ease;
+      opacity: 0;
+      transform: translateY(20px);
+      background: $white;
+
+      @include desktop {
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        transform-origin: unset;
+      }
+
+      &.show {
+        visibility: hidden;
+
+        @include desktop {
+          visibility: visible;
+          display: block;
+        }
+      }
+    }
+
+    &-item {
+      position: relative;
+      color: $text-color-dark;
+      transition: .2s ease;
+      text-transform: capitalize;
+      font-family: $primary-font;
+
+      @include desktop {
+        text-align: center;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      &:hover {
+        color: $primary-color;
+        background: transparent;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.filter-controls{
+  li{
+    cursor: pointer;
+    transition: .1s ease;
+    &.active{
+      font-weight: 600;
+      color: $primary-color;
+    }
+    &:hover{
+      color: $primary-color;
+    }
+  }
+}
+
+.tag-list{
+  a{
+    display: block;
+    padding: 5px 10px;
+    background: $light;
+    color: $text-color;
+    &:hover{
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+}
+
+.media a:hover h5 {
+  color: $primary-color;
+  transition: 0.3s;
+}
