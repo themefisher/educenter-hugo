@@ -21,6 +21,7 @@ env:
   TINA_CLIENT_ID: ${{ vars.TINA_CLIENT_ID }}
   TINA_TOKEN: ${{ vars.TINA_TOKEN }}
 
+
 jobs:
   build:
     runs-on: ubuntu-24.04-arm
