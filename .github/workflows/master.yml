@@ -4,7 +4,7 @@ name: Deploy Hugo site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -26,9 +26,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
 
@@ -54,11 +59,29 @@ jobs:
       - name: Install npm dependencies
         run: npm install
 
-      - name: Publish to GitHub Pages
+      - name: Determine Base URL
+        id: base_url
+        run: |
+          if [[ "${{ github.repository_owner }}.github.io" == "open-neuromorphic.github.io" ]]; then
+            BASE_URL="https://open-neuromorphic.org/"
+          else
+            REPO_NAME=$(echo "${{ github.repository }}" | cut -d '/' -f 2)
+            if [[ "${{ github.repository_owner }}" == "${{ github.repository_owner }}" ]]; then
+              BASE_URL="https://${{ github.repository_owner }}.github.io/${REPO_NAME}/"
+            else
+              BASE_URL="https://${{ github.repository_owner }}.github.io/"
+            fi
+          fi
+          echo "BASE_URL=$BASE_URL" >> $GITHUB_ENV
+
+      - name: Modify hugo.toml
+        run: sed -i "s|baseURL = .*|baseURL = \"$BASE_URL\"|" config/_default/hugo.toml
+
+      - name: Build site
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
@@ -72,4 +95,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
