@@ -15,7 +15,7 @@
       <!-- scholarship item -->
       {{ range .Data.Pages }}
       <div class="col-lg-4 col-sm-6 mb-4">
-        {{ .Render "scholarship" }}
+        {{ partial "scholarship-card.html" . }}
       </div>
       {{ end }}
     </div>

@@ -104,7 +104,7 @@
       <!-- course item -->
       {{ range first 6 (where site.RegularPages "Type" "course")}}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course" }}
+        {{ partial "course-card.html" . }}
       </div>
       {{ end }}
     </div>
@@ -167,7 +167,7 @@
       <!-- event -->
       {{ range first 3 (where site.RegularPages "Type" "event")}}
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        {{ .Render "event" }}
+        {{ partial "event-card.html" . }}
       </div>
       {{ end }}
     </div>

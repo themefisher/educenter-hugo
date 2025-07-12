@@ -8,7 +8,7 @@
       <!-- course item -->
       {{ range .Data.Pages }}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course" }}
+        {{ partial "course-card.html" . }}
       </div>
       {{ end }}
     </div>

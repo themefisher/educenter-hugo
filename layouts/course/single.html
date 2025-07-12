@@ -100,7 +100,7 @@
       {{ $related := (where site.RegularPages "Type" "course") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course"}}
+        {{ partial "course-card.html" . }}
       </div>
       {{ end }}
     </div>

@@ -55,7 +55,7 @@
       <!-- teacher -->
       {{ range first 3 (where site.RegularPages "Type" "teacher")}}
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        {{ .Render "teacher" }}
+        {{ partial "teacher-card.html" . }}
       </div>
       {{ end }}
     </div>

@@ -23,7 +23,7 @@
       <!-- teacher -->
       {{ range .Data.Pages }}
       <div data-category="{{ .Params.Course | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
-        {{ .Render "teacher" }}
+      {{ partial "teacher-card.html" . }}
       </div>
       {{ end }}
     </div>
