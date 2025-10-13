@@ -1,0 +1,58 @@
+{
+  "file": "exampleSite/content/english/notice/notice-1.md",
+  "name": "notice",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "Date",
+      "value": "",
+      "defaultValue": "",
+      "alwaysUseCurrentDate": false
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "bg_image",
+      "label": "Bg Image",
+      "type": "media",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "download_link",
+      "label": "Download Link",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "type",
+      "label": "Type",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    }
+  ]
+}
