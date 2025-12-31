@@ -25,7 +25,7 @@
 ---
 
 <p align="center">
-<img src="https://demo.gethugothemes.com/thumbnails/educenter.png" alt="screenshot" width="100%">
+<img src="https://assets.teamosis.com/thumbs/educenter.png" alt="screenshot" width="100%">
 </p>
 
 ---
