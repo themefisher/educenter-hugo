@@ -1,7 +1,7 @@
 ################################### English language #####################################
 [en]
-languageName = "En"
-languageCode = "en-us"
+label = "En"
+locale = "en-us"
 contentDir = "content/english"
 weight = 1
 
@@ -14,8 +14,8 @@ copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefi
 
 ################################### French language #####################################
 [fr]
-languageName = "Fr"
-languageCode = "fr-fr"
+label = "Fr"
+locale = "fr-fr"
 contentDir = "content/french"
 weight = 2
 

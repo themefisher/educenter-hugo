@@ -1,15 +1,16 @@
 {
   "name": "educenter-hugo",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "license": "MIT",
   "author": "gethugothemes",
   "scripts": {
-    "dev": "hugo server",
-    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
-    "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
-    "dev:example": "cd exampleSite; hugo server --themesDir ../..",
-    "build:example": "cd exampleSite; hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
-    "test:example": "cd exampleSite; hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "dev": "export HUGO_CACHEDIR=${TMPDIR:-/tmp}/educenter-hugo-cache GOMODCACHE=${TMPDIR:-/tmp}/educenter-gomodcache GOCACHE=${TMPDIR:-/tmp}/educenter-gocache; if [ -d exampleSite ]; then cd exampleSite && hugo server --themesDir ../..; else hugo server; fi",
+    "build": "export HUGO_CACHEDIR=${TMPDIR:-/tmp}/educenter-hugo-cache GOMODCACHE=${TMPDIR:-/tmp}/educenter-gomodcache GOCACHE=${TMPDIR:-/tmp}/educenter-gocache; if [ -d exampleSite ]; then cd exampleSite && hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic; else hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic; fi",
+    "preview": "export HUGO_CACHEDIR=${TMPDIR:-/tmp}/educenter-hugo-cache GOMODCACHE=${TMPDIR:-/tmp}/educenter-gomodcache GOCACHE=${TMPDIR:-/tmp}/educenter-gocache; if [ -d exampleSite ]; then cd exampleSite && hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify; else hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify; fi",
+    "dev:example": "cd exampleSite && hugo server --themesDir ../..",
+    "build:example": "cd exampleSite && hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
+    "preview:example": "cd exampleSite && hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
+    "test": "pnpm preview",
     "project-setup": "node ./scripts/projectSetup.js",
     "theme-setup": "node ./scripts/themeSetup.js"
   }

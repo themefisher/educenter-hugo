@@ -1,5 +1,6 @@
 Thumbs.db
 .DS_Store
+.pnpm-store
 .dist
 .tmp
 .lock
